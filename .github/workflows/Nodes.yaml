@@ -2,7 +2,7 @@ name: Nodes
 
 on: 
   schedule:
-  - cron: "0/10 * * * *"
+  - cron: "* */2 * * *"
   repository_dispatch: #https://www.chenshaowen.com/blog/how-to-trigger-github-action-remotely.html
      types:
        - Webhook
