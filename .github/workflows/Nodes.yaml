@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
     - uses: actions/checkout@v3     #git clone
-    - with:
+      with:
         persist-credentials: false
     - uses: actions/setup-node@v3   #Node.js环境
       with:
