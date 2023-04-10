@@ -1,132 +1,84 @@
-  - {name: CN 1 → openitsub.com, server: oss-cn-shanghai.westdatacloud.xyz, port: 20048, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, skip-cert-verify: true, udp: true}
-  - {name: JP 1 → openitsub.com, server: jp1.sanfen001.pics, port: 443, type: trojan, password: 731ab7a2-184e-4a75-85cf-52f32815a94a, sni: jp1.sanfen001.pics, skip-cert-verify: true, udp: true}
-  - {name: CN 2 → openitsub.com, server: 183.245.146.6, port: 11001, type: trojan, password: 78d8a627-9e08-4be9-bcb4-30643cb96b62, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: CN 3 → openitsub.com, server: 183.245.146.6, port: 11002, type: trojan, password: 78d8a627-9e08-4be9-bcb4-30643cb96b62, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: CN 4 → openitsub.com, server: 183.245.146.6, port: 21001, type: trojan, password: 78d8a627-9e08-4be9-bcb4-30643cb96b62, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: CN 5 → openitsub.com, server: 183.245.146.6, port: 21002, type: trojan, password: 78d8a627-9e08-4be9-bcb4-30643cb96b62, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: CN 6 → openitsub.com, server: 183.245.146.6, port: 31001, type: trojan, password: 78d8a627-9e08-4be9-bcb4-30643cb96b62, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: CN 7 → openitsub.com, server: 183.245.146.6, port: 41001, type: trojan, password: 78d8a627-9e08-4be9-bcb4-30643cb96b62, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: CN 8 → openitsub.com, server: 183.245.146.6, port: 61003, type: trojan, password: 78d8a627-9e08-4be9-bcb4-30643cb96b62, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: CN 9 → openitsub.com, server: 183.245.146.6, port: 61004, type: trojan, password: 78d8a627-9e08-4be9-bcb4-30643cb96b62, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: CN 10 → openitsub.com, server: 183.245.146.6, port: 61006, type: trojan, password: 78d8a627-9e08-4be9-bcb4-30643cb96b62, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: HK 1 → openitsub.com, server: hks.dafeicnd.com, port: 34093, type: trojan, password: QP1jpZdT8h1eNga0, skip-cert-verify: true, udp: true}
-  - {name: MO 1 → openitsub.com, server: 45.64.22.55, port: 443, type: trojan, password: ZCRe0IlTyApFDO73qeaSlyDEaXwSOYCZ9B3j6ca3Anxg84CDKF2SxpzuNY58R3, sni: leeihs.freetrade.link, skip-cert-verify: true, udp: true}
-  - {name: CN 11 → openitsub.com, server: aiguo-b.aiguoxuexi.com, port: 20802, type: trojan, password: ee4fff2a-540e-4ac7-a16a-935567dfc36b, sni: zhongguomeng1.aiguoxuexi.com, skip-cert-verify: true, udp: true}
-  - {name: CN 12 → openitsub.com, server: 119.36.161.40, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.69961573.xyz}}, udp: true}
-  - {name: CN 13 → openitsub.com, server: hk80-2.sanfen001.pics, port: 80, type: vmess, uuid: 731ab7a2-184e-4a75-85cf-52f32815a94a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/download, headers: {Host: a.189.cn}}, udp: true}
-  - {name: JP 4 → openitsub.com, server: jps.dafeicnd.com, port: 12930, type: vmess, uuid: 7ca658d7-9d8e-49e9-a9ff-4e1aad9fe4d4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /grzvhmgexlntcmp49, headers: {Host: jps.dafeicnd.com}}, udp: true}
-  - {name: JP 2 → openitsub.com, server: 43.201.106.220, port: 10480, type: vmess, uuid: 240bc573-ebbc-4455-db0e-bbb4ad7efe82, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: JP 3 → openitsub.com, server: jp03-vm0.entry.srthdw.art, port: 449, type: vmess, uuid: 102de0ad-68b3-3285-bdbe-86d74bba508e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp03-vm0.entry.srthdw.art}}, udp: true}
-  - {name: HK 2 → openitsub.com, server: jp.pannode.top, port: 80, type: vmess, uuid: 20ef9965-3733-44b3-8fe5-b5447c6d9c9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/wroot-jp?ed=2048", headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: SG 4 → openitsub.com, server: hk-6.pannode.top, port: 80, type: vmess, uuid: 20ef9965-3733-44b3-8fe5-b5447c6d9c9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/wroot?ed=2048", headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: SG 5 → openitsub.com, server: hk-1.pannode.top, port: 80, type: vmess, uuid: 20ef9965-3733-44b3-8fe5-b5447c6d9c9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/wroot?ed=2048", headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: SG 6 → openitsub.com, server: hk-ii.pannode.top, port: 80, type: vmess, uuid: 20ef9965-3733-44b3-8fe5-b5447c6d9c9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/wroot?ed=2048", headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: SG 7 → openitsub.com, server: hk-vi.pannode.top, port: 80, type: vmess, uuid: 20ef9965-3733-44b3-8fe5-b5447c6d9c9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/wroot?ed=2048", headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: SG 8 → openitsub.com, server: hk-4.pannode.top, port: 80, type: vmess, uuid: 20ef9965-3733-44b3-8fe5-b5447c6d9c9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/wroot?ed=2048", headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: SG 9 → openitsub.com, server: 8.218.80.89, port: 443, type: vmess, uuid: 14869474-5e7a-4431-90db-6a93414a8c8c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /name, headers: {Host: arm1dj.nanke.eu.org}}, udp: true}
-  - {name: SG 1 → openitsub.com, server: hk-test.pannode.top, port: 80, type: vmess, uuid: 20ef9965-3733-44b3-8fe5-b5447c6d9c9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/wroot?ed=2048", headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: SG 10 → openitsub.com, server: v5.583181.xyz, port: 44343, type: vmess, uuid: c0b5d759-e42d-4ead-b374-33a9b54402aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v5.583181.xyz}}, udp: true}
-  - {name: SG 11 → openitsub.com, server: hk-2.pannode.top, port: 80, type: vmess, uuid: 20ef9965-3733-44b3-8fe5-b5447c6d9c9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/wroot?ed=2048", headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: SG 12 → openitsub.com, server: hk-iv.pannode.top, port: 80, type: vmess, uuid: 20ef9965-3733-44b3-8fe5-b5447c6d9c9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/wroot?ed=2048", headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: SG 2 → openitsub.com, server: hk-5.pannode.top, port: 80, type: vmess, uuid: 20ef9965-3733-44b3-8fe5-b5447c6d9c9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/wroot?ed=2048", headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: SG 3 → openitsub.com, server: sg.dafeicnd.com, port: 53423, type: vmess, uuid: 7ca658d7-9d8e-49e9-a9ff-4e1aad9fe4d4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /x7jhkhhl;ljhseryclgsjck, headers: {Host: sg.dafeicnd.com}}, udp: true}
-  - {name: US 4 → openitsub.com, server: 137.184.164.233, port: 80, type: vmess, uuid: 5cee90e3-b915-4f1e-bb8d-efadad0c6feb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: 137.184.164.233}}, udp: true}
-  - {name: US 5 → openitsub.com, server: hk-iii.pannode.top, port: 80, type: vmess, uuid: 20ef9965-3733-44b3-8fe5-b5447c6d9c9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/wroot?ed=2048", headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: US 6 → openitsub.com, server: hk80.sanfen001.pics, port: 80, type: vmess, uuid: 731ab7a2-184e-4a75-85cf-52f32815a94a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/download, headers: {Host: a.189.cn}}, udp: true}
-  - {name: US 7 → openitsub.com, server: hk-3.pannode.top, port: 80, type: vmess, uuid: 20ef9965-3733-44b3-8fe5-b5447c6d9c9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/wroot?ed=2048", headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: US 1 → openitsub.com, server: hk-i.pannode.top, port: 80, type: vmess, uuid: 20ef9965-3733-44b3-8fe5-b5447c6d9c9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/wroot?ed=2048", headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: US 2 → openitsub.com, server: mgny1.xbywwcp.us, port: 80, type: vmess, uuid: 328f686c-6b2b-3c40-b677-ed769728dcc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /by.xbygood.xyz, headers: {Host: mgny1.xbywwcp.us}}, udp: true}
-  - {name: US 3 → openitsub.com, server: hk-v.pannode.top, port: 80, type: vmess, uuid: 20ef9965-3733-44b3-8fe5-b5447c6d9c9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/wroot?ed=2048", headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: JP 1|TG@BPXD666, server: 43.156.98.74, port: 40516, type: vmess, uuid: ffd17b65-3ea1-42e6-a75a-9c90caebb530, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sg5/getData}, udp: true}
+  - {name: KR 1|TG@BPXD666, server: 210.87.202.195, port: 54236, type: vmess, uuid: 0e99b3e2-576b-490b-879e-fab56be36cd9, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /kor1/getData}, udp: true}
+  - {name: US 4|TG@BPXD666, server: 172.67.250.239, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker}, udp: true}
+  - {name: US 5|TG@BPXD666, server: 172.67.199.253, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker}, udp: true}
+  - {name: US 6|TG@BPXD666, server: 172.64.201.226, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker}, udp: true}
+  - {name: US 7|TG@BPXD666, server: 172.67.113.82, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker}, udp: true}
+  - {name: US 8|TG@BPXD666, server: 172.67.140.193, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker}, udp: true}
+  - {name: US 9|TG@BPXD666, server: 172.67.127.123, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker}, udp: true}
+  - {name: US 13|TG@BPXD666, server: 172.67.57.22, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker}, udp: true}
+  - {name: US 10|TG@BPXD666, server: 172.67.21.219, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker}, udp: true}
+  - {name: US 11|TG@BPXD666, server: 172.67.84.93, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker}, udp: true}
+  - {name: US 12|TG@BPXD666, server: ping.pe, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ping.pe}}, udp: true}
+  - {name: US 17|TG@BPXD666, server: 172.64.106.19, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker}, udp: true}
+  - {name: US 14|TG@BPXD666, server: 172.67.98.34, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker}, udp: true}
+  - {name: US 15|TG@BPXD666, server: 172.67.86.87, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker}, udp: true}
+  - {name: US 16|TG@BPXD666, server: 172.67.87.132, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker}, udp: true}
+  - {name: US 18|TG@BPXD666, server: 172.64.96.88, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker}, udp: true}
+  - {name: US 19|TG@BPXD666, server: 172.67.6.178, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker}, udp: true}
+  - {name: US 1|TG@BPXD666, server: 172.67.209.126, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker}, udp: true}
+  - {name: US 20|TG@BPXD666, server: 38.60.208.145, port: 22753, type: vmess, uuid: a529cf39-d753-41e5-a72a-64cf8d48f469, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /tk2/getData}, udp: true}
+  - {name: US 21|TG@BPXD666, server: 172.64.173.160, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker}, udp: true}
+  - {name: US 2|TG@BPXD666, server: 172.67.86.214, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker}, udp: true}
+  - {name: US 3|TG@BPXD666, server: 172.67.217.222, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker}, udp: true}
 proxy-groups:
   - name: 🌐 Proxy
     type: select
     proxies:
       - 💡 Auto
       - DIRECT
-      - CN 1 → openitsub.com
-      - JP 1 → openitsub.com
-      - CN 2 → openitsub.com
-      - CN 3 → openitsub.com
-      - CN 4 → openitsub.com
-      - CN 5 → openitsub.com
-      - CN 6 → openitsub.com
-      - CN 7 → openitsub.com
-      - CN 8 → openitsub.com
-      - CN 9 → openitsub.com
-      - CN 10 → openitsub.com
-      - HK 1 → openitsub.com
-      - MO 1 → openitsub.com
-      - CN 11 → openitsub.com
-      - CN 12 → openitsub.com
-      - CN 13 → openitsub.com
-      - JP 4 → openitsub.com
-      - JP 2 → openitsub.com
-      - JP 3 → openitsub.com
-      - HK 2 → openitsub.com
-      - SG 4 → openitsub.com
-      - SG 5 → openitsub.com
-      - SG 6 → openitsub.com
-      - SG 7 → openitsub.com
-      - SG 8 → openitsub.com
-      - SG 9 → openitsub.com
-      - SG 1 → openitsub.com
-      - SG 10 → openitsub.com
-      - SG 11 → openitsub.com
-      - SG 12 → openitsub.com
-      - SG 2 → openitsub.com
-      - SG 3 → openitsub.com
-      - US 4 → openitsub.com
-      - US 5 → openitsub.com
-      - US 6 → openitsub.com
-      - US 7 → openitsub.com
-      - US 1 → openitsub.com
-      - US 2 → openitsub.com
-      - US 3 → openitsub.com
+      - JP 1|TG@BPXD666
+      - KR 1|TG@BPXD666
+      - US 4|TG@BPXD666
+      - US 5|TG@BPXD666
+      - US 6|TG@BPXD666
+      - US 7|TG@BPXD666
+      - US 8|TG@BPXD666
+      - US 9|TG@BPXD666
+      - US 13|TG@BPXD666
+      - US 10|TG@BPXD666
+      - US 11|TG@BPXD666
+      - US 12|TG@BPXD666
+      - US 17|TG@BPXD666
+      - US 14|TG@BPXD666
+      - US 15|TG@BPXD666
+      - US 16|TG@BPXD666
+      - US 18|TG@BPXD666
+      - US 19|TG@BPXD666
+      - US 1|TG@BPXD666
+      - US 20|TG@BPXD666
+      - US 21|TG@BPXD666
+      - US 2|TG@BPXD666
+      - US 3|TG@BPXD666
   - name: 💡 Auto
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - CN 1 → openitsub.com
-      - JP 1 → openitsub.com
-      - CN 2 → openitsub.com
-      - CN 3 → openitsub.com
-      - CN 4 → openitsub.com
-      - CN 5 → openitsub.com
-      - CN 6 → openitsub.com
-      - CN 7 → openitsub.com
-      - CN 8 → openitsub.com
-      - CN 9 → openitsub.com
-      - CN 10 → openitsub.com
-      - HK 1 → openitsub.com
-      - MO 1 → openitsub.com
-      - CN 11 → openitsub.com
-      - CN 12 → openitsub.com
-      - CN 13 → openitsub.com
-      - JP 4 → openitsub.com
-      - JP 2 → openitsub.com
-      - JP 3 → openitsub.com
-      - HK 2 → openitsub.com
-      - SG 4 → openitsub.com
-      - SG 5 → openitsub.com
-      - SG 6 → openitsub.com
-      - SG 7 → openitsub.com
-      - SG 8 → openitsub.com
-      - SG 9 → openitsub.com
-      - SG 1 → openitsub.com
-      - SG 10 → openitsub.com
-      - SG 11 → openitsub.com
-      - SG 12 → openitsub.com
-      - SG 2 → openitsub.com
-      - SG 3 → openitsub.com
-      - US 4 → openitsub.com
-      - US 5 → openitsub.com
-      - US 6 → openitsub.com
-      - US 7 → openitsub.com
-      - US 1 → openitsub.com
-      - US 2 → openitsub.com
-      - US 3 → openitsub.com
+      - JP 1|TG@BPXD666
+      - KR 1|TG@BPXD666
+      - US 4|TG@BPXD666
+      - US 5|TG@BPXD666
+      - US 6|TG@BPXD666
+      - US 7|TG@BPXD666
+      - US 8|TG@BPXD666
+      - US 9|TG@BPXD666
+      - US 13|TG@BPXD666
+      - US 10|TG@BPXD666
+      - US 11|TG@BPXD666
+      - US 12|TG@BPXD666
+      - US 17|TG@BPXD666
+      - US 14|TG@BPXD666
+      - US 15|TG@BPXD666
+      - US 16|TG@BPXD666
+      - US 18|TG@BPXD666
+      - US 19|TG@BPXD666
+      - US 1|TG@BPXD666
+      - US 20|TG@BPXD666
+      - US 21|TG@BPXD666
+      - US 2|TG@BPXD666
+      - US 3|TG@BPXD666
 cfw-bypass:
   - localhost
   - 127.*
