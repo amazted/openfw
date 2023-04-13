@@ -23,21 +23,7 @@ proxies:
     path: /shirker
     headers:
       host: sg1.sharecentrepro.com
-- name: "\U0001F1FA\U0001F1F3 UN 3 VMS"
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: 80
-  cipher: auto
-  uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /shirker
-    headers:
-      host: de1.sharecentrepro.org
-- name: "\U0001F1FA\U0001F1F8 US 4 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 3 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -51,6 +37,20 @@ proxies:
     path: /shirker
     headers:
       host: ny1.sharecentrepro.org
+- name: "\U0001F1FA\U0001F1F3 UN 4 VMS"
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: 80
+  cipher: auto
+  uuid: 2e496758-950e-4549-8842-d5eec98d9fde
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      host: lv3.sharecentrepro.org
 - name: "\U0001F1FA\U0001F1F8 US 5 VMS"
   type: vmess
   server: 143.42.206.230
@@ -98,7 +98,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-- name: "\U0001F1F8\U0001F1EC SG 10 VMS"
+- name: "\U0001F1F0\U0001F1F7 KR 10 VMS"
   type: vmess
   server: cloud.cluster.download.cloudsys.buzz
   port: 80
@@ -308,14 +308,14 @@ proxy-groups:
   proxies:
   - "\U0001F1FA\U0001F1F3 UN 1 VMS"
   - "\U0001F1FA\U0001F1F8 US 2 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 3 VMS"
-  - "\U0001F1FA\U0001F1F8 US 4 VMS"
+  - "\U0001F1FA\U0001F1F8 US 3 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 4 VMS"
   - "\U0001F1FA\U0001F1F8 US 5 VMS"
   - "\U0001F1E8\U0001F1F3 CN 6 VMS"
   - "\U0001F1EF\U0001F1F5 JP 7 TJN"
   - "\U0001F1E8\U0001F1F3 CN 8 SSS"
   - "\U0001F1F7\U0001F1FA RU 9 VMS"
-  - "\U0001F1F8\U0001F1EC SG 10 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 10 VMS"
   - "\U0001F1E6\U0001F1F2 AM 11 VMS"
   - "\U0001F1E8\U0001F1F3 CN 12 VMS"
   - "\U0001F1E8\U0001F1F3 CN 13 SSS"
@@ -344,14 +344,14 @@ proxy-groups:
   - automatic
   - "\U0001F1FA\U0001F1F3 UN 1 VMS"
   - "\U0001F1FA\U0001F1F8 US 2 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 3 VMS"
-  - "\U0001F1FA\U0001F1F8 US 4 VMS"
+  - "\U0001F1FA\U0001F1F8 US 3 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 4 VMS"
   - "\U0001F1FA\U0001F1F8 US 5 VMS"
   - "\U0001F1E8\U0001F1F3 CN 6 VMS"
   - "\U0001F1EF\U0001F1F5 JP 7 TJN"
   - "\U0001F1E8\U0001F1F3 CN 8 SSS"
   - "\U0001F1F7\U0001F1FA RU 9 VMS"
-  - "\U0001F1F8\U0001F1EC SG 10 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 10 VMS"
   - "\U0001F1E6\U0001F1F2 AM 11 VMS"
   - "\U0001F1E8\U0001F1F3 CN 12 VMS"
   - "\U0001F1E8\U0001F1F3 CN 13 SSS"
