@@ -1,13 +1,194 @@
-proxies: []
+proxies:
+- name: "\U0001F1E8\U0001F1F3 CN 1 VMS"
+  type: vmess
+  server: 120.232.179.161
+  port: 63078
+  cipher: auto
+  uuid: b96f9e5b-7b2a-3c03-b1b3-2e93234f9108
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      host: hk-balancer.airport-v2.com
+- name: "\U0001F1EF\U0001F1F5 JP 2 TJN"
+  type: trojan
+  server: awsjp3.untilmu.com
+  port: 443
+  udp: true
+  password: ae3a5c1a-d497-4f4a-b91d-36f051fcea12
+  skip-cert-verify: true
+- name: "\U0001F1FA\U0001F1F8 US 3 VMS"
+  type: vmess
+  server: flos1.ydnode.us
+  port: 80
+  cipher: auto
+  uuid: db0af0f2-a278-3019-9ef8-f064d7a0726c
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /v2ray
+    headers:
+      host: flos1.ydnode.us
+- name: "\U0001F1E7\U0001F1F7 BR 4 VMS"
+  type: vmess
+  server: 132.226.162.128
+  port: 39564
+  cipher: auto
+  uuid: 1b1190ea-f2f9-415b-bbe3-5d80baa30f6f
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 5 VMS"
+  type: vmess
+  server: aop.ssfree.ru
+  port: 443
+  cipher: auto
+  uuid: d3197a0e-df2f-11ed-9f00-000017022008
+  alterId: 64
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /getweather
+- name: "\U0001F1FA\U0001F1F3 UN 6 VMS"
+  type: vmess
+  server: 104.17.3.81
+  port: 80
+  cipher: auto
+  uuid: e40b2de3-b829-4591-a7b6-99d1913f3246
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /worryfree
+    headers:
+      host: w.evouch77.live
+- name: "\U0001F1E8\U0001F1F3 CN 7 VMS"
+  type: vmess
+  server: data-hk-v1.shwjfkw.cn
+  port: 50207
+  cipher: auto
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  alterId: 1
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      host: YTB-awkj
+- name: "\U0001F1FA\U0001F1F8 US 8 VMS"
+  type: vmess
+  server: 172.67.217.222
+  port: 80
+  cipher: auto
+  uuid: 2e496758-950e-4549-8842-d5eec98d9fde
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      host: dp3.scproxy.top
+- name: "\U0001F1E8\U0001F1F3 CN 9 VMS"
+  type: vmess
+  server: 25.v2-ray.cyou
+  port: 23625
+  cipher: auto
+  uuid: 0dd19d20-ec86-3680-b256-87237bafa89e
+  alterId: 2
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: 25.v2-ray.cyou
+- name: "\U0001F1FA\U0001F1F8 US 10 VMS"
+  type: vmess
+  server: join-bede.vmessorg.fun
+  port: 80
+  cipher: auto
+  uuid: d9655785-26e9-45bc-8abb-62a24e4bb441
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+- name: "\U0001F1F8\U0001F1EC SG 11 VMS"
+  type: vmess
+  server: asia.artunnel57.host
+  port: 443
+  cipher: auto
+  uuid: 65e44501-defd-4609-a4e3-7028dc417b50
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /vmess-tls
+- name: "\U0001F1E8\U0001F1F3 CN 12 SSS"
+  type: ss
+  server: 36.138.193.128
+  port: 11023
+  password: ll668668@
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 13 SSS"
+  type: ss
+  server: 36.137.106.45
+  port: 11023
+  password: ll668668@
+  cipher: aes-256-gcm
 proxy-groups:
 - name: automatic
   type: url-test
-  proxies: []
+  proxies:
+  - "\U0001F1E8\U0001F1F3 CN 1 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 2 TJN"
+  - "\U0001F1FA\U0001F1F8 US 3 VMS"
+  - "\U0001F1E7\U0001F1F7 BR 4 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 6 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 7 VMS"
+  - "\U0001F1FA\U0001F1F8 US 8 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 9 VMS"
+  - "\U0001F1FA\U0001F1F8 US 10 VMS"
+  - "\U0001F1F8\U0001F1EC SG 11 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 12 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 13 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
   type: select
   proxies:
   - automatic
+  - "\U0001F1E8\U0001F1F3 CN 1 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 2 TJN"
+  - "\U0001F1FA\U0001F1F8 US 3 VMS"
+  - "\U0001F1E7\U0001F1F7 BR 4 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 6 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 7 VMS"
+  - "\U0001F1FA\U0001F1F8 US 8 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 9 VMS"
+  - "\U0001F1FA\U0001F1F8 US 10 VMS"
+  - "\U0001F1F8\U0001F1EC SG 11 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 12 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 13 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
