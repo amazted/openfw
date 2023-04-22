@@ -436,6 +436,179 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
+- name: "\U0001F1F8\U0001F1EC SG 44 SK5"
+  type: socks5
+  server: 34.142.228.128
+  port: 58472
+  username: YUqPb68U7B
+  password: LqXneWRFvs
+- name: "\U0001F1F8\U0001F1EC SG 45 SK5"
+  type: socks5
+  server: 34.87.148.56
+  port: 58159
+  username: KCz51YyxoL
+  password: 3pCNixpK2Y
+- name: "\U0001F1F8\U0001F1EC SG 46 SK5"
+  type: socks5
+  server: 34.143.151.173
+  port: 16561
+  username: BGi4oiMeP9
+  password: XomxXMIMng
+- name: "\U0001F1FA\U0001F1F3 UN 47 VMS"
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: 80
+  cipher: auto
+  uuid: 2e496758-950e-4549-8842-d5eec98d9fde
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      host: nl.sharecentrepro.com
+- name: "\U0001F1E8\U0001F1F3 CN 48 SK5"
+  type: socks5
+  server: 120.79.49.38
+  port: 443
+- name: "\U0001F1FA\U0001F1F8 US 49 VMS"
+  type: vmess
+  server: 172.66.46.15
+  port: 443
+  cipher: auto
+  uuid: 12612e87-8003-44a8-b4e8-ec4a325e9016
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /ou
+    headers:
+      host: z.zorro.tk
+- name: "\U0001F1FA\U0001F1F8 US 50 VMS"
+  type: vmess
+  server: surongwei.eu.org
+  port: 443
+  cipher: auto
+  uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /reffs7y26g0ua
+- name: "\U0001F1ED\U0001F1F0 HK 51 VMS"
+  type: vmess
+  server: hk3.af49c4e4c2ef.sanfen004.me
+  port: 443
+  cipher: auto
+  uuid: 1172d7fe-4a5d-4d07-92f6-aefa4212347f
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: www.microsoft.com
+  network: ws
+  ws-opts:
+    path: /zh-cn
+    headers:
+      host: www.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 52 VMS"
+  type: vmess
+  server: 25.v2-ray.cyou
+  port: 23625
+  cipher: auto
+  uuid: 0dd19d20-ec86-3680-b256-87237bafa89e
+  alterId: 2
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: 25.v2-ray.cyou
+- name: "\U0001F1FA\U0001F1F8 US 53 VMS"
+  type: vmess
+  server: cdnjs.com
+  port: 443
+  cipher: auto
+  uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /speedtest
+    headers:
+      host: Amsterdam.kotick.site
+- name: "\U0001F1E8\U0001F1ED CH 54 TJN"
+  type: trojan
+  server: 195.15.243.26
+  port: 443
+  udp: true
+  password: '4478'
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 55 TJN"
+  type: trojan
+  server: aws-hk02.aikun.online
+  port: 443
+  udp: true
+  password: f8e4d8e3-36b5-42b1-af33-f0e1719976b4
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 56 TJN"
+  type: trojan
+  server: aws-hk03.aikun.online
+  port: 443
+  udp: true
+  password: f8e4d8e3-36b5-42b1-af33-f0e1719976b4
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EF\U0001F1F5 JP 57 TJN"
+  type: trojan
+  server: aws-jp.aikun.online
+  port: 443
+  udp: true
+  password: f8e4d8e3-36b5-42b1-af33-f0e1719976b4
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1ED\U0001F1F0 HK 58 TJN"
+  type: trojan
+  server: hk1.cnamazon.sbs
+  port: 443
+  udp: true
+  password: 767758f5-2808-475c-8c72-1c103d416236
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1ED\U0001F1F0 HK 59 TJN"
+  type: trojan
+  server: hk19.microsoftjs.top
+  port: 443
+  udp: true
+  password: a21e5380-7711-4c6d-af44-e6210e5436af
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 60 TJN"
+  type: trojan
+  server: 170.187.134.190
+  port: 8443
+  udp: true
+  password: cf4295378e209e70d12c5bdd017144dfd1c772d3
+  sni: 170-187-134-190.ipv4.rush.ml
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EF\U0001F1F5 JP 61 TJN"
+  type: trojan
+  server: jp3.421421.xyz
+  port: 20230
+  udp: true
+  password: 717c3a16-6871-425c-a158-40cc37ff3543
+  sni: 421421.xyz
+  skip-cert-verify: true
+  network: tcp
 proxy-groups:
 - name: automatic
   type: url-test
@@ -483,6 +656,24 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 41 VMS"
   - "\U0001F1FA\U0001F1F8 US 42 VMS"
   - "\U0001F1FA\U0001F1F8 US 43 VMS"
+  - "\U0001F1F8\U0001F1EC SG 44 SK5"
+  - "\U0001F1F8\U0001F1EC SG 45 SK5"
+  - "\U0001F1F8\U0001F1EC SG 46 SK5"
+  - "\U0001F1FA\U0001F1F3 UN 47 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 48 SK5"
+  - "\U0001F1FA\U0001F1F8 US 49 VMS"
+  - "\U0001F1FA\U0001F1F8 US 50 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 51 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 52 VMS"
+  - "\U0001F1FA\U0001F1F8 US 53 VMS"
+  - "\U0001F1E8\U0001F1ED CH 54 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 55 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 56 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 57 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 58 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 59 TJN"
+  - "\U0001F1FA\U0001F1F8 US 60 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 61 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -532,5 +723,23 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 41 VMS"
   - "\U0001F1FA\U0001F1F8 US 42 VMS"
   - "\U0001F1FA\U0001F1F8 US 43 VMS"
+  - "\U0001F1F8\U0001F1EC SG 44 SK5"
+  - "\U0001F1F8\U0001F1EC SG 45 SK5"
+  - "\U0001F1F8\U0001F1EC SG 46 SK5"
+  - "\U0001F1FA\U0001F1F3 UN 47 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 48 SK5"
+  - "\U0001F1FA\U0001F1F8 US 49 VMS"
+  - "\U0001F1FA\U0001F1F8 US 50 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 51 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 52 VMS"
+  - "\U0001F1FA\U0001F1F8 US 53 VMS"
+  - "\U0001F1E8\U0001F1ED CH 54 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 55 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 56 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 57 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 58 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 59 TJN"
+  - "\U0001F1FA\U0001F1F8 US 60 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 61 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
