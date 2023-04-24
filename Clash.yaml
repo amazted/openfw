@@ -196,10 +196,9 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: 🇯🇵 JP 1|TG@BPXD666, server: 43.156.58.10, port: 22859, type: vmess, uuid: e1e1241a-6617-4f33-be96-8d15f9c82ca7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sg4/getData}, udp: true}
-  - {name: 🇯🇵 JP 2|TG@BPXD666, server: 43.153.222.128, port: 44343, type: vmess, uuid: de482393-068d-4cb1-986e-680ff86d5d7d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sg9/getData}, udp: true}
-  - {name: 🇯🇵 JP 3|TG@BPXD666, server: 43.159.53.33, port: 28568, type: vmess, uuid: 98821111-93ab-4562-946a-61ba95f472f1, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sg8/getData}, udp: true}
-  - {name: 🇯🇵 JP 4|TG@BPXD666, server: 43.134.227.81, port: 30966, type: vmess, uuid: f21f434d-8097-4302-9c0c-0b0c7dffcfcb, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sg6/getData}, udp: true}
+  - {name: 🇯🇵 JP 1|TG@BPXD666, server: 43.134.161.69, port: 24695, type: vmess, uuid: d50a35ce-08a4-47d2-8c42-65be8f5cb7c6, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sgx/getData}, udp: true}
+  - {name: 🇯🇵 JP 2|TG@BPXD666, server: 43.134.227.81, port: 30966, type: vmess, uuid: f21f434d-8097-4302-9c0c-0b0c7dffcfcb, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sg6/getData}, udp: true}
+  - {name: 🇯🇵 JP 3|TG@BPXD666, server: 43.153.222.128, port: 44343, type: vmess, uuid: de482393-068d-4cb1-986e-680ff86d5d7d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sg9/getData}, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -220,7 +219,6 @@ proxy-groups:
       - 🇯🇵 JP 1|TG@BPXD666
       - 🇯🇵 JP 2|TG@BPXD666
       - 🇯🇵 JP 3|TG@BPXD666
-      - 🇯🇵 JP 4|TG@BPXD666
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
@@ -230,7 +228,6 @@ proxy-groups:
       - 🇯🇵 JP 1|TG@BPXD666
       - 🇯🇵 JP 2|TG@BPXD666
       - 🇯🇵 JP 3|TG@BPXD666
-      - 🇯🇵 JP 4|TG@BPXD666
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -247,7 +244,6 @@ proxy-groups:
       - 🇯🇵 JP 1|TG@BPXD666
       - 🇯🇵 JP 2|TG@BPXD666
       - 🇯🇵 JP 3|TG@BPXD666
-      - 🇯🇵 JP 4|TG@BPXD666
   - name: 🇺🇲 美国节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -282,7 +278,6 @@ proxy-groups:
       - 🇯🇵 JP 1|TG@BPXD666
       - 🇯🇵 JP 2|TG@BPXD666
       - 🇯🇵 JP 3|TG@BPXD666
-      - 🇯🇵 JP 4|TG@BPXD666
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -292,7 +287,6 @@ proxy-groups:
       - 🇯🇵 JP 1|TG@BPXD666
       - 🇯🇵 JP 2|TG@BPXD666
       - 🇯🇵 JP 3|TG@BPXD666
-      - 🇯🇵 JP 4|TG@BPXD666
   - name: 👉 国内网站
     type: select
     proxies:
