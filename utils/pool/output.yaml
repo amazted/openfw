@@ -1,13 +1,27 @@
-proxies: []
+proxies:
+- name: "\U0001F1FA\U0001F1F8 US 1 SK5"
+  type: socks5
+  server: 45.33.34.126
+  port: 1080
+  username: "tg\u7FA4-@herhero6"
+- name: "\U0001F1FA\U0001F1F8 US 2 SK5"
+  type: socks5
+  server: 45.33.34.126
+  port: 80
+  username: "\u9632\u5C01socks5-\u8054\u7CFB@heroku666"
 proxy-groups:
 - name: automatic
   type: url-test
-  proxies: []
+  proxies:
+  - "\U0001F1FA\U0001F1F8 US 1 SK5"
+  - "\U0001F1FA\U0001F1F8 US 2 SK5"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
   type: select
   proxies:
   - automatic
+  - "\U0001F1FA\U0001F1F8 US 1 SK5"
+  - "\U0001F1FA\U0001F1F8 US 2 SK5"
 rules:
 - "MATCH,\U0001F310 Proxy"
