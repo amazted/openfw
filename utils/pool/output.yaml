@@ -41,7 +41,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F3 UN 5 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 5 VMS"
   type: vmess
   server: cf.noaries.de
   port: 80
@@ -65,7 +65,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: ''
-- name: "\U0001F1FA\U0001F1F3 UN 7 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 7 VMS"
   type: vmess
   server: target.292228.xyz
   port: 80
@@ -231,16 +231,6 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-- name: "\U0001F1FA\U0001F1F8 US 23 VMS"
-  type: vmess
-  server: v3.gitvpn.eu.org
-  port: 443
-  cipher: auto
-  uuid: b63e998f-7fc8-48f4-a7d8-35dad9cf5778
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  network: ws
 proxy-groups:
 - name: automatic
   type: url-test
@@ -249,9 +239,9 @@ proxy-groups:
   - "\U0001F1EE\U0001F1F3 IN 2 TJN"
   - "\U0001F1FA\U0001F1F8 US 3 VMS"
   - "\U0001F1FA\U0001F1F8 US 4 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 5 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
   - "\U0001F1FA\U0001F1F8 US 6 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 7 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 VMS"
   - "\U0001F1FA\U0001F1F8 US 8 VMS"
   - "\U0001F1E6\U0001F1FA AU 9 VMS"
   - "\U0001F1FA\U0001F1F8 US 10 VMS"
@@ -267,7 +257,6 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 20 VMS"
   - "\U0001F1E9\U0001F1EA DE 21 VMS"
   - "\U0001F1FA\U0001F1F8 US 22 VMS"
-  - "\U0001F1FA\U0001F1F8 US 23 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -278,9 +267,9 @@ proxy-groups:
   - "\U0001F1EE\U0001F1F3 IN 2 TJN"
   - "\U0001F1FA\U0001F1F8 US 3 VMS"
   - "\U0001F1FA\U0001F1F8 US 4 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 5 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
   - "\U0001F1FA\U0001F1F8 US 6 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 7 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 VMS"
   - "\U0001F1FA\U0001F1F8 US 8 VMS"
   - "\U0001F1E6\U0001F1FA AU 9 VMS"
   - "\U0001F1FA\U0001F1F8 US 10 VMS"
@@ -296,6 +285,5 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 20 VMS"
   - "\U0001F1E9\U0001F1EA DE 21 VMS"
   - "\U0001F1FA\U0001F1F8 US 22 VMS"
-  - "\U0001F1FA\U0001F1F8 US 23 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
