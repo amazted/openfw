@@ -79,7 +79,7 @@ proxies:
   password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 10 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 10 VMS"
   type: vmess
   server: us1.x898989.xyz
   port: 8443
@@ -241,7 +241,17 @@ proxies:
   port: 15543
   password: d5dd371c-11db-4cfb-b458-072f0fbd0e18
   cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 26 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 26 VMS"
+  type: vmess
+  server: us1.x898989.xyz
+  port: 8443
+  cipher: auto
+  uuid: 01e07f2e-fc00-45bb-bbf5-547f58316e18
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+- name: "\U0001F1E8\U0001F1F3 CN 27 VMS"
   type: vmess
   server: z2h1.269999.xyz
   port: 28216
@@ -264,7 +274,7 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 7 TJN"
   - "\U0001F1EF\U0001F1F5 JP 8 VMS"
   - "\U0001F1F0\U0001F1F7 KR 9 TJN"
-  - "\U0001F1FA\U0001F1F8 US 10 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 10 VMS"
   - "\U0001F1FA\U0001F1F8 US 11 VMS"
   - "\U0001F1FA\U0001F1F8 US 12 TJN"
   - "\U0001F1FA\U0001F1F8 US 13 VMS"
@@ -280,7 +290,8 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 23 VMS"
   - "\U0001F1FA\U0001F1F8 US 24 VMS"
   - "\U0001F1E8\U0001F1F3 CN 25 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 26 VMS"
+  - "\U0001F1FA\U0001F1F8 US 26 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 27 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -296,7 +307,7 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 7 TJN"
   - "\U0001F1EF\U0001F1F5 JP 8 VMS"
   - "\U0001F1F0\U0001F1F7 KR 9 TJN"
-  - "\U0001F1FA\U0001F1F8 US 10 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 10 VMS"
   - "\U0001F1FA\U0001F1F8 US 11 VMS"
   - "\U0001F1FA\U0001F1F8 US 12 TJN"
   - "\U0001F1FA\U0001F1F8 US 13 VMS"
@@ -312,6 +323,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 23 VMS"
   - "\U0001F1FA\U0001F1F8 US 24 VMS"
   - "\U0001F1E8\U0001F1F3 CN 25 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 26 VMS"
+  - "\U0001F1FA\U0001F1F8 US 26 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 27 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
