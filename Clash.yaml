@@ -197,17 +197,18 @@ dns:
       - +.gvt1.com
 proxies:
   - {name: ZA 1|TG@BPXD666, server: 156.225.67.138, port: 49920, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 DE 1|TG@BPXD666, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 FR 1|TG@BPXD666, server: a1.veryfastnet1.tk, port: 32894, type: trojan, password: HchlVCfnXB, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 1|TG@BPXD666, server: 43-153-34-170.ipv4.rush.ml, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 1|TG@BPXD666, server: 107.148.195.23, port: 42014, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 2|TG@BPXD666, server: 198.2.204.247, port: 46802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 3|TG@BPXD666, server: 192.74.243.48, port: 49206, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 4|TG@BPXD666, server: 142.4.125.53, port: 50044, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 5|TG@BPXD666, server: 198.2.208.183, port: 35402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 2|TG@BPXD666, server: 192.74.243.48, port: 49206, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 3|TG@BPXD666, server: 198.2.204.247, port: 46802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 4|TG@BPXD666, server: 198.2.208.183, port: 35402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 5|TG@BPXD666, server: 142.4.125.53, port: 50044, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 6|TG@BPXD666, server: 140.99.59.212, port: 53032, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 7|TG@BPXD666, server: 23.225.33.173, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 8|TG@BPXD666, server: 142.4.104.193, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 9|TG@BPXD666, server: 3.96.186.176, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 8|TG@BPXD666, server: 3.96.186.176, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 9|TG@BPXD666, server: 108.162.196.248, port: 80, type: vmess, uuid: 592c3729-4db5-4bbb-9310-f60bcd88cf8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /blue}, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -226,6 +227,7 @@ proxy-groups:
     type: select
     proxies:
       - ZA 1|TG@BPXD666
+      - 🇩🇪 DE 1|TG@BPXD666
       - 🇫🇷 FR 1|TG@BPXD666
       - 🇯🇵 JP 1|TG@BPXD666
       - 🇺🇸 US 1|TG@BPXD666
@@ -244,6 +246,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - ZA 1|TG@BPXD666
+      - 🇩🇪 DE 1|TG@BPXD666
       - 🇫🇷 FR 1|TG@BPXD666
       - 🇯🇵 JP 1|TG@BPXD666
       - 🇺🇸 US 1|TG@BPXD666
@@ -309,6 +312,7 @@ proxy-groups:
     type: select
     proxies:
       - ZA 1|TG@BPXD666
+      - 🇩🇪 DE 1|TG@BPXD666
       - 🇫🇷 FR 1|TG@BPXD666
       - 🇯🇵 JP 1|TG@BPXD666
       - 🇺🇸 US 1|TG@BPXD666
@@ -327,6 +331,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - ZA 1|TG@BPXD666
+      - 🇩🇪 DE 1|TG@BPXD666
       - 🇫🇷 FR 1|TG@BPXD666
       - 🇯🇵 JP 1|TG@BPXD666
       - 🇺🇸 US 1|TG@BPXD666
