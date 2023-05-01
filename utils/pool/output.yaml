@@ -11,6 +11,30 @@ proxies:
   network: tcp
 - name: "\U0001F1FA\U0001F1F8 US 2 VMS"
   type: vmess
+  server: v2ray3.webgfw.top
+  port: 2083
+  cipher: auto
+  uuid: 07e90bec-b70d-414c-a00e-c844f1ea3345
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /X9piqfat/
+- name: "\U0001F1FA\U0001F1F3 UN 3 VMS"
+  type: vmess
+  server: v2ray3.webgfw.top
+  port: 2083
+  cipher: auto
+  uuid: 4cc72565-0d05-41e6-bc34-72aba9da544f
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /X9piqfat/
+- name: "\U0001F1FA\U0001F1F8 US 4 VMS"
+  type: vmess
   server: 192.74.232.253
   port: 52402
   cipher: auto
@@ -19,7 +43,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 3 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 5 VMS"
   type: vmess
   server: 192.74.246.54
   port: 52992
@@ -29,7 +53,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 4 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 6 VMS"
   type: vmess
   server: hd.mamadcucu.com
   port: 2082
@@ -43,7 +67,7 @@ proxies:
     path: /
     headers:
       host: h5.mamadcucu.com
-- name: "\U0001F1F8\U0001F1EC SG 5 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 7 TJN"
   type: trojan
   server: sg-csjc.syjd.xyz
   port: 443
@@ -52,7 +76,7 @@ proxies:
   sni: sg-csjc.syjd.xyz
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1ED\U0001F1F0 HK 6 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 8 TJN"
   type: trojan
   server: 103.20.223.4
   port: 50180
@@ -60,7 +84,7 @@ proxies:
   password: ba5305d8-bf3e-4eee-8ebf-1c7b9a6dbed2
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1ED\U0001F1F0 HK 7 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 9 TJN"
   type: trojan
   server: hkhe02.bcloudv.cyou
   port: 20897
@@ -68,7 +92,7 @@ proxies:
   password: 10f87a8e-a6f6-319d-a895-8310d326ecce
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 8 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 10 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -82,7 +106,7 @@ proxies:
     path: /shirker
     headers:
       host: dp3.scproxy.top
-- name: "\U0001F1ED\U0001F1F0 HK 9 VMS"
+- name: "\U0001F1ED\U0001F1F0 HK 11 VMS"
   type: vmess
   server: n1682824497.edpmvga.cn
   port: 443
@@ -98,13 +122,15 @@ proxy-groups:
   proxies:
   - "\U0001F1FA\U0001F1F8 US 1 VMS"
   - "\U0001F1FA\U0001F1F8 US 2 VMS"
-  - "\U0001F1FA\U0001F1F8 US 3 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 3 VMS"
   - "\U0001F1FA\U0001F1F8 US 4 VMS"
-  - "\U0001F1F8\U0001F1EC SG 5 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 6 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 7 TJN"
-  - "\U0001F1FA\U0001F1F8 US 8 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 9 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1F8\U0001F1EC SG 7 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 8 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 9 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 10 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 11 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -113,12 +139,14 @@ proxy-groups:
   - automatic
   - "\U0001F1FA\U0001F1F8 US 1 VMS"
   - "\U0001F1FA\U0001F1F8 US 2 VMS"
-  - "\U0001F1FA\U0001F1F8 US 3 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 3 VMS"
   - "\U0001F1FA\U0001F1F8 US 4 VMS"
-  - "\U0001F1F8\U0001F1EC SG 5 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 6 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 7 TJN"
-  - "\U0001F1FA\U0001F1F8 US 8 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 9 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1F8\U0001F1EC SG 7 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 8 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 9 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 10 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 11 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
