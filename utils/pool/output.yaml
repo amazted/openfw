@@ -1,6 +1,16 @@
 proxies:
 - name: "\U0001F1FA\U0001F1F8 US 1 VMS"
   type: vmess
+  server: 142.0.132.41
+  port: 50015
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 2 VMS"
+  type: vmess
   server: 192.74.232.253
   port: 52402
   cipher: auto
@@ -9,7 +19,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 2 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 3 VMS"
   type: vmess
   server: 192.74.246.54
   port: 52992
@@ -19,7 +29,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 3 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 4 VMS"
   type: vmess
   server: hd.mamadcucu.com
   port: 2082
@@ -33,7 +43,7 @@ proxies:
     path: /
     headers:
       host: h5.mamadcucu.com
-- name: "\U0001F1F8\U0001F1EC SG 4 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 5 TJN"
   type: trojan
   server: sg-csjc.syjd.xyz
   port: 443
@@ -42,7 +52,7 @@ proxies:
   sni: sg-csjc.syjd.xyz
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1ED\U0001F1F0 HK 5 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 6 TJN"
   type: trojan
   server: 103.20.223.4
   port: 50180
@@ -50,7 +60,7 @@ proxies:
   password: ba5305d8-bf3e-4eee-8ebf-1c7b9a6dbed2
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1ED\U0001F1F0 HK 6 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 7 TJN"
   type: trojan
   server: hkhe02.bcloudv.cyou
   port: 20897
@@ -58,7 +68,7 @@ proxies:
   password: 10f87a8e-a6f6-319d-a895-8310d326ecce
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F3 UN 7 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 8 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -72,7 +82,7 @@ proxies:
     path: /shirker
     headers:
       host: dp3.scproxy.top
-- name: "\U0001F1ED\U0001F1F0 HK 8 VMS"
+- name: "\U0001F1ED\U0001F1F0 HK 9 VMS"
   type: vmess
   server: n1682824497.edpmvga.cn
   port: 443
@@ -89,11 +99,12 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 1 VMS"
   - "\U0001F1FA\U0001F1F8 US 2 VMS"
   - "\U0001F1FA\U0001F1F8 US 3 VMS"
-  - "\U0001F1F8\U0001F1EC SG 4 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 5 TJN"
+  - "\U0001F1FA\U0001F1F8 US 4 VMS"
+  - "\U0001F1F8\U0001F1EC SG 5 TJN"
   - "\U0001F1ED\U0001F1F0 HK 6 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 7 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 8 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 7 TJN"
+  - "\U0001F1FA\U0001F1F8 US 8 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 9 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -103,10 +114,11 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 1 VMS"
   - "\U0001F1FA\U0001F1F8 US 2 VMS"
   - "\U0001F1FA\U0001F1F8 US 3 VMS"
-  - "\U0001F1F8\U0001F1EC SG 4 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 5 TJN"
+  - "\U0001F1FA\U0001F1F8 US 4 VMS"
+  - "\U0001F1F8\U0001F1EC SG 5 TJN"
   - "\U0001F1ED\U0001F1F0 HK 6 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 7 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 8 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 7 TJN"
+  - "\U0001F1FA\U0001F1F8 US 8 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 9 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
