@@ -1,16 +1,6 @@
 proxies:
 - name: "\U0001F1FA\U0001F1F8 US 1 VMS"
   type: vmess
-  server: 137.175.41.197
-  port: 50004
-  cipher: auto
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1FA\U0001F1F3 UN 2 VMS"
-  type: vmess
   server: cdn-xjp3.cqjsl.xyz
   port: 443
   cipher: auto
@@ -23,9 +13,9 @@ proxies:
     path: /
     headers:
       host: cdn-xjp3.cqjsl.xyz
-- name: "\U0001F1FA\U0001F1F8 US 3 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 2 VMS"
   type: vmess
-  server: cdn-xjp5.cqjsl.xyz
+  server: cdn-xjp4.cqjsl.xyz
   port: 443
   cipher: auto
   uuid: 382beef8-8764-4fb8-8d31-9fe4fd8c5b8e
@@ -36,8 +26,8 @@ proxies:
   ws-opts:
     path: /
     headers:
-      host: cdn-xjp5.cqjsl.xyz
-- name: "\U0001F1E8\U0001F1F3 CN 4 VMS"
+      host: cdn-xjp4.cqjsl.xyz
+- name: "\U0001F1E8\U0001F1F3 CN 3 VMS"
   type: vmess
   server: 59.36.84.180
   port: 63090
@@ -47,7 +37,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 5 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 4 VMS"
   type: vmess
   server: 59.36.84.180
   port: 62072
@@ -57,7 +47,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 6 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 5 VMS"
   type: vmess
   server: 59.36.84.180
   port: 63093
@@ -67,7 +57,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 7 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 6 VMS"
   type: vmess
   server: 120.232.179.161
   port: 63041
@@ -77,7 +67,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 8 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 7 VMS"
   type: vmess
   server: 59.36.84.180
   port: 63094
@@ -85,6 +75,16 @@ proxies:
   uuid: 311f3c4b-90a1-3c5c-a4fe-215cc7c90d02
   alterId: 0
   tls: true
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 8 VMS"
+  type: vmess
+  server: 137.175.41.197
+  port: 50004
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
   skip-cert-verify: true
   network: tcp
 - name: "\U0001F1FA\U0001F1F8 US 9 VMS"
@@ -493,7 +493,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F3 UN 49 VMS"
+- name: "\U0001F1EB\U0001F1F7 FR 49 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -543,12 +543,12 @@ proxy-groups:
   proxies:
   - "\U0001F1FA\U0001F1F8 US 1 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2 VMS"
-  - "\U0001F1FA\U0001F1F8 US 3 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 3 VMS"
   - "\U0001F1E8\U0001F1F3 CN 4 VMS"
   - "\U0001F1E8\U0001F1F3 CN 5 VMS"
   - "\U0001F1E8\U0001F1F3 CN 6 VMS"
   - "\U0001F1E8\U0001F1F3 CN 7 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 8 VMS"
+  - "\U0001F1FA\U0001F1F8 US 8 VMS"
   - "\U0001F1FA\U0001F1F8 US 9 VMS"
   - "\U0001F1FA\U0001F1F8 US 10 VMS"
   - "\U0001F1FA\U0001F1F8 US 11 VMS"
@@ -589,7 +589,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 46 VMS"
   - "\U0001F1FA\U0001F1F8 US 47 VMS"
   - "\U0001F1FA\U0001F1F8 US 48 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 49 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 49 VMS"
   - "\U0001F1FA\U0001F1F8 US 50 VMS"
   - "\U0001F1EB\U0001F1F7 FR 51 VMS"
   - "\U0001F1FA\U0001F1F8 US 52 VMS"
@@ -601,12 +601,12 @@ proxy-groups:
   - automatic
   - "\U0001F1FA\U0001F1F8 US 1 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2 VMS"
-  - "\U0001F1FA\U0001F1F8 US 3 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 3 VMS"
   - "\U0001F1E8\U0001F1F3 CN 4 VMS"
   - "\U0001F1E8\U0001F1F3 CN 5 VMS"
   - "\U0001F1E8\U0001F1F3 CN 6 VMS"
   - "\U0001F1E8\U0001F1F3 CN 7 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 8 VMS"
+  - "\U0001F1FA\U0001F1F8 US 8 VMS"
   - "\U0001F1FA\U0001F1F8 US 9 VMS"
   - "\U0001F1FA\U0001F1F8 US 10 VMS"
   - "\U0001F1FA\U0001F1F8 US 11 VMS"
@@ -647,7 +647,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 46 VMS"
   - "\U0001F1FA\U0001F1F8 US 47 VMS"
   - "\U0001F1FA\U0001F1F8 US 48 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 49 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 49 VMS"
   - "\U0001F1FA\U0001F1F8 US 50 VMS"
   - "\U0001F1EB\U0001F1F7 FR 51 VMS"
   - "\U0001F1FA\U0001F1F8 US 52 VMS"
