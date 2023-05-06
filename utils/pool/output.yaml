@@ -45,7 +45,15 @@ proxies:
   password: 659bb4b2-8d8d-4bd5-8db9-16ec53b71201
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1EF\U0001F1F5 JP 6 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 6 TJN"
+  type: trojan
+  server: bacmlwrkoph.559xp5.cn
+  port: 443
+  udp: true
+  password: 808841b0-6730-458c-b11f-d6c33011d605
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EF\U0001F1F5 JP 7 VMS"
   type: vmess
   server: vjp1.0bad.com
   port: 443
@@ -57,7 +65,7 @@ proxies:
   network: ws
   ws-opts:
     path: /chat
-- name: "\U0001F1FA\U0001F1F8 US 7 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 8 VMS"
   type: vmess
   server: vus3.0bad.com
   port: 443
@@ -69,14 +77,6 @@ proxies:
   network: ws
   ws-opts:
     path: /chat
-- name: "\U0001F1FA\U0001F1F8 US 8 TJN"
-  type: trojan
-  server: nsafchjhtijntht.559xp5.cn
-  port: 443
-  udp: true
-  password: c519d477-7bde-430a-9667-c02b46c31d6d
-  skip-cert-verify: true
-  network: tcp
 proxy-groups:
 - name: automatic
   type: url-test
@@ -86,9 +86,9 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 3 VMS"
   - "\U0001F1E8\U0001F1F3 CN 4 SSS"
   - "\U0001F1F8\U0001F1EC SG 5 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 6 VMS"
-  - "\U0001F1FA\U0001F1F8 US 7 VMS"
-  - "\U0001F1FA\U0001F1F8 US 8 TJN"
+  - "\U0001F1FA\U0001F1F8 US 6 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 7 VMS"
+  - "\U0001F1FA\U0001F1F8 US 8 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -100,8 +100,8 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 3 VMS"
   - "\U0001F1E8\U0001F1F3 CN 4 SSS"
   - "\U0001F1F8\U0001F1EC SG 5 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 6 VMS"
-  - "\U0001F1FA\U0001F1F8 US 7 VMS"
-  - "\U0001F1FA\U0001F1F8 US 8 TJN"
+  - "\U0001F1FA\U0001F1F8 US 6 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 7 VMS"
+  - "\U0001F1FA\U0001F1F8 US 8 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
