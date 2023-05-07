@@ -47,10 +47,10 @@ proxies:
   network: tcp
 - name: "\U0001F1F8\U0001F1EC SG 6 TJN"
   type: trojan
-  server: bacmlwrkoph.559xp5.cn
+  server: nsaghhfhintt100tw.559xp5.cn
   port: 443
   udp: true
-  password: 808841b0-6730-458c-b11f-d6c33011d605
+  password: 659bb4b2-8d8d-4bd5-8db9-16ec53b71201
   skip-cert-verify: true
   network: tcp
 - name: "\U0001F1EF\U0001F1F5 JP 7 VMS"
@@ -272,21 +272,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F3 UN 27 VMS"
-  type: vmess
-  server: visa.com
-  port: 80
-  cipher: auto
-  uuid: 373f2d71-79ca-47a4-974f-79b2590e8c60
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /api/v3/download.getFile
-    headers:
-      host: ssrsub.v01.ssrsub.com
-- name: "\U0001F1FA\U0001F1F8 US 28 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 27 VMS"
   type: vmess
   server: 140.99.149.45
   port: 53082
@@ -296,7 +282,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 29 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 28 VMS"
   type: vmess
   server: 36.133.171.209
   port: 11023
@@ -306,14 +292,14 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1EE\U0001F1F3 IN 30 TJN"
+- name: "\U0001F1EE\U0001F1F3 IN 29 TJN"
   type: trojan
   server: 152.70.74.66
   port: 443
   udp: true
   password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e
   skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 31 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 30 VMS"
   type: vmess
   server: 142.4.126.60
   port: 33392
@@ -323,7 +309,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 32 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 31 VMS"
   type: vmess
   server: 107.167.16.87
   port: 45689
@@ -333,7 +319,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 33 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 32 VMS"
   type: vmess
   server: 198.2.206.35
   port: 33012
@@ -343,7 +329,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 34 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 33 VMS"
   type: vmess
   server: 45.86.11.217
   port: 48823
@@ -353,7 +339,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 35 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 34 VMS"
   type: vmess
   server: 192.74.228.173
   port: 42857
@@ -363,7 +349,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 36 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 35 VMS"
   type: vmess
   server: 45.58.180.173
   port: 55211
@@ -373,6 +359,18 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 36 VMS"
+  type: vmess
+  server: aaaa.wxx.gay
+  port: 443
+  cipher: auto
+  uuid: 101b4758-ec27-11ed-8445-000017022008
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /look
 - name: "\U0001F1EB\U0001F1F7 FR 37 VMS"
   type: vmess
   server: 173.245.49.40
@@ -501,10 +499,10 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 24 VMS"
   - "\U0001F1FA\U0001F1F8 US 25 VMS"
   - "\U0001F1FA\U0001F1F8 US 26 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 27 VMS"
-  - "\U0001F1FA\U0001F1F8 US 28 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 29 VMS"
-  - "\U0001F1EE\U0001F1F3 IN 30 TJN"
+  - "\U0001F1FA\U0001F1F8 US 27 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 28 VMS"
+  - "\U0001F1EE\U0001F1F3 IN 29 TJN"
+  - "\U0001F1FA\U0001F1F8 US 30 VMS"
   - "\U0001F1FA\U0001F1F8 US 31 VMS"
   - "\U0001F1FA\U0001F1F8 US 32 VMS"
   - "\U0001F1FA\U0001F1F8 US 33 VMS"
@@ -552,10 +550,10 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 24 VMS"
   - "\U0001F1FA\U0001F1F8 US 25 VMS"
   - "\U0001F1FA\U0001F1F8 US 26 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 27 VMS"
-  - "\U0001F1FA\U0001F1F8 US 28 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 29 VMS"
-  - "\U0001F1EE\U0001F1F3 IN 30 TJN"
+  - "\U0001F1FA\U0001F1F8 US 27 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 28 VMS"
+  - "\U0001F1EE\U0001F1F3 IN 29 TJN"
+  - "\U0001F1FA\U0001F1F8 US 30 VMS"
   - "\U0001F1FA\U0001F1F8 US 31 VMS"
   - "\U0001F1FA\U0001F1F8 US 32 VMS"
   - "\U0001F1FA\U0001F1F8 US 33 VMS"
