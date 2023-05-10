@@ -9,7 +9,69 @@ proxies:
   network: ws
   ws-opts:
     path: malta-potter-whom-owns.trycloudflare.com/mio
-- name: "\U0001F1FA\U0001F1F3 UN 2 VMS"
+- name: "\U0001F1EF\U0001F1F5 JP 2 VMS"
+  type: vmess
+  server: jp01-alt-vm0.entry.srthdw.art
+  port: 21585
+  cipher: auto
+  uuid: 1bc52308-0bd9-30d0-90fd-cef337875d10
+  alterId: 1
+  tls: true
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 3 VMS"
+  type: vmess
+  server: 192.203.230.86
+  port: 80
+  cipher: auto
+  uuid: a442dacf-cbb3-488a-9744-61494ea38630
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: us-1.acyun.cf
+- name: "\U0001F1FA\U0001F1F8 US 4 VMS"
+  type: vmess
+  server: 192.74.228.178
+  port: 42857
+  cipher: auto
+  uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 5 VMS"
+  type: vmess
+  server: 38.63.0.68
+  port: 443
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/1683543024453
+    headers:
+      host: www.19458162.xyz
+- name: "\U0001F1E8\U0001F1E6 CA 6 VMS"
+  type: vmess
+  server: 23.227.38.99
+  port: 443
+  cipher: auto
+  uuid: 86d37526-5758-4cec-862f-df404b313086
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /3G6WPDL7
+    headers:
+      host: 1.freek1.xyz
+- name: "\U0001F1FA\U0001F1F3 UN 7 VMS"
   type: vmess
   server: c6br44-8080.csb.app
   port: 443
@@ -24,7 +86,7 @@ proxies:
     path: /vms
     headers:
       host: c6br44-8080.csb.app
-- name: "\U0001F1FA\U0001F1F3 UN 3 TJN"
+- name: "\U0001F1FA\U0001F1F3 UN 8 TJN"
   type: trojan
   server: preservation-hood-stands-consult.trycloudflare.com
   port: 443
@@ -36,68 +98,6 @@ proxies:
     path: /mio
     headers:
       host: preservation-hood-stands-consult.trycloudflare.com
-- name: "\U0001F1EF\U0001F1F5 JP 4 VMS"
-  type: vmess
-  server: jp01-alt-vm0.entry.srthdw.art
-  port: 21585
-  cipher: auto
-  uuid: 1bc52308-0bd9-30d0-90fd-cef337875d10
-  alterId: 1
-  tls: true
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 5 VMS"
-  type: vmess
-  server: 192.203.230.86
-  port: 80
-  cipher: auto
-  uuid: a442dacf-cbb3-488a-9744-61494ea38630
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      host: us-1.acyun.cf
-- name: "\U0001F1FA\U0001F1F8 US 6 VMS"
-  type: vmess
-  server: 192.74.228.178
-  port: 42857
-  cipher: auto
-  uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e
-  alterId: 64
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 7 VMS"
-  type: vmess
-  server: 38.63.0.68
-  port: 443
-  cipher: auto
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /path/1683543024453
-    headers:
-      host: www.19458162.xyz
-- name: "\U0001F1E8\U0001F1E6 CA 8 VMS"
-  type: vmess
-  server: 23.227.38.99
-  port: 443
-  cipher: auto
-  uuid: 86d37526-5758-4cec-862f-df404b313086
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /3G6WPDL7
-    headers:
-      host: 1.freek1.xyz
 - name: "\U0001F1FA\U0001F1F8 US 9 VMS"
   type: vmess
   server: 192.200.160.145
@@ -117,13 +117,13 @@ proxy-groups:
   type: url-test
   proxies:
   - "\U0001F1FA\U0001F1F3 UN 1 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 2 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 3 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 4 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 2 VMS"
+  - "\U0001F1FA\U0001F1F8 US 3 VMS"
+  - "\U0001F1FA\U0001F1F8 US 4 VMS"
   - "\U0001F1FA\U0001F1F8 US 5 VMS"
-  - "\U0001F1FA\U0001F1F8 US 6 VMS"
-  - "\U0001F1FA\U0001F1F8 US 7 VMS"
-  - "\U0001F1E8\U0001F1E6 CA 8 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 6 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 7 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 8 TJN"
   - "\U0001F1FA\U0001F1F8 US 9 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
@@ -132,13 +132,13 @@ proxy-groups:
   proxies:
   - automatic
   - "\U0001F1FA\U0001F1F3 UN 1 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 2 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 3 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 4 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 2 VMS"
+  - "\U0001F1FA\U0001F1F8 US 3 VMS"
+  - "\U0001F1FA\U0001F1F8 US 4 VMS"
   - "\U0001F1FA\U0001F1F8 US 5 VMS"
-  - "\U0001F1FA\U0001F1F8 US 6 VMS"
-  - "\U0001F1FA\U0001F1F8 US 7 VMS"
-  - "\U0001F1E8\U0001F1E6 CA 8 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 6 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 7 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 8 TJN"
   - "\U0001F1FA\U0001F1F8 US 9 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
