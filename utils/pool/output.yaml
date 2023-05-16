@@ -21,7 +21,7 @@ proxies:
     path: /speedtest
     headers:
       host: Dusseldorf.kotick.site
-- name: "\U0001F1F8\U0001F1EC SG 3 TJN"
+- name: "\U0001F1F9\U0001F1FC TW 3 TJN"
   type: trojan
   server: bgptw2.cnamazon.sbs
   port: 443
@@ -232,7 +232,7 @@ proxies:
   sni: shabi.masscloud.cf
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1F8\U0001F1EC SG 25 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 25 TJN"
   type: trojan
   server: stw9-tg-data.amazonwebservicess.com
   port: 443
@@ -491,7 +491,7 @@ proxies:
     path: ho3ino
     headers:
       host: h.h3io.co
-- name: "\U0001F1F9\U0001F1FC TW 52 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 52 TJN"
   type: trojan
   server: bgptw1.cnamazon.sbs
   port: 443
@@ -738,13 +738,21 @@ proxies:
   network: tcp
 - name: "\U0001F1F8\U0001F1EC SG 78 TJN"
   type: trojan
+  server: stw9-tg-data.amazonwebservicess.com
+  port: 443
+  udp: true
+  password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F8\U0001F1EC SG 79 TJN"
+  type: trojan
   server: awssg6-tg-data.amazonwebservicess.com
   port: 443
   udp: true
   password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 79 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 80 VMS"
   type: vmess
   server: 104.233.191.182
   port: 443
@@ -754,7 +762,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-- name: "\U0001F1ED\U0001F1F0 HK 80 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 81 TJN"
   type: trojan
   server: awshk5-tg-data.amazonwebservicess.com
   port: 443
@@ -768,7 +776,7 @@ proxy-groups:
   proxies:
   - "\U0001F1ED\U0001F1F0 HK 1 TJN"
   - "\U0001F1E9\U0001F1EA DE 2 VMS"
-  - "\U0001F1F8\U0001F1EC SG 3 TJN"
+  - "\U0001F1F9\U0001F1FC TW 3 TJN"
   - "\U0001F1F7\U0001F1F8 RS 4 VMS"
   - "\U0001F1F0\U0001F1F7 KR 5 TJN"
   - "\U0001F1F8\U0001F1EC SG 6 TJN"
@@ -790,7 +798,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 22 TJN"
   - "\U0001F1FA\U0001F1F8 US 23 VMS"
   - "\U0001F1F0\U0001F1FF KZ 24 TJN"
-  - "\U0001F1F8\U0001F1EC SG 25 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 25 TJN"
   - "\U0001F1FA\U0001F1F8 US 26 VMS"
   - "\U0001F1FA\U0001F1F8 US 27 TJN"
   - "\U0001F1F9\U0001F1F7 TR 28 VMS"
@@ -817,7 +825,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 49 SSR"
   - "\U0001F1F0\U0001F1F7 KR 50 TJN"
   - "\U0001F1FA\U0001F1F3 UN 51 VMS"
-  - "\U0001F1F9\U0001F1FC TW 52 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 52 TJN"
   - "\U0001F1EC\U0001F1E7 GB 53 VMS"
   - "\U0001F1FA\U0001F1F8 US 54 TJN"
   - "\U0001F1ED\U0001F1F0 HK 55 TJN"
@@ -844,8 +852,9 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 76 TJN"
   - "\U0001F1ED\U0001F1F0 HK 77 TJN"
   - "\U0001F1F8\U0001F1EC SG 78 TJN"
-  - "\U0001F1FA\U0001F1F8 US 79 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 80 TJN"
+  - "\U0001F1F8\U0001F1EC SG 79 TJN"
+  - "\U0001F1FA\U0001F1F8 US 80 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 81 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -854,7 +863,7 @@ proxy-groups:
   - automatic
   - "\U0001F1ED\U0001F1F0 HK 1 TJN"
   - "\U0001F1E9\U0001F1EA DE 2 VMS"
-  - "\U0001F1F8\U0001F1EC SG 3 TJN"
+  - "\U0001F1F9\U0001F1FC TW 3 TJN"
   - "\U0001F1F7\U0001F1F8 RS 4 VMS"
   - "\U0001F1F0\U0001F1F7 KR 5 TJN"
   - "\U0001F1F8\U0001F1EC SG 6 TJN"
@@ -876,7 +885,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 22 TJN"
   - "\U0001F1FA\U0001F1F8 US 23 VMS"
   - "\U0001F1F0\U0001F1FF KZ 24 TJN"
-  - "\U0001F1F8\U0001F1EC SG 25 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 25 TJN"
   - "\U0001F1FA\U0001F1F8 US 26 VMS"
   - "\U0001F1FA\U0001F1F8 US 27 TJN"
   - "\U0001F1F9\U0001F1F7 TR 28 VMS"
@@ -903,7 +912,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 49 SSR"
   - "\U0001F1F0\U0001F1F7 KR 50 TJN"
   - "\U0001F1FA\U0001F1F3 UN 51 VMS"
-  - "\U0001F1F9\U0001F1FC TW 52 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 52 TJN"
   - "\U0001F1EC\U0001F1E7 GB 53 VMS"
   - "\U0001F1FA\U0001F1F8 US 54 TJN"
   - "\U0001F1ED\U0001F1F0 HK 55 TJN"
@@ -930,7 +939,8 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 76 TJN"
   - "\U0001F1ED\U0001F1F0 HK 77 TJN"
   - "\U0001F1F8\U0001F1EC SG 78 TJN"
-  - "\U0001F1FA\U0001F1F8 US 79 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 80 TJN"
+  - "\U0001F1F8\U0001F1EC SG 79 TJN"
+  - "\U0001F1FA\U0001F1F8 US 80 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 81 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
