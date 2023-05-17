@@ -1,13 +1,97 @@
-proxies: []
+proxies:
+- name: "\U0001F1FA\U0001F1F8 US 1 TJN"
+  type: trojan
+  server: us2.trojanvh.xyz
+  port: 80
+  udp: true
+  password: 255c924c-1314-4084-9a9e-1d1a82a5cf49
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 2 VMS"
+  type: vmess
+  server: 137.175.18.107
+  port: 50004
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: ''
+- name: "\U0001F1FA\U0001F1F8 US 3 VMS"
+  type: vmess
+  server: us62vms.qpfdpf5.jfdiwue7.wpdfj.mrgspeed.site
+  port: 36611
+  cipher: auto
+  uuid: d1c5b6b0-b6f9-4f1d-875d-7ccc88f4ca53
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ''
+- name: "\U0001F1F8\U0001F1EC SG 4 VMS"
+  type: vmess
+  server: 57dc969f-c6d4-4028-b845-174a8e01a583.xn--9kq12xdq7a.com
+  port: 80
+  cipher: auto
+  uuid: ca099159-d67c-4918-9741-82a28c802234
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+- name: "\U0001F1FA\U0001F1F8 US 5 VMS"
+  type: vmess
+  server: 172.67.73.39
+  port: 80
+  cipher: auto
+  uuid: b8458948-a630-4e6d-809a-230b2223ff3d
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /xrayvws
+    headers:
+      host: f.tun4.live
+- name: "\U0001F1ED\U0001F1F0 HK 6 TJN"
+  type: trojan
+  server: stw3-tg-data.amazonwebservicess.com
+  port: 443
+  udp: true
+  password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EE\U0001F1F7 IR 7 VMS"
+  type: vmess
+  server: de63.thugiping.cloud
+  port: 443
+  cipher: auto
+  uuid: c9a22360-3f66-48c8-89ab-13799b05a730
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: tcp
 proxy-groups:
 - name: automatic
   type: url-test
-  proxies: []
+  proxies:
+  - "\U0001F1FA\U0001F1F8 US 1 TJN"
+  - "\U0001F1FA\U0001F1F8 US 2 VMS"
+  - "\U0001F1FA\U0001F1F8 US 3 VMS"
+  - "\U0001F1F8\U0001F1EC SG 4 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 6 TJN"
+  - "\U0001F1EE\U0001F1F7 IR 7 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
   type: select
   proxies:
   - automatic
+  - "\U0001F1FA\U0001F1F8 US 1 TJN"
+  - "\U0001F1FA\U0001F1F8 US 2 VMS"
+  - "\U0001F1FA\U0001F1F8 US 3 VMS"
+  - "\U0001F1F8\U0001F1EC SG 4 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 6 TJN"
+  - "\U0001F1EE\U0001F1F7 IR 7 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
