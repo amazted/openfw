@@ -199,14 +199,12 @@ proxies:
   - {name: ZA 1|TG@BPXD666, server: 156.251.135.14, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 1|TG@BPXD666, server: 43.198.142.159, port: 443, type: trojan, password: bb37eb79-838e-4bb9-9d4b-00a3488a2eaf, sni: download.xn--mes358acgm99l.com, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 1|TG@BPXD666, server: 140.99.57.51, port: 44932, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 2|TG@BPXD666, server: 148.59.74.143, port: 443, type: trojan, password: 3e49b072-4746-4e46-a256-233c3c7b52bf, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 3|TG@BPXD666, server: 192.74.228.172, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 4|TG@BPXD666, server: 16.162.50.230, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 5|TG@BPXD666, server: azjp1.downloadvip.cfd, port: 443, type: trojan, password: bb37eb79-838e-4bb9-9d4b-00a3488a2eaf, sni: us1.xn--mes358acgm99l.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 6|TG@BPXD666, server: nl.mjt001.com, port: 443, type: trojan, password: 9d3b1e0e-252a-4c67-9628-8b62e77197e7, sni: nl.mjt001.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 7|TG@BPXD666, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 8|TG@BPXD666, server: 3.76.12.189, port: 26911, type: trojan, password: a3869db4-eaaa-4cef-b131-26b3c0b46686, sni: sgp.piaole.me, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 9|TG@BPXD666, server: 108.186.116.175, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 2|TG@BPXD666, server: 16.162.50.230, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 3|TG@BPXD666, server: azjp1.downloadvip.cfd, port: 443, type: trojan, password: bb37eb79-838e-4bb9-9d4b-00a3488a2eaf, sni: us1.xn--mes358acgm99l.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 4|TG@BPXD666, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 5|TG@BPXD666, server: nl.mjt001.com, port: 443, type: trojan, password: 9d3b1e0e-252a-4c67-9628-8b62e77197e7, sni: nl.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 6|TG@BPXD666, server: 3.76.12.189, port: 26911, type: trojan, password: a3869db4-eaaa-4cef-b131-26b3c0b46686, sni: sgp.piaole.me, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 7|TG@BPXD666, server: 192.74.228.172, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -233,8 +231,6 @@ proxy-groups:
       - 🇺🇸 US 5|TG@BPXD666
       - 🇺🇸 US 6|TG@BPXD666
       - 🇺🇸 US 7|TG@BPXD666
-      - 🇺🇸 US 8|TG@BPXD666
-      - 🇺🇸 US 9|TG@BPXD666
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
@@ -250,8 +246,6 @@ proxy-groups:
       - 🇺🇸 US 5|TG@BPXD666
       - 🇺🇸 US 6|TG@BPXD666
       - 🇺🇸 US 7|TG@BPXD666
-      - 🇺🇸 US 8|TG@BPXD666
-      - 🇺🇸 US 9|TG@BPXD666
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -279,8 +273,6 @@ proxy-groups:
       - 🇺🇸 US 5|TG@BPXD666
       - 🇺🇸 US 6|TG@BPXD666
       - 🇺🇸 US 7|TG@BPXD666
-      - 🇺🇸 US 8|TG@BPXD666
-      - 🇺🇸 US 9|TG@BPXD666
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -314,8 +306,6 @@ proxy-groups:
       - 🇺🇸 US 5|TG@BPXD666
       - 🇺🇸 US 6|TG@BPXD666
       - 🇺🇸 US 7|TG@BPXD666
-      - 🇺🇸 US 8|TG@BPXD666
-      - 🇺🇸 US 9|TG@BPXD666
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -331,8 +321,6 @@ proxy-groups:
       - 🇺🇸 US 5|TG@BPXD666
       - 🇺🇸 US 6|TG@BPXD666
       - 🇺🇸 US 7|TG@BPXD666
-      - 🇺🇸 US 8|TG@BPXD666
-      - 🇺🇸 US 9|TG@BPXD666
   - name: 👉 国内网站
     type: select
     proxies:
