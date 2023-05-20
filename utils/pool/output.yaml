@@ -842,7 +842,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-- name: "\U0001F1F9\U0001F1FC TW 76 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 76 TJN"
   type: trojan
   server: bgptw2.cnamazon.sbs
   port: 443
@@ -989,7 +989,7 @@ proxies:
   sni: us3.xn--mes358a9urctx.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1F8\U0001F1EC SG 91 VMS"
+- name: "\U0001F1EF\U0001F1F5 JP 91 VMS"
   type: vmess
   server: cdn.twitter.now.cc
   port: 443
@@ -1021,20 +1021,6 @@ proxies:
   sni: doxjp01.588511.xyz
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 94 VMS"
-  type: vmess
-  server: tech.noaries.de
-  port: 80
-  cipher: auto
-  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /shirker
-    headers:
-      host: nl.sharecentrepro.com
 proxy-groups:
 - name: automatic
   type: url-test
@@ -1114,7 +1100,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 73 VMS"
   - "\U0001F1EA\U0001F1EC EG 74 VMS"
   - "\U0001F1FA\U0001F1F8 US 75 VMS"
-  - "\U0001F1F9\U0001F1FC TW 76 TJN"
+  - "\U0001F1F8\U0001F1EC SG 76 TJN"
   - "\U0001F1F9\U0001F1FC TW 77 TJN"
   - "\U0001F1FA\U0001F1F8 US 78 VMS"
   - "\U0001F1EB\U0001F1F7 FR 79 VMS"
@@ -1129,10 +1115,9 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 88 VMS"
   - "\U0001F1E8\U0001F1F3 CN 89 SSR"
   - "\U0001F1EF\U0001F1F5 JP 90 TJN"
-  - "\U0001F1F8\U0001F1EC SG 91 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 91 VMS"
   - "\U0001F1EF\U0001F1F5 JP 92 TJN"
   - "\U0001F1FA\U0001F1F8 US 93 TJN"
-  - "\U0001F1FA\U0001F1F8 US 94 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -1214,7 +1199,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 73 VMS"
   - "\U0001F1EA\U0001F1EC EG 74 VMS"
   - "\U0001F1FA\U0001F1F8 US 75 VMS"
-  - "\U0001F1F9\U0001F1FC TW 76 TJN"
+  - "\U0001F1F8\U0001F1EC SG 76 TJN"
   - "\U0001F1F9\U0001F1FC TW 77 TJN"
   - "\U0001F1FA\U0001F1F8 US 78 VMS"
   - "\U0001F1EB\U0001F1F7 FR 79 VMS"
@@ -1229,9 +1214,8 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 88 VMS"
   - "\U0001F1E8\U0001F1F3 CN 89 SSR"
   - "\U0001F1EF\U0001F1F5 JP 90 TJN"
-  - "\U0001F1F8\U0001F1EC SG 91 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 91 VMS"
   - "\U0001F1EF\U0001F1F5 JP 92 TJN"
   - "\U0001F1FA\U0001F1F8 US 93 TJN"
-  - "\U0001F1FA\U0001F1F8 US 94 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
