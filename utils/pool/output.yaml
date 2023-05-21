@@ -21,7 +21,7 @@ proxies:
   network: ws
   ws-opts:
     path: /shirker
-- name: "\U0001F1FA\U0001F1F8 US 3 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 3 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -33,7 +33,7 @@ proxies:
   network: ws
   ws-opts:
     path: /shirker
-- name: "\U0001F1FA\U0001F1F8 US 4 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 4 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -45,7 +45,7 @@ proxies:
   network: ws
   ws-opts:
     path: /shirker
-- name: "\U0001F1FA\U0001F1F3 UN 5 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 5 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -81,7 +81,7 @@ proxies:
   network: ws
   ws-opts:
     path: /shirker
-- name: "\U0001F1FA\U0001F1F8 US 8 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 8 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -93,7 +93,7 @@ proxies:
   network: ws
   ws-opts:
     path: /shirker
-- name: "\U0001F1FA\U0001F1F3 UN 9 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 9 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -105,21 +105,32 @@ proxies:
   network: ws
   ws-opts:
     path: /shirker
-    headers:
-      host: sw.sharecentrepro.com
+- name: "\U0001F1FA\U0001F1F8 US 10 VMS"
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: 80
+  cipher: auto
+  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
   - "\U0001F1FA\U0001F1F3 UN 1 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2 VMS"
-  - "\U0001F1FA\U0001F1F8 US 3 VMS"
-  - "\U0001F1FA\U0001F1F8 US 4 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 5 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 3 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 4 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
   - "\U0001F1FA\U0001F1F3 UN 6 VMS"
   - "\U0001F1FA\U0001F1F3 UN 7 VMS"
-  - "\U0001F1FA\U0001F1F8 US 8 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 9 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
+  - "\U0001F1FA\U0001F1F8 US 9 VMS"
+  - "\U0001F1FA\U0001F1F8 US 10 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -128,12 +139,13 @@ proxy-groups:
   - automatic
   - "\U0001F1FA\U0001F1F3 UN 1 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2 VMS"
-  - "\U0001F1FA\U0001F1F8 US 3 VMS"
-  - "\U0001F1FA\U0001F1F8 US 4 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 5 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 3 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 4 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
   - "\U0001F1FA\U0001F1F3 UN 6 VMS"
   - "\U0001F1FA\U0001F1F3 UN 7 VMS"
-  - "\U0001F1FA\U0001F1F8 US 8 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 9 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
+  - "\U0001F1FA\U0001F1F8 US 9 VMS"
+  - "\U0001F1FA\U0001F1F8 US 10 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
