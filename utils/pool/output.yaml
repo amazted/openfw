@@ -9,7 +9,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: ''
-- name: "\U0001F1FA\U0001F1F8 US 2 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 2 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -21,7 +21,7 @@ proxies:
   network: ws
   ws-opts:
     path: /shirker
-- name: "\U0001F1FA\U0001F1F8 US 3 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 3 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -57,7 +57,7 @@ proxies:
   network: ws
   ws-opts:
     path: /shirker
-- name: "\U0001F1FA\U0001F1F3 UN 6 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 6 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -81,7 +81,7 @@ proxies:
   network: ws
   ws-opts:
     path: /shirker
-- name: "\U0001F1FA\U0001F1F3 UN 8 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 8 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -110,13 +110,13 @@ proxy-groups:
   type: url-test
   proxies:
   - "\U0001F1FA\U0001F1F3 UN 1 VMS"
-  - "\U0001F1FA\U0001F1F8 US 2 VMS"
-  - "\U0001F1FA\U0001F1F8 US 3 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 2 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 3 VMS"
   - "\U0001F1FA\U0001F1F3 UN 4 VMS"
   - "\U0001F1FA\U0001F1F3 UN 5 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
   - "\U0001F1FA\U0001F1F8 US 7 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
+  - "\U0001F1FA\U0001F1F8 US 8 VMS"
   - "\U0001F1FA\U0001F1F3 UN 9 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
@@ -125,13 +125,13 @@ proxy-groups:
   proxies:
   - automatic
   - "\U0001F1FA\U0001F1F3 UN 1 VMS"
-  - "\U0001F1FA\U0001F1F8 US 2 VMS"
-  - "\U0001F1FA\U0001F1F8 US 3 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 2 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 3 VMS"
   - "\U0001F1FA\U0001F1F3 UN 4 VMS"
   - "\U0001F1FA\U0001F1F3 UN 5 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
   - "\U0001F1FA\U0001F1F8 US 7 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
+  - "\U0001F1FA\U0001F1F8 US 8 VMS"
   - "\U0001F1FA\U0001F1F3 UN 9 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
