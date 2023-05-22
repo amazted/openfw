@@ -1,13 +1,93 @@
-proxies: []
+proxies:
+- name: "\U0001F1EF\U0001F1F5 JP 1 VMS"
+  type: vmess
+  server: jp3.d4995a2eb9b2.sanfen004.me
+  port: 443
+  cipher: auto
+  uuid: 7262cf44-a587-401a-9cd3-a87e2ce8f04e
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ''
+- name: "\U0001F1E8\U0001F1F3 CN 2 VMS"
+  type: vmess
+  server: cdn.hehua99.xyz
+  port: 50019
+  cipher: auto
+  uuid: 50fd13c0-9d29-4509-8837-5ba9a13ba127
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ''
+- name: "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  type: trojan
+  server: xuxu.ixx520.club
+  port: 34318
+  udp: true
+  password: GKX2ZvhBma
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1ED\U0001F1F0 HK 4 TJN"
+  type: trojan
+  server: hk13.microsoft-orgwly.vip
+  port: 443
+  udp: true
+  password: 8054b43e-9bd3-4f3e-9a39-89570dc35ddb
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F8\U0001F1EC SG 5 TJN"
+  type: trojan
+  server: sg4.microsoft-orgwly.vip
+  port: 80
+  udp: true
+  password: ce58cab4-2675-47f7-b3e1-96f08839f86b
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F9\U0001F1FC TW 6 VMS"
+  type: vmess
+  server: CHT.MIFJUN.ORG
+  port: 80
+  cipher: auto
+  uuid: c76bf073-d8c6-4d2d-aa5f-3bbdd3b6d0b2
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 7 VMS"
+  type: vmess
+  server: 45.136.235.11
+  port: 41632
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
 proxy-groups:
 - name: automatic
   type: url-test
-  proxies: []
+  proxies:
+  - "\U0001F1EF\U0001F1F5 JP 1 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 2 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 4 TJN"
+  - "\U0001F1F8\U0001F1EC SG 5 TJN"
+  - "\U0001F1F9\U0001F1FC TW 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
   type: select
   proxies:
   - automatic
+  - "\U0001F1EF\U0001F1F5 JP 1 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 2 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 4 TJN"
+  - "\U0001F1F8\U0001F1EC SG 5 TJN"
+  - "\U0001F1F9\U0001F1FC TW 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
