@@ -1,13 +1,111 @@
-proxies: []
+proxies:
+- name: "\U0001F1E8\U0001F1F3 CN 1 VMS"
+  type: vmess
+  server: 183.232.113.66
+  port: 22860
+  cipher: auto
+  uuid: 13ed2f40-58c7-4ad1-a0c8-0cbc83e32623
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 2 VMS"
+  type: vmess
+  server: t.cccao.cyou
+  port: 16620
+  cipher: auto
+  uuid: 16925dca-05be-4d7c-b469-6bcbd8a227ce
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: "\U0001F1FA\U0001F1F8 US 3 VMS"
+  type: vmess
+  server: downloadvip.cfd
+  port: 443
+  cipher: auto
+  uuid: 87580c14-ce66-40b1-8691-8c7ae66869fd
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /djjc/jp1
+    headers:
+      host: jp1.djjc.sbs
+- name: "\U0001F1FA\U0001F1F8 US 4 VMS"
+  type: vmess
+  server: zfc.windowsupdate1.com
+  port: 443
+  cipher: auto
+  uuid: 309be091-54a4-4610-a71a-ccdef484aadf
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /kbjc/jp1
+    headers:
+      host: jp1.hnokkdf.top
+- name: "\U0001F1E8\U0001F1F3 CN 5 VMS"
+  type: vmess
+  server: iepl2.airtcp.vip
+  port: 12306
+  cipher: auto
+  uuid: 2e6647b6-eb69-3b46-92de-17a8c6ed2eb2
+  alterId: 2
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 6 VMS"
+  type: vmess
+  server: 120.226.50.68
+  port: 34214
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F3 UN 7 VMS"
+  type: vmess
+  server: bp.nidaye.eu.org
+  port: 443
+  cipher: auto
+  uuid: c77d02e9-5738-46ac-9512-7b67746cad85
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ndy58850
+    headers:
+      host: bp.nidaye.eu.org
 proxy-groups:
 - name: automatic
   type: url-test
-  proxies: []
+  proxies:
+  - "\U0001F1E8\U0001F1F3 CN 1 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 2 VMS"
+  - "\U0001F1FA\U0001F1F8 US 3 VMS"
+  - "\U0001F1FA\U0001F1F8 US 4 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 5 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 6 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 7 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
   type: select
   proxies:
   - automatic
+  - "\U0001F1E8\U0001F1F3 CN 1 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 2 VMS"
+  - "\U0001F1FA\U0001F1F8 US 3 VMS"
+  - "\U0001F1FA\U0001F1F8 US 4 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 5 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 6 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 7 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
