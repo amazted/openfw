@@ -235,7 +235,7 @@ proxies:
     path: /qazxcv03
     headers:
       host: tou.vtcss.top
-- name: "\U0001F1FA\U0001F1F8 US 20 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 20 VMS"
   type: vmess
   server: javatpoint.com
   port: 443
@@ -507,6 +507,20 @@ proxies:
   network: tcp
 - name: "\U0001F1FA\U0001F1F8 US 41 VMS"
   type: vmess
+  server: yd1.01dj.sbs
+  port: 443
+  cipher: auto
+  uuid: 95b2dc83-a476-4a82-93b2-0d77b4c30c18
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sometimesnaive
+    headers:
+      host: yd1.01dj.sbs
+- name: "\U0001F1FA\U0001F1F8 US 42 VMS"
+  type: vmess
   server: 104.24.161.194
   port: 8880
   cipher: auto
@@ -519,7 +533,7 @@ proxies:
     path: /qazxcv03
     headers:
       host: tou.vtcss.top
-- name: "\U0001F1F0\U0001F1F7 KR 42 TJN"
+- name: "\U0001F1F0\U0001F1F7 KR 43 TJN"
   type: trojan
   server: kr2.microsoft-orgwly.vip
   port: 443
@@ -527,7 +541,7 @@ proxies:
   password: c2f90faa-4097-49fe-a169-19c0badb1038
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1ED\U0001F1F0 HK 43 VMS"
+- name: "\U0001F1ED\U0001F1F0 HK 44 VMS"
   type: vmess
   server: 43.154.122.126
   port: 48122
@@ -539,7 +553,7 @@ proxies:
   network: ws
   ws-opts:
     path: /hk1/getData
-- name: "\U0001F1ED\U0001F1F0 HK 44 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 45 TJN"
   type: trojan
   server: 165.154.246.194
   port: 443
@@ -570,7 +584,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 17 VMS"
   - "\U0001F1FA\U0001F1F3 UN 18 VMS"
   - "\U0001F1FA\U0001F1F3 UN 19 VMS"
-  - "\U0001F1FA\U0001F1F8 US 20 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 20 VMS"
   - "\U0001F1F8\U0001F1EC SG 21 VMS"
   - "\U0001F1FA\U0001F1F3 UN 22 VMS"
   - "\U0001F1FA\U0001F1F3 UN 23 VMS"
@@ -592,9 +606,10 @@ proxy-groups:
   - "\U0001F1E8\U0001F1E6 CA 39 VMS"
   - "\U0001F1F8\U0001F1EC SG 40 TJN"
   - "\U0001F1FA\U0001F1F8 US 41 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 42 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 43 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 44 TJN"
+  - "\U0001F1FA\U0001F1F8 US 42 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 43 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 44 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 45 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -620,7 +635,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 17 VMS"
   - "\U0001F1FA\U0001F1F3 UN 18 VMS"
   - "\U0001F1FA\U0001F1F3 UN 19 VMS"
-  - "\U0001F1FA\U0001F1F8 US 20 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 20 VMS"
   - "\U0001F1F8\U0001F1EC SG 21 VMS"
   - "\U0001F1FA\U0001F1F3 UN 22 VMS"
   - "\U0001F1FA\U0001F1F3 UN 23 VMS"
@@ -642,8 +657,9 @@ proxy-groups:
   - "\U0001F1E8\U0001F1E6 CA 39 VMS"
   - "\U0001F1F8\U0001F1EC SG 40 TJN"
   - "\U0001F1FA\U0001F1F8 US 41 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 42 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 43 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 44 TJN"
+  - "\U0001F1FA\U0001F1F8 US 42 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 43 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 44 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 45 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
