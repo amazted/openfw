@@ -207,7 +207,7 @@ proxies:
     path: /aries?ed=2048
     headers:
       host: contabo-jp-win.iiio.wiki
-- name: "\U0001F1FA\U0001F1F3 UN 21 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 21 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -452,7 +452,7 @@ proxies:
     path: /aries?ed=2048
     headers:
       host: ovh.iiio.wiki
-- name: "\U0001F1F8\U0001F1EC SG 43 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 43 TJN"
   type: trojan
   server: usa.stablize.top
   port: 443
@@ -521,7 +521,7 @@ proxies:
   sni: us1.chuqiangtou.net
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F3 UN 49 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 49 VMS"
   type: vmess
   server: cf.noaries.de
   port: 2082
@@ -784,7 +784,7 @@ proxies:
   sni: download.xn--mes358a9urctx.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 72 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 72 VMS"
   type: vmess
   server: beta.noaries.de
   port: 8880
@@ -928,21 +928,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 84 VMS"
-  type: vmess
-  server: beta.noaries.de
-  port: 8080
-  cipher: auto
-  uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /aries?ed=2048
-    headers:
-      host: contabo-sg.iiio.wiki
-- name: "\U0001F1FA\U0001F1F3 UN 85 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 84 VMS"
   type: vmess
   server: 190.93.245.228
   port: 2052
@@ -956,7 +942,7 @@ proxies:
     path: /qwer10
     headers:
       host: tou.vtcss.top
-- name: "\U0001F1E8\U0001F1F3 CN 86 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 85 VMS"
   type: vmess
   server: iepl2.airtcp.vip
   port: 51002
@@ -966,7 +952,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F3 UN 87 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 86 VMS"
   type: vmess
   server: 190.93.245.64
   port: 2052
@@ -980,7 +966,7 @@ proxies:
     path: /qwer10
     headers:
       host: tou.vtcss.top
-- name: "\U0001F1FA\U0001F1F8 US 88 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 87 VMS"
   type: vmess
   server: tech.noaries.de
   port: 80
@@ -994,7 +980,35 @@ proxies:
     path: /shirker
     headers:
       host: nl.sharecentrepro.com
+- name: "\U0001F1FA\U0001F1F8 US 88 VMS"
+  type: vmess
+  server: beta.noaries.de
+  port: 8080
+  cipher: auto
+  uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /aries?ed=2048
+    headers:
+      host: contabo-sg.iiio.wiki
 - name: "\U0001F1FA\U0001F1F8 US 89 VMS"
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: 8080
+  cipher: auto
+  uuid: 4427eafb-3b3a-4265-9a32-fe0ea9cfd736
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /api/v3/download.getFile
+    headers:
+      host: ssrsub.v01.ssrsub.com
+- name: "\U0001F1FA\U0001F1F3 UN 90 VMS"
   type: vmess
   server: cf.noaries.de
   port: 2082
@@ -1032,7 +1046,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 18 VMS"
   - "\U0001F1FA\U0001F1F8 US 19 VMS"
   - "\U0001F1FA\U0001F1F8 US 20 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 21 VMS"
+  - "\U0001F1FA\U0001F1F8 US 21 VMS"
   - "\U0001F1E8\U0001F1F3 CN 22 SSS"
   - "\U0001F1E8\U0001F1F3 CN 23 SSS"
   - "\U0001F1FA\U0001F1F8 US 24 VMS"
@@ -1054,13 +1068,13 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 40 VMS"
   - "\U0001F1E8\U0001F1F3 CN 41 SSS"
   - "\U0001F1FA\U0001F1F8 US 42 VMS"
-  - "\U0001F1F8\U0001F1EC SG 43 TJN"
+  - "\U0001F1FA\U0001F1F8 US 43 TJN"
   - "\U0001F1E9\U0001F1EA DE 44 VMS"
   - "\U0001F1FA\U0001F1F8 US 45 VMS"
   - "\U0001F1FA\U0001F1F8 US 46 VMS"
   - "\U0001F1FA\U0001F1F3 UN 47 VMS"
   - "\U0001F1EE\U0001F1F1 IL 48 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 49 VMS"
+  - "\U0001F1FA\U0001F1F8 US 49 VMS"
   - "\U0001F1E8\U0001F1F3 CN 50 SSS"
   - "\U0001F1FA\U0001F1F8 US 51 VMS"
   - "\U0001F1E8\U0001F1F3 CN 52 SSS"
@@ -1083,7 +1097,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 69 VMS"
   - "\U0001F1EE\U0001F1F1 IL 70 TJN"
   - "\U0001F1F9\U0001F1FC TW 71 TJN"
-  - "\U0001F1FA\U0001F1F8 US 72 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 72 VMS"
   - "\U0001F1FA\U0001F1F8 US 73 VMS"
   - "\U0001F1EE\U0001F1F1 IL 74 TJN"
   - "\U0001F1FA\U0001F1F8 US 75 VMS"
@@ -1095,12 +1109,13 @@ proxy-groups:
   - "\U0001F1F3\U0001F1F1 NL 81 VMS"
   - "\U0001F1FA\U0001F1F3 UN 82 VMS"
   - "\U0001F1FA\U0001F1F8 US 83 VMS"
-  - "\U0001F1FA\U0001F1F8 US 84 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 85 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 86 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 87 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 84 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 85 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 86 VMS"
+  - "\U0001F1FA\U0001F1F8 US 87 VMS"
   - "\U0001F1FA\U0001F1F8 US 88 VMS"
   - "\U0001F1FA\U0001F1F8 US 89 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 90 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -1127,7 +1142,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 18 VMS"
   - "\U0001F1FA\U0001F1F8 US 19 VMS"
   - "\U0001F1FA\U0001F1F8 US 20 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 21 VMS"
+  - "\U0001F1FA\U0001F1F8 US 21 VMS"
   - "\U0001F1E8\U0001F1F3 CN 22 SSS"
   - "\U0001F1E8\U0001F1F3 CN 23 SSS"
   - "\U0001F1FA\U0001F1F8 US 24 VMS"
@@ -1149,13 +1164,13 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 40 VMS"
   - "\U0001F1E8\U0001F1F3 CN 41 SSS"
   - "\U0001F1FA\U0001F1F8 US 42 VMS"
-  - "\U0001F1F8\U0001F1EC SG 43 TJN"
+  - "\U0001F1FA\U0001F1F8 US 43 TJN"
   - "\U0001F1E9\U0001F1EA DE 44 VMS"
   - "\U0001F1FA\U0001F1F8 US 45 VMS"
   - "\U0001F1FA\U0001F1F8 US 46 VMS"
   - "\U0001F1FA\U0001F1F3 UN 47 VMS"
   - "\U0001F1EE\U0001F1F1 IL 48 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 49 VMS"
+  - "\U0001F1FA\U0001F1F8 US 49 VMS"
   - "\U0001F1E8\U0001F1F3 CN 50 SSS"
   - "\U0001F1FA\U0001F1F8 US 51 VMS"
   - "\U0001F1E8\U0001F1F3 CN 52 SSS"
@@ -1178,7 +1193,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 69 VMS"
   - "\U0001F1EE\U0001F1F1 IL 70 TJN"
   - "\U0001F1F9\U0001F1FC TW 71 TJN"
-  - "\U0001F1FA\U0001F1F8 US 72 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 72 VMS"
   - "\U0001F1FA\U0001F1F8 US 73 VMS"
   - "\U0001F1EE\U0001F1F1 IL 74 TJN"
   - "\U0001F1FA\U0001F1F8 US 75 VMS"
@@ -1190,11 +1205,12 @@ proxy-groups:
   - "\U0001F1F3\U0001F1F1 NL 81 VMS"
   - "\U0001F1FA\U0001F1F3 UN 82 VMS"
   - "\U0001F1FA\U0001F1F8 US 83 VMS"
-  - "\U0001F1FA\U0001F1F8 US 84 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 85 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 86 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 87 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 84 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 85 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 86 VMS"
+  - "\U0001F1FA\U0001F1F8 US 87 VMS"
   - "\U0001F1FA\U0001F1F8 US 88 VMS"
   - "\U0001F1FA\U0001F1F8 US 89 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 90 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
