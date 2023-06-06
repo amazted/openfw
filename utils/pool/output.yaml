@@ -18,7 +18,7 @@ proxies:
   sni: 106-110-192-225.d.cjjd20.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F3 UN 3 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 3 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -152,7 +152,7 @@ proxies:
   password: TJCfE7Mx2YcA8kX8zg
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 15 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 15 VMS"
   type: vmess
   server: banterbener.my.id
   port: 80
@@ -196,7 +196,7 @@ proxies:
   password: TJCfE7Mx2YcA8kX8zg
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E7\U0001F1FF BZ 19 VMS"
+- name: "\U0001F1E8\U0001F1FE CY 19 VMS"
   type: vmess
   server: freenodecdn.ikuan.dev
   port: 2052
@@ -381,7 +381,611 @@ proxies:
   password: TJCfE7Mx2YcA8kX8zg
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 36 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 36 VMS"
+  type: vmess
+  server: visa.cn
+  port: 80
+  cipher: auto
+  uuid: 8a694cfb-d143-4378-cb85-faacdc69e5e1
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: ass.669990.xyz
+- name: "\U0001F1ED\U0001F1F0 HK 37 TJN"
+  type: trojan
+  server: hk13.microsoft-orgwly.vip
+  port: 10062
+  udp: true
+  password: 8ffc69d4-bd99-4ef6-a960-a881c427db3d
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1ED\U0001F1F0 HK 38 TJN"
+  type: trojan
+  server: hk1.microsoft-orgwly.vip
+  port: 35457
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 39 TJN"
+  type: trojan
+  server: hk11.microsoft-orgwly.vip
+  port: 16009
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EF\U0001F1F5 JP 40 TJN"
+  type: trojan
+  server: sg11.microsoft-orgwly.vip
+  port: 10191
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F8\U0001F1EC SG 41 TJN"
+  type: trojan
+  server: sg1.microsoft-orgwly.vip
+  port: 10054
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F8\U0001F1EC SG 42 TJN"
+  type: trojan
+  server: sg2.microsoft-orgwly.vip
+  port: 16247
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F8\U0001F1EC SG 43 TJN"
+  type: trojan
+  server: sg3.microsoft-orgwly.vip
+  port: 10035
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F8\U0001F1EC SG 44 TJN"
+  type: trojan
+  server: sg4.microsoft-orgwly.vip
+  port: 10054
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F8\U0001F1EC SG 45 TJN"
+  type: trojan
+  server: sg7.microsoft-orgwly.vip
+  port: 10024
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F8\U0001F1EC SG 46 TJN"
+  type: trojan
+  server: sg8.microsoft-orgwly.vip
+  port: 11050
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F8\U0001F1EC SG 47 TJN"
+  type: trojan
+  server: sg9.microsoft-orgwly.vip
+  port: 10043
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F8\U0001F1EC SG 48 TJN"
+  type: trojan
+  server: sg12.microsoft-orgwly.vip
+  port: 16795
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F8\U0001F1EC SG 49 TJN"
+  type: trojan
+  server: sg14.microsoft-orgwly.vip
+  port: 24121
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 50 TJN"
+  type: trojan
+  server: us1.microsoft-orgwly.vip
+  port: 10015
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 51 TJN"
+  type: trojan
+  server: us2.microsoft-orgwly.vip
+  port: 10023
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 52 TJN"
+  type: trojan
+  server: us3.microsoft-orgwly.vip
+  port: 10065
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 53 TJN"
+  type: trojan
+  server: us4.microsoft-orgwly.vip
+  port: 10014
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 54 TJN"
+  type: trojan
+  server: us5.microsoft-orgwly.vip
+  port: 10087
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 55 TJN"
+  type: trojan
+  server: us6.microsoft-orgwly.vip
+  port: 10061
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1ED\U0001F1F0 HK 56 TJN"
+  type: trojan
+  server: hk2.microsoft-orgwly.vip
+  port: 10066
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1ED\U0001F1F0 HK 57 TJN"
+  type: trojan
+  server: hk3.microsoft-orgwly.vip
+  port: 10049
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1ED\U0001F1F0 HK 58 TJN"
+  type: trojan
+  server: hk4.microsoft-orgwly.vip
+  port: 10055
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1ED\U0001F1F0 HK 59 TJN"
+  type: trojan
+  server: hk5.microsoft-orgwly.vip
+  port: 10067
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1ED\U0001F1F0 HK 60 TJN"
+  type: trojan
+  server: hk6.microsoft-orgwly.vip
+  port: 10126
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 61 TJN"
+  type: trojan
+  server: hk7.microsoft-orgwly.vip
+  port: 10017
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1ED\U0001F1F0 HK 62 TJN"
+  type: trojan
+  server: hk9.microsoft-orgwly.vip
+  port: 10026
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1ED\U0001F1F0 HK 63 TJN"
+  type: trojan
+  server: hk10.microsoft-orgwly.vip
+  port: 12082
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1ED\U0001F1F0 HK 64 TJN"
+  type: trojan
+  server: hk14.microsoft-orgwly.vip
+  port: 10056
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F9\U0001F1FC TW 65 TJN"
+  type: trojan
+  server: tw5.microsoft-orgwly.vip
+  port: 443
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F9\U0001F1FC TW 66 TJN"
+  type: trojan
+  server: tw6.microsoft-orgwly.vip
+  port: 10068
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F9\U0001F1FC TW 67 TJN"
+  type: trojan
+  server: tw7.microsoft-orgwly.vip
+  port: 10024
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F0\U0001F1F7 KR 68 TJN"
+  type: trojan
+  server: kr1.microsoft-orgwly.vip
+  port: 443
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F0\U0001F1F7 KR 69 TJN"
+  type: trojan
+  server: kr2.microsoft-orgwly.vip
+  port: 444
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F0\U0001F1F7 KR 70 TJN"
+  type: trojan
+  server: kr3.microsoft-orgwly.vip
+  port: 443
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F0\U0001F1F7 KR 71 TJN"
+  type: trojan
+  server: kr4.microsoft-orgwly.vip
+  port: 10050
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F0\U0001F1F7 KR 72 TJN"
+  type: trojan
+  server: kr5.microsoft-orgwly.vip
+  port: 443
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EC\U0001F1E7 GB 73 TJN"
+  type: trojan
+  server: gb1.microsoft-orgwly.vip
+  port: 10031
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EC\U0001F1E7 GB 74 TJN"
+  type: trojan
+  server: gb2.microsoft-orgwly.vip
+  port: 10034
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EC\U0001F1E7 GB 75 TJN"
+  type: trojan
+  server: gb3.microsoft-orgwly.vip
+  port: 35630
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EC\U0001F1E7 GB 76 TJN"
+  type: trojan
+  server: fr1.microsoft-orgwly.vip
+  port: 24675
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EF\U0001F1F5 JP 77 TJN"
+  type: trojan
+  server: jp1.microsoft-orgwly.vip
+  port: 24668
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EF\U0001F1F5 JP 78 TJN"
+  type: trojan
+  server: jp3.microsoft-orgwly.vip
+  port: 35759
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EF\U0001F1F5 JP 79 TJN"
+  type: trojan
+  server: jp4.microsoft-orgwly.vip
+  port: 30464
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EF\U0001F1F5 JP 80 TJN"
+  type: trojan
+  server: jp5.microsoft-orgwly.vip
+  port: 10055
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EF\U0001F1F5 JP 81 TJN"
+  type: trojan
+  server: jp6.microsoft-orgwly.vip
+  port: 34227
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EF\U0001F1F5 JP 82 TJN"
+  type: trojan
+  server: jp7.microsoft-orgwly.vip
+  port: 10146
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EF\U0001F1F5 JP 83 TJN"
+  type: trojan
+  server: jp8.microsoft-orgwly.vip
+  port: 34629
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EF\U0001F1F5 JP 84 TJN"
+  type: trojan
+  server: jp9.microsoft-orgwly.vip
+  port: 10093
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EF\U0001F1F5 JP 85 TJN"
+  type: trojan
+  server: jp10.microsoft-orgwly.vip
+  port: 10131
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EE\U0001F1F3 IN 86 TJN"
+  type: trojan
+  server: in1.microsoft-orgwly.vip
+  port: 10038
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EE\U0001F1F3 IN 87 TJN"
+  type: trojan
+  server: in2.microsoft-orgwly.vip
+  port: 32034
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EE\U0001F1F3 IN 88 TJN"
+  type: trojan
+  server: in3.microsoft-orgwly.vip
+  port: 32542
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EE\U0001F1EA IE 89 TJN"
+  type: trojan
+  server: ie1.microsoft-orgwly.vip
+  port: 10056
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FB\U0001F1F3 VN 90 TJN"
+  type: trojan
+  server: vn2.microsoft-orgwly.vip
+  port: 444
+  udp: true
+  password: 4cfff8f9-0fc6-48a0-b9d1-f04cac2aca6f
+  sni: tls.microsoft-orgwly.vip
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 91 TJN"
+  type: trojan
+  server: 163.123.192.154
+  port: 443
+  udp: true
+  password: 0dd0ae16-4081-4530-a925-c3c34ca07d57
+  sni: download.xn--mes358a9urctx.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 92 TJN"
+  type: trojan
+  server: 163.123.192.155
+  port: 443
+  udp: true
+  password: 0dd0ae16-4081-4530-a925-c3c34ca07d57
+  sni: download.xn--mes358a9urctx.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 93 TJN"
+  type: trojan
+  server: 163.123.192.153
+  port: 443
+  udp: true
+  password: 0dd0ae16-4081-4530-a925-c3c34ca07d57
+  sni: download.xn--mes358a9urctx.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 94 TJN"
+  type: trojan
+  server: 163.123.192.156
+  port: 443
+  udp: true
+  password: 0dd0ae16-4081-4530-a925-c3c34ca07d57
+  sni: download.xn--mes358a9urctx.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E9\U0001F1EA DE 95 TJN"
+  type: trojan
+  server: 217.79.184.18
+  port: 443
+  udp: true
+  password: 0dd0ae16-4081-4530-a925-c3c34ca07d57
+  sni: download.xn--mes358a9urctx.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1ED\U0001F1F0 HK 96 TJN"
+  type: trojan
+  server: hk2.downloadvip.cfd
+  port: 443
+  udp: true
+  password: 0dd0ae16-4081-4530-a925-c3c34ca07d57
+  sni: download.xn--mes358a9urctx.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EF\U0001F1F5 JP 97 TJN"
+  type: trojan
+  server: jp2.downloadvip.cfd
+  port: 443
+  udp: true
+  password: 0dd0ae16-4081-4530-a925-c3c34ca07d57
+  sni: download.xn--mes358a9urctx.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F8\U0001F1EC SG 98 TJN"
+  type: trojan
+  server: sg2.downloadvip.cfd
+  port: 443
+  udp: true
+  password: 0dd0ae16-4081-4530-a925-c3c34ca07d57
+  sni: download.xn--mes358a9urctx.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EF\U0001F1F5 JP 99 TJN"
+  type: trojan
+  server: azjp2.downloadvip.cfd
+  port: 443
+  udp: true
+  password: 0dd0ae16-4081-4530-a925-c3c34ca07d57
+  sni: us4.xn--mes358a9urctx.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F9\U0001F1FC TW 100 TJN"
+  type: trojan
+  server: hinet2.downloadvip.cfd
+  port: 443
+  udp: true
+  password: 0dd0ae16-4081-4530-a925-c3c34ca07d57
+  sni: download.xn--mes358a9urctx.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 101 VMS"
+  type: vmess
+  server: downloadvip.cfd
+  port: 443
+  cipher: auto
+  uuid: 0dd0ae16-4081-4530-a925-c3c34ca07d57
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /djjc/jp1
+    headers:
+      host: jp1.djjc.sbs
+- name: "\U0001F1E8\U0001F1F3 CN 102 VMS"
   type: vmess
   server: 36.133.171.209
   port: 11023
@@ -391,19 +995,19 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: ''
-- name: "\U0001F1E8\U0001F1F3 CN 37 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 103 SSS"
   type: ss
   server: free.themars.top
   port: 32102
   password: b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2
   cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 38 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 104 SSS"
   type: ss
   server: 36.137.106.115
   port: 11023
   password: ll668668@
   cipher: aes-256-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 39 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 105 VMS"
   type: vmess
   server: 112.132.215.189
   port: 50002
@@ -413,7 +1017,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 40 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 106 TJN"
   type: trojan
   server: assets.flareai.site
   port: 13543
@@ -421,7 +1025,7 @@ proxies:
   password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 41 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 107 VMS"
   type: vmess
   server: 120.226.50.68
   port: 34214
@@ -437,7 +1041,7 @@ proxy-groups:
   proxies:
   - "\U0001F1FA\U0001F1F8 US 1 VMS"
   - "\U0001F1E8\U0001F1F3 CN 2 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 3 VMS"
+  - "\U0001F1FA\U0001F1F8 US 3 VMS"
   - "\U0001F1E8\U0001F1F3 CN 4 SSS"
   - "\U0001F1FA\U0001F1F8 US 5 VMS"
   - "\U0001F1EE\U0001F1F1 IL 6 TJN"
@@ -449,11 +1053,11 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 12 VMS"
   - "\U0001F1F8\U0001F1EC SG 13 VMS"
   - "\U0001F1EE\U0001F1F1 IL 14 TJN"
-  - "\U0001F1FA\U0001F1F8 US 15 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 15 VMS"
   - "\U0001F1EE\U0001F1F1 IL 16 TJN"
   - "\U0001F1FA\U0001F1F8 US 17 VMS"
   - "\U0001F1EE\U0001F1F1 IL 18 TJN"
-  - "\U0001F1E7\U0001F1FF BZ 19 VMS"
+  - "\U0001F1E8\U0001F1FE CY 19 VMS"
   - "\U0001F1FA\U0001F1F8 US 20 VMS"
   - "\U0001F1EE\U0001F1F1 IL 21 TJN"
   - "\U0001F1FA\U0001F1F8 US 22 VMS"
@@ -470,12 +1074,78 @@ proxy-groups:
   - "\U0001F1EE\U0001F1F1 IL 33 TJN"
   - "\U0001F1FA\U0001F1F3 UN 34 VMS"
   - "\U0001F1EE\U0001F1F1 IL 35 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 36 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 37 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 38 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 39 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 40 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 41 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 36 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 37 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 38 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 39 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 40 TJN"
+  - "\U0001F1F8\U0001F1EC SG 41 TJN"
+  - "\U0001F1F8\U0001F1EC SG 42 TJN"
+  - "\U0001F1F8\U0001F1EC SG 43 TJN"
+  - "\U0001F1F8\U0001F1EC SG 44 TJN"
+  - "\U0001F1F8\U0001F1EC SG 45 TJN"
+  - "\U0001F1F8\U0001F1EC SG 46 TJN"
+  - "\U0001F1F8\U0001F1EC SG 47 TJN"
+  - "\U0001F1F8\U0001F1EC SG 48 TJN"
+  - "\U0001F1F8\U0001F1EC SG 49 TJN"
+  - "\U0001F1FA\U0001F1F8 US 50 TJN"
+  - "\U0001F1FA\U0001F1F8 US 51 TJN"
+  - "\U0001F1FA\U0001F1F8 US 52 TJN"
+  - "\U0001F1FA\U0001F1F8 US 53 TJN"
+  - "\U0001F1FA\U0001F1F8 US 54 TJN"
+  - "\U0001F1FA\U0001F1F8 US 55 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 56 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 57 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 58 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 59 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 60 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 61 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 62 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 63 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 64 TJN"
+  - "\U0001F1F9\U0001F1FC TW 65 TJN"
+  - "\U0001F1F9\U0001F1FC TW 66 TJN"
+  - "\U0001F1F9\U0001F1FC TW 67 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 68 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 69 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 70 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 71 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 72 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 73 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 74 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 75 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 76 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 77 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 78 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 79 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 80 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 81 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 82 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 83 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 84 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 85 TJN"
+  - "\U0001F1EE\U0001F1F3 IN 86 TJN"
+  - "\U0001F1EE\U0001F1F3 IN 87 TJN"
+  - "\U0001F1EE\U0001F1F3 IN 88 TJN"
+  - "\U0001F1EE\U0001F1EA IE 89 TJN"
+  - "\U0001F1FB\U0001F1F3 VN 90 TJN"
+  - "\U0001F1FA\U0001F1F8 US 91 TJN"
+  - "\U0001F1FA\U0001F1F8 US 92 TJN"
+  - "\U0001F1FA\U0001F1F8 US 93 TJN"
+  - "\U0001F1FA\U0001F1F8 US 94 TJN"
+  - "\U0001F1E9\U0001F1EA DE 95 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 96 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 97 TJN"
+  - "\U0001F1F8\U0001F1EC SG 98 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 99 TJN"
+  - "\U0001F1F9\U0001F1FC TW 100 TJN"
+  - "\U0001F1FA\U0001F1F8 US 101 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 102 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 103 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 104 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 105 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 106 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 107 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -484,7 +1154,7 @@ proxy-groups:
   - automatic
   - "\U0001F1FA\U0001F1F8 US 1 VMS"
   - "\U0001F1E8\U0001F1F3 CN 2 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 3 VMS"
+  - "\U0001F1FA\U0001F1F8 US 3 VMS"
   - "\U0001F1E8\U0001F1F3 CN 4 SSS"
   - "\U0001F1FA\U0001F1F8 US 5 VMS"
   - "\U0001F1EE\U0001F1F1 IL 6 TJN"
@@ -496,11 +1166,11 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 12 VMS"
   - "\U0001F1F8\U0001F1EC SG 13 VMS"
   - "\U0001F1EE\U0001F1F1 IL 14 TJN"
-  - "\U0001F1FA\U0001F1F8 US 15 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 15 VMS"
   - "\U0001F1EE\U0001F1F1 IL 16 TJN"
   - "\U0001F1FA\U0001F1F8 US 17 VMS"
   - "\U0001F1EE\U0001F1F1 IL 18 TJN"
-  - "\U0001F1E7\U0001F1FF BZ 19 VMS"
+  - "\U0001F1E8\U0001F1FE CY 19 VMS"
   - "\U0001F1FA\U0001F1F8 US 20 VMS"
   - "\U0001F1EE\U0001F1F1 IL 21 TJN"
   - "\U0001F1FA\U0001F1F8 US 22 VMS"
@@ -517,11 +1187,77 @@ proxy-groups:
   - "\U0001F1EE\U0001F1F1 IL 33 TJN"
   - "\U0001F1FA\U0001F1F3 UN 34 VMS"
   - "\U0001F1EE\U0001F1F1 IL 35 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 36 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 37 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 38 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 39 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 40 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 41 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 36 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 37 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 38 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 39 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 40 TJN"
+  - "\U0001F1F8\U0001F1EC SG 41 TJN"
+  - "\U0001F1F8\U0001F1EC SG 42 TJN"
+  - "\U0001F1F8\U0001F1EC SG 43 TJN"
+  - "\U0001F1F8\U0001F1EC SG 44 TJN"
+  - "\U0001F1F8\U0001F1EC SG 45 TJN"
+  - "\U0001F1F8\U0001F1EC SG 46 TJN"
+  - "\U0001F1F8\U0001F1EC SG 47 TJN"
+  - "\U0001F1F8\U0001F1EC SG 48 TJN"
+  - "\U0001F1F8\U0001F1EC SG 49 TJN"
+  - "\U0001F1FA\U0001F1F8 US 50 TJN"
+  - "\U0001F1FA\U0001F1F8 US 51 TJN"
+  - "\U0001F1FA\U0001F1F8 US 52 TJN"
+  - "\U0001F1FA\U0001F1F8 US 53 TJN"
+  - "\U0001F1FA\U0001F1F8 US 54 TJN"
+  - "\U0001F1FA\U0001F1F8 US 55 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 56 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 57 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 58 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 59 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 60 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 61 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 62 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 63 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 64 TJN"
+  - "\U0001F1F9\U0001F1FC TW 65 TJN"
+  - "\U0001F1F9\U0001F1FC TW 66 TJN"
+  - "\U0001F1F9\U0001F1FC TW 67 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 68 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 69 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 70 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 71 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 72 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 73 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 74 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 75 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 76 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 77 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 78 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 79 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 80 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 81 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 82 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 83 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 84 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 85 TJN"
+  - "\U0001F1EE\U0001F1F3 IN 86 TJN"
+  - "\U0001F1EE\U0001F1F3 IN 87 TJN"
+  - "\U0001F1EE\U0001F1F3 IN 88 TJN"
+  - "\U0001F1EE\U0001F1EA IE 89 TJN"
+  - "\U0001F1FB\U0001F1F3 VN 90 TJN"
+  - "\U0001F1FA\U0001F1F8 US 91 TJN"
+  - "\U0001F1FA\U0001F1F8 US 92 TJN"
+  - "\U0001F1FA\U0001F1F8 US 93 TJN"
+  - "\U0001F1FA\U0001F1F8 US 94 TJN"
+  - "\U0001F1E9\U0001F1EA DE 95 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 96 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 97 TJN"
+  - "\U0001F1F8\U0001F1EC SG 98 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 99 TJN"
+  - "\U0001F1F9\U0001F1FC TW 100 TJN"
+  - "\U0001F1FA\U0001F1F8 US 101 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 102 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 103 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 104 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 105 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 106 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 107 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
