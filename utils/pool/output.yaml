@@ -1,383 +1,5 @@
 proxies:
-- name: "\U0001F1FA\U0001F1F3 UN 1 VMS"
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: 80
-  cipher: auto
-  uuid: c07a7268-6b25-4952-be6d-e9fb3beacedc
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /api/v3/download.getFile
-    headers:
-      host: ssrsub.v01.ssrsub.com
-- name: "\U0001F1E8\U0001F1F3 CN 2 VMS"
-  type: vmess
-  server: 36.133.171.209
-  port: 11023
-  cipher: auto
-  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ''
-- name: "\U0001F1E8\U0001F1F3 CN 3 SSS"
-  type: ss
-  server: free.themars.top
-  port: 32102
-  password: b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1FA\U0001F1F3 UN 4 VMS"
-  type: vmess
-  server: cf-dx-dns.sharecentre.online
-  port: 80
-  cipher: auto
-  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /shirker
-    headers:
-      host: dp1.scproxy.top
-- name: "\U0001F1EE\U0001F1F1 IL 5 TJN"
-  type: trojan
-  server: us2.chuqiangtou.net
-  port: 4003
-  udp: true
-  password: TJCfE7Mx2YcA8kX8zg
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1FA\U0001F1F3 UN 6 VMS"
-  type: vmess
-  server: 141.101.123.249
-  port: 80
-  cipher: auto
-  uuid: 1eeeff8d-0028-46ec-ec2a-d39401047fbb
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /qwer
-    headers:
-      host: tou.vtcss.top
-- name: "\U0001F1FA\U0001F1F8 US 7 VMS"
-  type: vmess
-  server: 107.167.16.90
-  port: 45689
-  cipher: auto
-  uuid: 7640a1e7-9701-428e-a4b2-19b3e7dd6f9f
-  alterId: 64
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1F8\U0001F1EC SG 8 VMS"
-  type: vmess
-  server: cdncf.scyu.app
-  port: 80
-  cipher: auto
-  uuid: c07a7268-6b25-4952-be6d-e9fb3beacedc
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /api/v3/download.getFile
-    headers:
-      host: ssrsub.v01.ssrsub.com
-- name: "\U0001F1EE\U0001F1F1 IL 9 TJN"
-  type: trojan
-  server: au1.chuqiangtou.net
-  port: 4003
-  udp: true
-  password: TJCfE7Mx2YcA8kX8zg
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 10 VMS"
-  type: vmess
-  server: banterbener.my.id
-  port: 80
-  cipher: auto
-  uuid: 5d956feb-4605-4523-a866-2a8b45f1216f
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /xrayvws
-    headers:
-      host: banterbener.my.id
-- name: "\U0001F1E8\U0001F1F3 CN 11 SSS"
-  type: ss
-  server: 36.137.106.115
-  port: 11023
-  password: ll668668@
-  cipher: aes-256-gcm
-- name: "\U0001F1EE\U0001F1F1 IL 12 TJN"
-  type: trojan
-  server: us3.chuqiangtou.net
-  port: 4003
-  udp: true
-  password: TJCfE7Mx2YcA8kX8zg
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1EE\U0001F1F1 IL 13 TJN"
-  type: trojan
-  server: nl1.chuqiangtou.net
-  port: 4003
-  udp: true
-  password: TJCfE7Mx2YcA8kX8zg
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 14 VMS"
-  type: vmess
-  server: cf.yxjnode.com
-  port: 80
-  cipher: auto
-  uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /yxzbp
-    headers:
-      host: dp4.yxjnode.com
-- name: "\U0001F1EE\U0001F1F1 IL 15 TJN"
-  type: trojan
-  server: jp2.chuqiangtou.net
-  port: 4003
-  udp: true
-  password: TJCfE7Mx2YcA8kX8zg
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 16 VMS"
-  type: vmess
-  server: freenodecdn.ikuan.dev
-  port: 2052
-  cipher: auto
-  uuid: 3185c2f3-4246-49c4-ba8a-5ea8fb2ef6b8
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /FreeForGFW
-    headers:
-      host: freeforgfw.ikuan.dev
-- name: "\U0001F1FA\U0001F1F8 US 17 VMS"
-  type: vmess
-  server: 67.21.95.73
-  port: 53314
-  cipher: auto
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1EE\U0001F1F1 IL 18 TJN"
-  type: trojan
-  server: uk1.chuqiangtou.net
-  port: 4003
-  udp: true
-  password: TJCfE7Mx2YcA8kX8zg
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 19 VMS"
-  type: vmess
-  server: 142.0.132.36
-  port: 443
-  cipher: auto
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  tls: true
-  skip-cert-verify: true
-  network: ws
-- name: "\U0001F1E8\U0001F1F3 CN 20 VMS"
-  type: vmess
-  server: 112.132.215.189
-  port: 50002
-  cipher: auto
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 21 VMS"
-  type: vmess
-  server: cdn.ikuan.dev
-  port: 2052
-  cipher: auto
-  uuid: 3185c2f3-4246-49c4-ba8a-5ea8fb2ef6b8
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /FreeForGFW
-    headers:
-      host: freeforgfw.ikuan.dev
-- name: "\U0001F1FA\U0001F1F8 US 22 TJN"
-  type: trojan
-  server: 148.59.74.52
-  port: 443
-  udp: true
-  password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca
-  sni: 18-140-66-207.nhost.00cdn.com
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 23 VMS"
-  type: vmess
-  server: 108.186.116.175
-  port: 55005
-  cipher: auto
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1EE\U0001F1F1 IL 24 TJN"
-  type: trojan
-  server: hk1.chuqiangtou.net
-  port: 4003
-  udp: true
-  password: TJCfE7Mx2YcA8kX8zg
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1ED\U0001F1F0 HK 25 VMS"
-  type: vmess
-  server: 43.154.233.89
-  port: 45516
-  cipher: auto
-  uuid: 2264f24e-d814-4aa6-98c0-ed5a8322a0eb
-  alterId: 64
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /hk12/getData
-    headers:
-      host: hk12.verichains.co
-- name: "\U0001F1FA\U0001F1F8 US 26 VMS"
-  type: vmess
-  server: 23.224.15.181
-  port: 50002
-  cipher: auto
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  tls: false
-  skip-cert-verify: true
-  network: none
-- name: "\U0001F1FA\U0001F1F8 US 27 VMS"
-  type: vmess
-  server: 74.217.179.187
-  port: 40042
-  cipher: auto
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 28 VMS"
-  type: vmess
-  server: 104.25.29.187
-  port: 8080
-  cipher: auto
-  uuid: d7cf7b64-bf1c-46bd-cf39-90a31393843b
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /qwer
-    headers:
-      host: uyaa.vtcss.top
-- name: "\U0001F1FA\U0001F1F8 US 29 VMS"
-  type: vmess
-  server: cf-yd-dns.sharecentre.online
-  port: 80
-  cipher: auto
-  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /shirker
-    headers:
-      host: dp3.scproxy.top
-- name: "\U0001F1FA\U0001F1F8 US 30 VMS"
-  type: vmess
-  server: 198.2.218.185
-  port: 51992
-  cipher: auto
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 31 TJN"
-  type: trojan
-  server: assets.flareai.site
-  port: 13343
-  udp: true
-  password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66
-  sni: 106-110-192-225.d.cjjd20.com
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 32 TJN"
-  type: trojan
-  server: assets.flareai.site
-  port: 13543
-  udp: true
-  password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1EE\U0001F1F1 IL 33 TJN"
-  type: trojan
-  server: us1.chuqiangtou.net
-  port: 4003
-  udp: true
-  password: TJCfE7Mx2YcA8kX8zg
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1FA\U0001F1F3 UN 34 VMS"
-  type: vmess
-  server: 104.21.53.35
-  port: 80
-  cipher: auto
-  uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /yxzbp
-    headers:
-      host: dp3.yxjnode.com
-- name: "\U0001F1EE\U0001F1F1 IL 35 TJN"
-  type: trojan
-  server: nl3.chuqiangtou.net
-  port: 4003
-  udp: true
-  password: TJCfE7Mx2YcA8kX8zg
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 36 VMS"
-  type: vmess
-  server: 120.226.50.68
-  port: 34214
-  cipher: auto
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 37 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 1 VMS"
   type: vmess
   server: 137.175.61.130
   port: 46679
@@ -387,7 +9,16 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: ''
-- name: "\U0001F1FA\U0001F1F3 UN 38 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 2 TJN"
+  type: trojan
+  server: assets.flareai.site
+  port: 13343
+  udp: true
+  password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66
+  sni: 106-110-192-225.d.cjjd20.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F3 UN 3 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -401,13 +32,13 @@ proxies:
     path: /api/v3/download.getFile
     headers:
       host: ssrsub.v01.ssrsub.com
-- name: "\U0001F1E8\U0001F1F3 CN 39 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 4 SSS"
   type: ss
   server: free.themars.top
   port: 32103
   password: b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2
   cipher: chacha20-ietf-poly1305
-- name: "\U0001F1FA\U0001F1F8 US 40 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 5 VMS"
   type: vmess
   server: ns1.v2-vip.fun
   port: 80
@@ -421,13 +52,382 @@ proxies:
     path: /d3QyW1VhYbXYnWiYkDe
     headers:
       host: de10.irteh.fun
-- name: "\U0001F1EE\U0001F1F7 IR 41 VMS"
+- name: "\U0001F1EE\U0001F1F1 IL 6 TJN"
+  type: trojan
+  server: nl1.chuqiangtou.net
+  port: 4003
+  udp: true
+  password: TJCfE7Mx2YcA8kX8zg
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EE\U0001F1F7 IR 7 VMS"
   type: vmess
   server: turkey.abraak.site
   port: 2087
   cipher: auto
   uuid: 21025839-c140-4c67-8f4c-9a413ca8de3f
   alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F3 UN 8 VMS"
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: 80
+  cipher: auto
+  uuid: c07a7268-6b25-4952-be6d-e9fb3beacedc
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /api/v3/download.getFile
+    headers:
+      host: ssrsub.v01.ssrsub.com
+- name: "\U0001F1E8\U0001F1F3 CN 9 VMS"
+  type: vmess
+  server: 36.133.171.209
+  port: 11023
+  cipher: auto
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ''
+- name: "\U0001F1E8\U0001F1F3 CN 10 SSS"
+  type: ss
+  server: free.themars.top
+  port: 32102
+  password: b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1FA\U0001F1F3 UN 11 VMS"
+  type: vmess
+  server: cf-dx-dns.sharecentre.online
+  port: 80
+  cipher: auto
+  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      host: dp1.scproxy.top
+- name: "\U0001F1EE\U0001F1F1 IL 12 TJN"
+  type: trojan
+  server: us2.chuqiangtou.net
+  port: 4003
+  udp: true
+  password: TJCfE7Mx2YcA8kX8zg
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F3 UN 13 VMS"
+  type: vmess
+  server: 141.101.123.249
+  port: 80
+  cipher: auto
+  uuid: 1eeeff8d-0028-46ec-ec2a-d39401047fbb
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /qwer
+    headers:
+      host: tou.vtcss.top
+- name: "\U0001F1FA\U0001F1F8 US 14 VMS"
+  type: vmess
+  server: 107.167.16.90
+  port: 45689
+  cipher: auto
+  uuid: 7640a1e7-9701-428e-a4b2-19b3e7dd6f9f
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F8\U0001F1EC SG 15 VMS"
+  type: vmess
+  server: cdncf.scyu.app
+  port: 80
+  cipher: auto
+  uuid: c07a7268-6b25-4952-be6d-e9fb3beacedc
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /api/v3/download.getFile
+    headers:
+      host: ssrsub.v01.ssrsub.com
+- name: "\U0001F1EE\U0001F1F1 IL 16 TJN"
+  type: trojan
+  server: au1.chuqiangtou.net
+  port: 4003
+  udp: true
+  password: TJCfE7Mx2YcA8kX8zg
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F3 UN 17 VMS"
+  type: vmess
+  server: banterbener.my.id
+  port: 80
+  cipher: auto
+  uuid: 5d956feb-4605-4523-a866-2a8b45f1216f
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /xrayvws
+    headers:
+      host: banterbener.my.id
+- name: "\U0001F1E8\U0001F1F3 CN 18 SSS"
+  type: ss
+  server: 36.137.106.115
+  port: 11023
+  password: ll668668@
+  cipher: aes-256-gcm
+- name: "\U0001F1EE\U0001F1F1 IL 19 TJN"
+  type: trojan
+  server: us3.chuqiangtou.net
+  port: 4003
+  udp: true
+  password: TJCfE7Mx2YcA8kX8zg
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 20 VMS"
+  type: vmess
+  server: cf.yxjnode.com
+  port: 80
+  cipher: auto
+  uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /yxzbp
+    headers:
+      host: dp4.yxjnode.com
+- name: "\U0001F1EE\U0001F1F1 IL 21 TJN"
+  type: trojan
+  server: jp2.chuqiangtou.net
+  port: 4003
+  udp: true
+  password: TJCfE7Mx2YcA8kX8zg
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E6\U0001F1FA AU 22 VMS"
+  type: vmess
+  server: freenodecdn.ikuan.dev
+  port: 2052
+  cipher: auto
+  uuid: 3185c2f3-4246-49c4-ba8a-5ea8fb2ef6b8
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /FreeForGFW
+    headers:
+      host: freeforgfw.ikuan.dev
+- name: "\U0001F1FA\U0001F1F8 US 23 VMS"
+  type: vmess
+  server: 67.21.95.73
+  port: 53314
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EE\U0001F1F1 IL 24 TJN"
+  type: trojan
+  server: uk1.chuqiangtou.net
+  port: 4003
+  udp: true
+  password: TJCfE7Mx2YcA8kX8zg
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 25 VMS"
+  type: vmess
+  server: 142.0.132.36
+  port: 443
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: true
+  skip-cert-verify: true
+  network: ws
+- name: "\U0001F1E8\U0001F1F3 CN 26 VMS"
+  type: vmess
+  server: 112.132.215.189
+  port: 50002
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 27 VMS"
+  type: vmess
+  server: cdn.ikuan.dev
+  port: 2052
+  cipher: auto
+  uuid: 3185c2f3-4246-49c4-ba8a-5ea8fb2ef6b8
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /FreeForGFW
+    headers:
+      host: freeforgfw.ikuan.dev
+- name: "\U0001F1FA\U0001F1F8 US 28 TJN"
+  type: trojan
+  server: 148.59.74.52
+  port: 443
+  udp: true
+  password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca
+  sni: 18-140-66-207.nhost.00cdn.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 29 VMS"
+  type: vmess
+  server: 108.186.116.175
+  port: 55005
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EE\U0001F1F1 IL 30 TJN"
+  type: trojan
+  server: hk1.chuqiangtou.net
+  port: 4003
+  udp: true
+  password: TJCfE7Mx2YcA8kX8zg
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1ED\U0001F1F0 HK 31 VMS"
+  type: vmess
+  server: 43.154.233.89
+  port: 45516
+  cipher: auto
+  uuid: 2264f24e-d814-4aa6-98c0-ed5a8322a0eb
+  alterId: 64
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /hk12/getData
+    headers:
+      host: hk12.verichains.co
+- name: "\U0001F1FA\U0001F1F8 US 32 VMS"
+  type: vmess
+  server: 23.224.15.181
+  port: 50002
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: none
+- name: "\U0001F1FA\U0001F1F8 US 33 VMS"
+  type: vmess
+  server: 74.217.179.187
+  port: 40042
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 34 VMS"
+  type: vmess
+  server: 104.25.29.187
+  port: 8080
+  cipher: auto
+  uuid: d7cf7b64-bf1c-46bd-cf39-90a31393843b
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /qwer
+    headers:
+      host: uyaa.vtcss.top
+- name: "\U0001F1FA\U0001F1F8 US 35 VMS"
+  type: vmess
+  server: cf-yd-dns.sharecentre.online
+  port: 80
+  cipher: auto
+  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      host: dp3.scproxy.top
+- name: "\U0001F1FA\U0001F1F8 US 36 VMS"
+  type: vmess
+  server: 198.2.218.185
+  port: 51992
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 37 TJN"
+  type: trojan
+  server: assets.flareai.site
+  port: 13543
+  udp: true
+  password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EE\U0001F1F1 IL 38 TJN"
+  type: trojan
+  server: us1.chuqiangtou.net
+  port: 4003
+  udp: true
+  password: TJCfE7Mx2YcA8kX8zg
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F3 UN 39 VMS"
+  type: vmess
+  server: 104.21.53.35
+  port: 80
+  cipher: auto
+  uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /yxzbp
+    headers:
+      host: dp3.yxjnode.com
+- name: "\U0001F1EE\U0001F1F1 IL 40 TJN"
+  type: trojan
+  server: nl3.chuqiangtou.net
+  port: 4003
+  udp: true
+  password: TJCfE7Mx2YcA8kX8zg
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 41 VMS"
+  type: vmess
+  server: 120.226.50.68
+  port: 34214
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
   tls: false
   skip-cert-verify: true
   network: tcp
@@ -1039,47 +1039,47 @@ proxy-groups:
 - name: automatic
   type: url-test
   proxies:
-  - "\U0001F1FA\U0001F1F3 UN 1 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 2 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 3 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 4 VMS"
-  - "\U0001F1EE\U0001F1F1 IL 5 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 6 VMS"
-  - "\U0001F1FA\U0001F1F8 US 7 VMS"
-  - "\U0001F1F8\U0001F1EC SG 8 VMS"
-  - "\U0001F1EE\U0001F1F1 IL 9 TJN"
-  - "\U0001F1FA\U0001F1F8 US 10 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 11 SSS"
+  - "\U0001F1FA\U0001F1F8 US 1 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 2 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 3 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 4 SSS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
+  - "\U0001F1EE\U0001F1F1 IL 6 TJN"
+  - "\U0001F1EE\U0001F1F7 IR 7 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 9 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 10 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 11 VMS"
   - "\U0001F1EE\U0001F1F1 IL 12 TJN"
-  - "\U0001F1EE\U0001F1F1 IL 13 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 13 VMS"
   - "\U0001F1FA\U0001F1F8 US 14 VMS"
-  - "\U0001F1EE\U0001F1F1 IL 15 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 16 VMS"
-  - "\U0001F1FA\U0001F1F8 US 17 VMS"
-  - "\U0001F1EE\U0001F1F1 IL 18 TJN"
-  - "\U0001F1FA\U0001F1F8 US 19 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 20 VMS"
-  - "\U0001F1FA\U0001F1F8 US 21 VMS"
-  - "\U0001F1FA\U0001F1F8 US 22 TJN"
+  - "\U0001F1F8\U0001F1EC SG 15 VMS"
+  - "\U0001F1EE\U0001F1F1 IL 16 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 17 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 18 SSS"
+  - "\U0001F1EE\U0001F1F1 IL 19 TJN"
+  - "\U0001F1FA\U0001F1F8 US 20 VMS"
+  - "\U0001F1EE\U0001F1F1 IL 21 TJN"
+  - "\U0001F1E6\U0001F1FA AU 22 VMS"
   - "\U0001F1FA\U0001F1F8 US 23 VMS"
   - "\U0001F1EE\U0001F1F1 IL 24 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 25 VMS"
-  - "\U0001F1FA\U0001F1F8 US 26 VMS"
+  - "\U0001F1FA\U0001F1F8 US 25 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 26 VMS"
   - "\U0001F1FA\U0001F1F8 US 27 VMS"
-  - "\U0001F1FA\U0001F1F8 US 28 VMS"
+  - "\U0001F1FA\U0001F1F8 US 28 TJN"
   - "\U0001F1FA\U0001F1F8 US 29 VMS"
-  - "\U0001F1FA\U0001F1F8 US 30 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 31 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 32 TJN"
-  - "\U0001F1EE\U0001F1F1 IL 33 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 34 VMS"
-  - "\U0001F1EE\U0001F1F1 IL 35 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 36 VMS"
-  - "\U0001F1FA\U0001F1F8 US 37 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 38 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 39 SSS"
-  - "\U0001F1FA\U0001F1F8 US 40 VMS"
-  - "\U0001F1EE\U0001F1F7 IR 41 VMS"
+  - "\U0001F1EE\U0001F1F1 IL 30 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 31 VMS"
+  - "\U0001F1FA\U0001F1F8 US 32 VMS"
+  - "\U0001F1FA\U0001F1F8 US 33 VMS"
+  - "\U0001F1FA\U0001F1F8 US 34 VMS"
+  - "\U0001F1FA\U0001F1F8 US 35 VMS"
+  - "\U0001F1FA\U0001F1F8 US 36 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 37 TJN"
+  - "\U0001F1EE\U0001F1F1 IL 38 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 39 VMS"
+  - "\U0001F1EE\U0001F1F1 IL 40 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 41 VMS"
   - "\U0001F1FA\U0001F1F3 UN 42 VMS"
   - "\U0001F1ED\U0001F1F0 HK 43 TJN"
   - "\U0001F1ED\U0001F1F0 HK 44 TJN"
@@ -1152,47 +1152,47 @@ proxy-groups:
   type: select
   proxies:
   - automatic
-  - "\U0001F1FA\U0001F1F3 UN 1 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 2 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 3 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 4 VMS"
-  - "\U0001F1EE\U0001F1F1 IL 5 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 6 VMS"
-  - "\U0001F1FA\U0001F1F8 US 7 VMS"
-  - "\U0001F1F8\U0001F1EC SG 8 VMS"
-  - "\U0001F1EE\U0001F1F1 IL 9 TJN"
-  - "\U0001F1FA\U0001F1F8 US 10 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 11 SSS"
+  - "\U0001F1FA\U0001F1F8 US 1 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 2 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 3 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 4 SSS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
+  - "\U0001F1EE\U0001F1F1 IL 6 TJN"
+  - "\U0001F1EE\U0001F1F7 IR 7 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 9 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 10 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 11 VMS"
   - "\U0001F1EE\U0001F1F1 IL 12 TJN"
-  - "\U0001F1EE\U0001F1F1 IL 13 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 13 VMS"
   - "\U0001F1FA\U0001F1F8 US 14 VMS"
-  - "\U0001F1EE\U0001F1F1 IL 15 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 16 VMS"
-  - "\U0001F1FA\U0001F1F8 US 17 VMS"
-  - "\U0001F1EE\U0001F1F1 IL 18 TJN"
-  - "\U0001F1FA\U0001F1F8 US 19 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 20 VMS"
-  - "\U0001F1FA\U0001F1F8 US 21 VMS"
-  - "\U0001F1FA\U0001F1F8 US 22 TJN"
+  - "\U0001F1F8\U0001F1EC SG 15 VMS"
+  - "\U0001F1EE\U0001F1F1 IL 16 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 17 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 18 SSS"
+  - "\U0001F1EE\U0001F1F1 IL 19 TJN"
+  - "\U0001F1FA\U0001F1F8 US 20 VMS"
+  - "\U0001F1EE\U0001F1F1 IL 21 TJN"
+  - "\U0001F1E6\U0001F1FA AU 22 VMS"
   - "\U0001F1FA\U0001F1F8 US 23 VMS"
   - "\U0001F1EE\U0001F1F1 IL 24 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 25 VMS"
-  - "\U0001F1FA\U0001F1F8 US 26 VMS"
+  - "\U0001F1FA\U0001F1F8 US 25 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 26 VMS"
   - "\U0001F1FA\U0001F1F8 US 27 VMS"
-  - "\U0001F1FA\U0001F1F8 US 28 VMS"
+  - "\U0001F1FA\U0001F1F8 US 28 TJN"
   - "\U0001F1FA\U0001F1F8 US 29 VMS"
-  - "\U0001F1FA\U0001F1F8 US 30 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 31 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 32 TJN"
-  - "\U0001F1EE\U0001F1F1 IL 33 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 34 VMS"
-  - "\U0001F1EE\U0001F1F1 IL 35 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 36 VMS"
-  - "\U0001F1FA\U0001F1F8 US 37 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 38 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 39 SSS"
-  - "\U0001F1FA\U0001F1F8 US 40 VMS"
-  - "\U0001F1EE\U0001F1F7 IR 41 VMS"
+  - "\U0001F1EE\U0001F1F1 IL 30 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 31 VMS"
+  - "\U0001F1FA\U0001F1F8 US 32 VMS"
+  - "\U0001F1FA\U0001F1F8 US 33 VMS"
+  - "\U0001F1FA\U0001F1F8 US 34 VMS"
+  - "\U0001F1FA\U0001F1F8 US 35 VMS"
+  - "\U0001F1FA\U0001F1F8 US 36 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 37 TJN"
+  - "\U0001F1EE\U0001F1F1 IL 38 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 39 VMS"
+  - "\U0001F1EE\U0001F1F1 IL 40 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 41 VMS"
   - "\U0001F1FA\U0001F1F3 UN 42 VMS"
   - "\U0001F1ED\U0001F1F0 HK 43 TJN"
   - "\U0001F1ED\U0001F1F0 HK 44 TJN"
