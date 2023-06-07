@@ -1,5 +1,5 @@
 proxies:
-- name: "\U0001F1ED\U0001F1F0 HK 1 VMS"
+- name: "\U0001F1F8\U0001F1EC SG 1 VMS"
   type: vmess
   server: cdncf.scyu.app
   port: 80
@@ -25,7 +25,7 @@ proxy-groups:
 - name: automatic
   type: url-test
   proxies:
-  - "\U0001F1ED\U0001F1F0 HK 1 VMS"
+  - "\U0001F1F8\U0001F1EC SG 1 VMS"
   - "\U0001F1EE\U0001F1F1 IL 2 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
@@ -33,7 +33,7 @@ proxy-groups:
   type: select
   proxies:
   - automatic
-  - "\U0001F1ED\U0001F1F0 HK 1 VMS"
+  - "\U0001F1F8\U0001F1EC SG 1 VMS"
   - "\U0001F1EE\U0001F1F1 IL 2 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"

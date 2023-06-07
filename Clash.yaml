@@ -197,7 +197,7 @@ dns:
       - +.gvt1.com
 proxies:
   - {name: IL 1|TG@BPXD666, server: nl3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 1|TG@BPXD666, server: cdncf.scyu.app, port: 80, type: vmess, uuid: c07a7268-6b25-4952-be6d-e9fb3beacedc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: cdncf.scyu.app}}, udp: true}
+  - {name: 🇺🇸 US 1|TG@BPXD666, server: cdncf.scyu.app, port: 80, type: vmess, uuid: c07a7268-6b25-4952-be6d-e9fb3beacedc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: cdncf.scyu.app}}, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -216,7 +216,7 @@ proxy-groups:
     type: select
     proxies:
       - IL 1|TG@BPXD666
-      - 🇸🇬 SG 1|TG@BPXD666
+      - 🇺🇸 US 1|TG@BPXD666
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
@@ -224,7 +224,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - IL 1|TG@BPXD666
-      - 🇸🇬 SG 1|TG@BPXD666
+      - 🇺🇸 US 1|TG@BPXD666
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -245,7 +245,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - DIRECT
+      - 🇺🇸 US 1|TG@BPXD666
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -259,7 +259,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 SG 1|TG@BPXD666
+      - DIRECT
   - name: 🇰🇷 韩国节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -271,7 +271,7 @@ proxy-groups:
     type: select
     proxies:
       - IL 1|TG@BPXD666
-      - 🇸🇬 SG 1|TG@BPXD666
+      - 🇺🇸 US 1|TG@BPXD666
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -279,7 +279,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - IL 1|TG@BPXD666
-      - 🇸🇬 SG 1|TG@BPXD666
+      - 🇺🇸 US 1|TG@BPXD666
   - name: 👉 国内网站
     type: select
     proxies:
