@@ -7,7 +7,7 @@ proxies:
   password: TJCfE7Mx2YcA8kX8zg
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1F8\U0001F1EC SG 2 VMS"
+- name: "\U0001F1ED\U0001F1F0 HK 2 VMS"
   type: vmess
   server: cdncf.scyu.app
   port: 80
@@ -26,7 +26,7 @@ proxy-groups:
   type: url-test
   proxies:
   - "\U0001F1EE\U0001F1F1 IL 1 TJN"
-  - "\U0001F1F8\U0001F1EC SG 2 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 2 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -34,6 +34,6 @@ proxy-groups:
   proxies:
   - automatic
   - "\U0001F1EE\U0001F1F1 IL 1 TJN"
-  - "\U0001F1F8\U0001F1EC SG 2 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 2 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
