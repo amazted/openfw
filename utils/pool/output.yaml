@@ -1,13 +1,39 @@
-proxies: []
+proxies:
+- name: "\U0001F1ED\U0001F1F0 HK 1 VMS"
+  type: vmess
+  server: cdncf.scyu.app
+  port: 80
+  cipher: auto
+  uuid: c07a7268-6b25-4952-be6d-e9fb3beacedc
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /api/v3/download.getFile
+    headers:
+      host: ssrsub.v01.ssrsub.com
+- name: "\U0001F1EE\U0001F1F1 IL 2 TJN"
+  type: trojan
+  server: nl3.chuqiangtou.net
+  port: 4003
+  udp: true
+  password: TJCfE7Mx2YcA8kX8zg
+  skip-cert-verify: true
+  network: tcp
 proxy-groups:
 - name: automatic
   type: url-test
-  proxies: []
+  proxies:
+  - "\U0001F1ED\U0001F1F0 HK 1 VMS"
+  - "\U0001F1EE\U0001F1F1 IL 2 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
   type: select
   proxies:
   - automatic
+  - "\U0001F1ED\U0001F1F0 HK 1 VMS"
+  - "\U0001F1EE\U0001F1F1 IL 2 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
