@@ -1,13 +1,560 @@
-proxies: []
+proxies:
+- name: "\U0001F1E8\U0001F1F3 CN 1 SSR"
+  type: ssr
+  server: cn02.mynode.me
+  port: 8104
+  password: passwd
+  cipher: rc4-md5
+  obfs: http_simple
+  protocol: origin
+  obfs-param: 18127-Tutaiming0321.download.microsoft.com
+- name: "\U0001F1FA\U0001F1F8 US 2 VMS"
+  type: vmess
+  server: 38.26.135.5
+  port: 44942
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EE\U0001F1F1 IL 3 TJN"
+  type: trojan
+  server: 149.50.77.95
+  port: 4003
+  udp: true
+  password: TJCfE7Mx2YcA8kX8zg
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 4 VMS"
+  type: vmess
+  server: 26.v2-ray.cyou
+  port: 23626
+  cipher: auto
+  uuid: 0dd19d20-ec86-3680-b256-87237bafa89e
+  alterId: 2
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: 26.v2-ray.cyou
+- name: "\U0001F1ED\U0001F1F0 HK 5 VMS"
+  type: vmess
+  server: 43.154.233.89
+  port: 45516
+  cipher: auto
+  uuid: 2264f24e-d814-4aa6-98c0-ed5a8322a0eb
+  alterId: 64
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /hk12/getData
+    headers:
+      host: hk12.verichains.co
+- name: "\U0001F1FA\U0001F1F8 US 6 VMS"
+  type: vmess
+  server: 172.67.52.106
+  port: 80
+  cipher: auto
+  uuid: a67679a6-a186-4d62-f84e-f3f00dc7745e
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /youlingkaishi01
+    headers:
+      host: tou.vtcss.top
+- name: "\U0001F1E8\U0001F1F3 CN 7 SSR"
+  type: ssr
+  server: cn05.mynode.me
+  port: 8126
+  password: passwd
+  cipher: rc4-md5
+  obfs: http_simple
+  protocol: origin
+  obfs-param: 18127-Tutaiming0321.download.microsoft.com
+- name: "\U0001F1FA\U0001F1F8 US 8 VMS"
+  type: vmess
+  server: 104.31.16.28
+  port: 80
+  cipher: auto
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+    headers:
+      host: ca4.tehme2.fun
+- name: "\U0001F1E8\U0001F1F3 CN 9 SSR"
+  type: ssr
+  server: cn02.mynode.me
+  port: 8105
+  password: passwd
+  cipher: rc4-md5
+  obfs: http_simple
+  protocol: origin
+  obfs-param: 18127-Tutaiming0321.download.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 10 SSR"
+  type: ssr
+  server: cn05.mynode.me
+  port: 8121
+  password: passwd
+  cipher: rc4-md5
+  obfs: http_simple
+  protocol: origin
+  obfs-param: 18127-Tutaiming0321.download.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 11 VMS"
+  type: vmess
+  server: 183.237.20.147
+  port: 41242
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F3 UN 12 VMS"
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: 8080
+  cipher: auto
+  uuid: d16c31a2-93a3-4f1a-954c-e383b14a4d26
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /api/v3/download.getFile
+    headers:
+      host: ssrsub.v03.ssrsub.com
+- name: "\U0001F1E8\U0001F1F3 CN 13 SSR"
+  type: ssr
+  server: jp2.vfun.icu
+  port: 443
+  password: vyunme
+  cipher: aes-256-cfb
+  obfs: plain
+  protocol: auth_aes128_sha1
+  obfs-param: ab93117422.jd.hk
+  protocol-param: 17422:TTp0SX
+- name: "\U0001F1FA\U0001F1F8 US 14 VMS"
+  type: vmess
+  server: 140.99.57.38
+  port: 54002
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EF\U0001F1F5 JP 15 VMS"
+  type: vmess
+  server: 45.88.43.230
+  port: 46202
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EE\U0001F1F1 IL 16 TJN"
+  type: trojan
+  server: 149.50.68.87
+  port: 4003
+  udp: true
+  password: TJCfE7Mx2YcA8kX8zg
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 17 VMS"
+  type: vmess
+  server: 142.4.112.26
+  port: 51091
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 18 SSR"
+  type: ssr
+  server: cn05.mynode.me
+  port: 8122
+  password: passwd
+  cipher: rc4-md5
+  obfs: http_simple
+  protocol: origin
+  obfs-param: 18127-Tutaiming0321.download.microsoft.com
+- name: "\U0001F1FA\U0001F1F3 UN 19 VMS"
+  type: vmess
+  server: 162.159.195.185
+  port: 443
+  cipher: auto
+  uuid: 553f509e-56c1-4eaf-be67-b9b20c780bff
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ws1341380505
+    headers:
+      host: xbly100.wsvpn.xyz
+- name: "\U0001F1FA\U0001F1F8 US 20 VMS"
+  type: vmess
+  server: 142.4.126.43
+  port: 44392
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 21 VMS"
+  type: vmess
+  server: cdnjs.com
+  port: 443
+  cipher: auto
+  uuid: 2CCC8DAB-53C6-741F-6309-446107D82FC1
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /speedtest
+    headers:
+      host: Kansas.kotick.site
+- name: "\U0001F1FA\U0001F1F8 US 22 VMS"
+  type: vmess
+  server: 104.24.49.199
+  port: 2095
+  cipher: auto
+  uuid: 1d1362f7-073c-4e5c-b470-02b8222c226c
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ylks
+    headers:
+      host: x1.ylks01.eu.org
+- name: "\U0001F1FA\U0001F1F8 US 23 VMS"
+  type: vmess
+  server: 104.24.215.167
+  port: 80
+  cipher: auto
+  uuid: a67679a6-a186-4d62-f84e-f3f00dc7745e
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /youlingkaishi01
+    headers:
+      host: tou.vtcss.top
+- name: "\U0001F1EE\U0001F1F1 IL 24 TJN"
+  type: trojan
+  server: 149.50.83.42
+  port: 4003
+  udp: true
+  password: TJCfE7Mx2YcA8kX8zg
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 25 VMS"
+  type: vmess
+  server: 137.175.52.18
+  port: 33002
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 26 VMS"
+  type: vmess
+  server: 104.26.13.165
+  port: 8080
+  cipher: auto
+  uuid: 516a22c5-54c1-4203-ec0a-bb3b2517a82d
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ylks
+    headers:
+      host: x1.ylks01.eu.org
+- name: "\U0001F1FA\U0001F1F3 UN 27 VMS"
+  type: vmess
+  server: cf-dx-dns.sharecentre.online
+  port: 80
+  cipher: auto
+  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      host: dp1.scproxy.top
+- name: "\U0001F1E8\U0001F1F3 CN 28 SSR"
+  type: ssr
+  server: cn12.mynode.me
+  port: 8405
+  password: passwd
+  cipher: rc4-md5
+  obfs: http_simple
+  protocol: origin
+  obfs-param: 18127-Tutaiming0321.download.microsoft.com
+- name: "\U0001F1EE\U0001F1F1 IL 29 TJN"
+  type: trojan
+  server: 149.50.83.40
+  port: 4003
+  udp: true
+  password: TJCfE7Mx2YcA8kX8zg
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EE\U0001F1F1 IL 30 TJN"
+  type: trojan
+  server: 149.50.77.97
+  port: 4003
+  udp: true
+  password: TJCfE7Mx2YcA8kX8zg
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 31 SSR"
+  type: ssr
+  server: cn02.mynode.me
+  port: 8109
+  password: passwd
+  cipher: rc4-md5
+  obfs: http_simple
+  protocol: origin
+  obfs-param: 18127-Tutaiming0321.download.microsoft.com
+- name: "\U0001F1FA\U0001F1F8 US 32 VMS"
+  type: vmess
+  server: 137.175.41.200
+  port: 50004
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 33 SSR"
+  type: ssr
+  server: cn02.mynode.me
+  port: 8110
+  password: passwd
+  cipher: rc4-md5
+  obfs: http_simple
+  protocol: origin
+  obfs-param: 18127-Tutaiming0321.download.microsoft.com
+- name: "\U0001F1FA\U0001F1F3 UN 34 VMS"
+  type: vmess
+  server: 104.19.104.78
+  port: 2095
+  cipher: auto
+  uuid: 1d1362f7-073c-4e5c-b470-02b8222c226c
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ylks
+    headers:
+      host: x1.ylks01.eu.org
+- name: "\U0001F1F3\U0001F1F1 NL 35 VMS"
+  type: vmess
+  server: 188.114.97.116
+  port: 2086
+  cipher: auto
+  uuid: 4d2ca583-7e2a-4ef4-ba15-ffc7d9147a32
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ylks
+    headers:
+      host: tou.vtcss.top
+- name: "\U0001F1FA\U0001F1F8 US 36 VMS"
+  type: vmess
+  server: 192.74.234.82
+  port: 51302
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F3 UN 37 VMS"
+  type: vmess
+  server: 190.93.245.10
+  port: 80
+  cipher: auto
+  uuid: a67679a6-a186-4d62-f84e-f3f00dc7745e
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /youlingkaishi01
+    headers:
+      host: tou.vtcss.top
+- name: "\U0001F1EF\U0001F1F5 JP 38 TJN"
+  type: trojan
+  server: trs19.bolab.net
+  port: 443
+  udp: true
+  password: 7a73f1dc97a70905870c0c0484b12145
+  sni: trs19.bolab.net
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EE\U0001F1E9 ID 39 TJN"
+  type: trojan
+  server: 103.169.7.11
+  port: 80
+  udp: true
+  password: c0d9da22-2569-4bed-a395-607d9e7ae687
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 40 VMS"
+  type: vmess
+  server: 107.167.16.34
+  port: 45592
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 41 VMS"
+  type: vmess
+  server: 104.25.243.70
+  port: 80
+  cipher: auto
+  uuid: 6884d728-7fb0-4172-c319-e8caeadcd01f
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /tg@herhero6
+    headers:
+      host: us.herofree66.tk
+- name: "\U0001F1FA\U0001F1F3 UN 42 VMS"
+  type: vmess
+  server: 104.20.171.133
+  port: 80
+  cipher: auto
+  uuid: a67679a6-a186-4d62-f84e-f3f00dc7745e
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /youlingkaishi01
+    headers:
+      host: tou.vtcss.top
 proxy-groups:
 - name: automatic
   type: url-test
-  proxies: []
+  proxies:
+  - "\U0001F1E8\U0001F1F3 CN 1 SSR"
+  - "\U0001F1FA\U0001F1F8 US 2 VMS"
+  - "\U0001F1EE\U0001F1F1 IL 3 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 4 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 5 VMS"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 7 SSR"
+  - "\U0001F1FA\U0001F1F8 US 8 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 9 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 10 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 11 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 12 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 13 SSR"
+  - "\U0001F1FA\U0001F1F8 US 14 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 15 VMS"
+  - "\U0001F1EE\U0001F1F1 IL 16 TJN"
+  - "\U0001F1FA\U0001F1F8 US 17 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 18 SSR"
+  - "\U0001F1FA\U0001F1F3 UN 19 VMS"
+  - "\U0001F1FA\U0001F1F8 US 20 VMS"
+  - "\U0001F1FA\U0001F1F8 US 21 VMS"
+  - "\U0001F1FA\U0001F1F8 US 22 VMS"
+  - "\U0001F1FA\U0001F1F8 US 23 VMS"
+  - "\U0001F1EE\U0001F1F1 IL 24 TJN"
+  - "\U0001F1FA\U0001F1F8 US 25 VMS"
+  - "\U0001F1FA\U0001F1F8 US 26 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 27 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 28 SSR"
+  - "\U0001F1EE\U0001F1F1 IL 29 TJN"
+  - "\U0001F1EE\U0001F1F1 IL 30 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 31 SSR"
+  - "\U0001F1FA\U0001F1F8 US 32 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 33 SSR"
+  - "\U0001F1FA\U0001F1F3 UN 34 VMS"
+  - "\U0001F1F3\U0001F1F1 NL 35 VMS"
+  - "\U0001F1FA\U0001F1F8 US 36 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 37 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 38 TJN"
+  - "\U0001F1EE\U0001F1E9 ID 39 TJN"
+  - "\U0001F1FA\U0001F1F8 US 40 VMS"
+  - "\U0001F1FA\U0001F1F8 US 41 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 42 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
   type: select
   proxies:
   - automatic
+  - "\U0001F1E8\U0001F1F3 CN 1 SSR"
+  - "\U0001F1FA\U0001F1F8 US 2 VMS"
+  - "\U0001F1EE\U0001F1F1 IL 3 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 4 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 5 VMS"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 7 SSR"
+  - "\U0001F1FA\U0001F1F8 US 8 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 9 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 10 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 11 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 12 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 13 SSR"
+  - "\U0001F1FA\U0001F1F8 US 14 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 15 VMS"
+  - "\U0001F1EE\U0001F1F1 IL 16 TJN"
+  - "\U0001F1FA\U0001F1F8 US 17 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 18 SSR"
+  - "\U0001F1FA\U0001F1F3 UN 19 VMS"
+  - "\U0001F1FA\U0001F1F8 US 20 VMS"
+  - "\U0001F1FA\U0001F1F8 US 21 VMS"
+  - "\U0001F1FA\U0001F1F8 US 22 VMS"
+  - "\U0001F1FA\U0001F1F8 US 23 VMS"
+  - "\U0001F1EE\U0001F1F1 IL 24 TJN"
+  - "\U0001F1FA\U0001F1F8 US 25 VMS"
+  - "\U0001F1FA\U0001F1F8 US 26 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 27 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 28 SSR"
+  - "\U0001F1EE\U0001F1F1 IL 29 TJN"
+  - "\U0001F1EE\U0001F1F1 IL 30 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 31 SSR"
+  - "\U0001F1FA\U0001F1F8 US 32 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 33 SSR"
+  - "\U0001F1FA\U0001F1F3 UN 34 VMS"
+  - "\U0001F1F3\U0001F1F1 NL 35 VMS"
+  - "\U0001F1FA\U0001F1F8 US 36 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 37 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 38 TJN"
+  - "\U0001F1EE\U0001F1E9 ID 39 TJN"
+  - "\U0001F1FA\U0001F1F8 US 40 VMS"
+  - "\U0001F1FA\U0001F1F8 US 41 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 42 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
