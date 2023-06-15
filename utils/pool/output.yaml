@@ -1,5 +1,5 @@
 proxies:
-- name: "\U0001F1FA\U0001F1F8 US 1 VMS"
+- name: "\U0001F1E6\U0001F1FA AU 1 VMS"
   type: vmess
   server: la.weizai2023.uk.eu.org
   port: 80
@@ -14,7 +14,7 @@ proxies:
     path: /shirker
     headers:
       host: ca.ilovescp.com
-- name: "\U0001F1E8\U0001F1FE CY 2 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 2 VMS"
   type: vmess
   server: wz.weishao2023.uk.eu.org
   port: 443
@@ -101,9 +101,9 @@ proxies:
   servername: ''
   network: ws
   ws-opts:
-    path: /pq/usfh2?ed=2048
+    path: /pq/usfh1?ed=2048
     headers:
-      host: usfh2.pqjc.buzz
+      host: usfh1.pqjc.buzz
 - name: "\U0001F1F8\U0001F1EA SE 8 VMS"
   type: vmess
   server: 37.120.209.125
@@ -118,8 +118,8 @@ proxy-groups:
 - name: automatic
   type: url-test
   proxies:
-  - "\U0001F1FA\U0001F1F8 US 1 VMS"
-  - "\U0001F1E8\U0001F1FE CY 2 VMS"
+  - "\U0001F1E6\U0001F1FA AU 1 VMS"
+  - "\U0001F1FA\U0001F1F8 US 2 VMS"
   - "\U0001F1FA\U0001F1F8 US 3 VMS"
   - "\U0001F1FA\U0001F1F8 US 4 VMS"
   - "\U0001F1FA\U0001F1F3 UN 5 VMS"
@@ -132,8 +132,8 @@ proxy-groups:
   type: select
   proxies:
   - automatic
-  - "\U0001F1FA\U0001F1F8 US 1 VMS"
-  - "\U0001F1E8\U0001F1FE CY 2 VMS"
+  - "\U0001F1E6\U0001F1FA AU 1 VMS"
+  - "\U0001F1FA\U0001F1F8 US 2 VMS"
   - "\U0001F1FA\U0001F1F8 US 3 VMS"
   - "\U0001F1FA\U0001F1F8 US 4 VMS"
   - "\U0001F1FA\U0001F1F3 UN 5 VMS"
