@@ -1,5 +1,5 @@
 proxies:
-- name: "\U0001F1F3\U0001F1F1 NL 1 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 1 VMS"
   type: vmess
   server: la.weizai2023.uk.eu.org
   port: 80
@@ -14,7 +14,7 @@ proxies:
     path: /shirker
     headers:
       host: ca.ilovescp.com
-- name: "\U0001F1F7\U0001F1F4 RO 2 VMS"
+- name: "\U0001F1F3\U0001F1F1 NL 2 VMS"
   type: vmess
   server: wz.weishao2023.uk.eu.org
   port: 443
@@ -101,25 +101,10 @@ proxies:
   servername: ''
   network: ws
   ws-opts:
-    path: /pq/usfh1?ed=2048
-    headers:
-      host: usfh1.pqjc.buzz
-- name: "\U0001F1FA\U0001F1F8 US 8 VMS"
-  type: vmess
-  server: zfc.windowsupdate1.com
-  port: 443
-  cipher: auto
-  uuid: 41bec492-cd79-4b57-9a15-7d2bb00fcfca
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
     path: /pq/usfh2?ed=2048
     headers:
       host: usfh2.pqjc.buzz
-- name: "\U0001F1F8\U0001F1EA SE 9 VMS"
+- name: "\U0001F1F8\U0001F1EA SE 8 VMS"
   type: vmess
   server: 37.120.209.125
   port: 49982
@@ -133,29 +118,27 @@ proxy-groups:
 - name: automatic
   type: url-test
   proxies:
-  - "\U0001F1F3\U0001F1F1 NL 1 VMS"
-  - "\U0001F1F7\U0001F1F4 RO 2 VMS"
+  - "\U0001F1FA\U0001F1F8 US 1 VMS"
+  - "\U0001F1F3\U0001F1F1 NL 2 VMS"
   - "\U0001F1FA\U0001F1F8 US 3 VMS"
   - "\U0001F1FA\U0001F1F8 US 4 VMS"
   - "\U0001F1FA\U0001F1F3 UN 5 VMS"
   - "\U0001F1FA\U0001F1F3 UN 6 VMS"
   - "\U0001F1FA\U0001F1F8 US 7 VMS"
-  - "\U0001F1FA\U0001F1F8 US 8 VMS"
-  - "\U0001F1F8\U0001F1EA SE 9 VMS"
+  - "\U0001F1F8\U0001F1EA SE 8 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
   type: select
   proxies:
   - automatic
-  - "\U0001F1F3\U0001F1F1 NL 1 VMS"
-  - "\U0001F1F7\U0001F1F4 RO 2 VMS"
+  - "\U0001F1FA\U0001F1F8 US 1 VMS"
+  - "\U0001F1F3\U0001F1F1 NL 2 VMS"
   - "\U0001F1FA\U0001F1F8 US 3 VMS"
   - "\U0001F1FA\U0001F1F8 US 4 VMS"
   - "\U0001F1FA\U0001F1F3 UN 5 VMS"
   - "\U0001F1FA\U0001F1F3 UN 6 VMS"
   - "\U0001F1FA\U0001F1F8 US 7 VMS"
-  - "\U0001F1FA\U0001F1F8 US 8 VMS"
-  - "\U0001F1F8\U0001F1EA SE 9 VMS"
+  - "\U0001F1F8\U0001F1EA SE 8 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
