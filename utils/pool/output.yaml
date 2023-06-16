@@ -104,7 +104,18 @@ proxies:
     path: /
     headers:
       host: vs2.anglesccs.top
-- name: "\U0001F1FA\U0001F1F3 UN 8 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 8 VMS"
+  type: vmess
+  server: 152.70.129.219
+  port: 8080
+  cipher: auto
+  uuid: c62ae997-5de7-4eea-86d8-4f4b24fb6398
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: kcp
+- name: "\U0001F1FA\U0001F1F3 UN 9 VMS"
   type: vmess
   server: 162.159.138.143
   port: 443
@@ -119,7 +130,7 @@ proxies:
     path: /
     headers:
       host: vs2.anglesccs.top
-- name: "\U0001F1FA\U0001F1F8 US 9 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 10 VMS"
   type: vmess
   server: vs2.anglesccs.top
   port: 56304
@@ -130,18 +141,7 @@ proxies:
   skip-cert-verify: true
   servername: ''
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 10 VMS"
-  type: vmess
-  server: 152.70.129.219
-  port: 8080
-  cipher: auto
-  uuid: c62ae997-5de7-4eea-86d8-4f4b24fb6398
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: kcp
-- name: "\U0001F1E8\U0001F1FC CW 11 VMS"
+- name: "\U0001F1E7\U0001F1FF BZ 11 VMS"
   type: vmess
   server: la.weizai2023.uk.eu.org
   port: 80
@@ -243,9 +243,9 @@ proxies:
   servername: ''
   network: ws
   ws-opts:
-    path: /pq/usfh1?ed=2048
+    path: /pq/usfh2?ed=2048
     headers:
-      host: usfh1.pqjc.buzz
+      host: usfh2.pqjc.buzz
 - name: "\U0001F1FA\U0001F1F8 US 18 VMS"
   type: vmess
   server: zfc.windowsupdate1.com
@@ -460,7 +460,7 @@ proxies:
   obfs: http_simple
   protocol: origin
   obfs-param: 18127-Tutaiming0321.download.microsoft.com
-- name: "\U0001F1FA\U0001F1F3 UN 39 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 39 VMS"
   type: vmess
   server: cf.yxjnode.com
   port: 80
@@ -704,10 +704,10 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 5 VMS"
   - "\U0001F1FA\U0001F1F3 UN 6 VMS"
   - "\U0001F1FA\U0001F1F8 US 7 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
-  - "\U0001F1FA\U0001F1F8 US 9 VMS"
+  - "\U0001F1FA\U0001F1F8 US 8 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 9 VMS"
   - "\U0001F1FA\U0001F1F8 US 10 VMS"
-  - "\U0001F1E8\U0001F1FC CW 11 VMS"
+  - "\U0001F1E7\U0001F1FF BZ 11 VMS"
   - "\U0001F1FA\U0001F1F8 US 12 VMS"
   - "\U0001F1FA\U0001F1F8 US 13 VMS"
   - "\U0001F1FA\U0001F1F8 US 14 VMS"
@@ -735,7 +735,7 @@ proxy-groups:
   - "\U0001F1EE\U0001F1F1 IL 36 TJN"
   - "\U0001F1E8\U0001F1F3 CN 37 SSR"
   - "\U0001F1E8\U0001F1F3 CN 38 SSR"
-  - "\U0001F1FA\U0001F1F3 UN 39 VMS"
+  - "\U0001F1FA\U0001F1F8 US 39 VMS"
   - "\U0001F1EB\U0001F1F7 FR 40 VMS"
   - "\U0001F1FA\U0001F1F3 UN 41 VMS"
   - "\U0001F1E8\U0001F1F3 CN 42 SSR"
@@ -770,10 +770,10 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 5 VMS"
   - "\U0001F1FA\U0001F1F3 UN 6 VMS"
   - "\U0001F1FA\U0001F1F8 US 7 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
-  - "\U0001F1FA\U0001F1F8 US 9 VMS"
+  - "\U0001F1FA\U0001F1F8 US 8 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 9 VMS"
   - "\U0001F1FA\U0001F1F8 US 10 VMS"
-  - "\U0001F1E8\U0001F1FC CW 11 VMS"
+  - "\U0001F1E7\U0001F1FF BZ 11 VMS"
   - "\U0001F1FA\U0001F1F8 US 12 VMS"
   - "\U0001F1FA\U0001F1F8 US 13 VMS"
   - "\U0001F1FA\U0001F1F8 US 14 VMS"
@@ -801,7 +801,7 @@ proxy-groups:
   - "\U0001F1EE\U0001F1F1 IL 36 TJN"
   - "\U0001F1E8\U0001F1F3 CN 37 SSR"
   - "\U0001F1E8\U0001F1F3 CN 38 SSR"
-  - "\U0001F1FA\U0001F1F3 UN 39 VMS"
+  - "\U0001F1FA\U0001F1F8 US 39 VMS"
   - "\U0001F1EB\U0001F1F7 FR 40 VMS"
   - "\U0001F1FA\U0001F1F3 UN 41 VMS"
   - "\U0001F1E8\U0001F1F3 CN 42 SSR"
