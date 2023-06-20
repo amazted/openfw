@@ -1,13 +1,93 @@
-proxies: []
+proxies:
+- type: trojan
+  name: "\U0001F1EE\U0001F1F1 IL 1 TJN"
+  server: 149.50.75.197
+  port: 4003
+  password: TJCfE7Mx2YcA8kX8zg
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+- type: vmess
+  name: "\U0001F1FA\U0001F1F3 UN 2 VMS"
+  ws-opts:
+    path: /youlingkaishi01
+    headers:
+      host: tou.vtcss.top
+  server: 198.41.212.122
+  port: 8080
+  uuid: a67679a6-a186-4d62-f84e-f3f00dc7745e
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: trojan
+  name: "\U0001F1EE\U0001F1F1 IL 3 TJN"
+  server: uk1.nigirocloud.com
+  port: 4003
+  password: PlF471nxneY0YevI
+  udp: true
+  skip-cert-verify: true
+  sni: p30rank.ir
+  network: tcp
+- type: trojan
+  name: "\U0001F1EE\U0001F1F1 IL 4 TJN"
+  server: de2.nigirocloud.com
+  port: 4003
+  password: PlF471nxneY0YevI
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+- type: trojan
+  name: "\U0001F1EE\U0001F1F1 IL 5 TJN"
+  server: 149.50.66.127
+  port: 4003
+  password: TJCfE7Mx2YcA8kX8zg
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 6 VMS"
+  ws-opts:
+    path: /S4PSg9xqUClN2kJ4SOPKqC6
+    headers:
+      host: wfi.sahnama.com
+  server: smt.ircf.space
+  port: 443
+  uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: trojan
+  name: "\U0001F1FA\U0001F1F8 US 7 TJN"
+  server: 163.123.192.57
+  port: 443
+  password: b25cbc3a-d7e8-4fe4-b7a0-d3d18985bcf4
+  udp: true
+  skip-cert-verify: true
+  network: tcp
 proxy-groups:
 - name: automatic
   type: url-test
-  proxies: []
+  proxies:
+  - "\U0001F1EE\U0001F1F1 IL 1 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 2 VMS"
+  - "\U0001F1EE\U0001F1F1 IL 3 TJN"
+  - "\U0001F1EE\U0001F1F1 IL 4 TJN"
+  - "\U0001F1EE\U0001F1F1 IL 5 TJN"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
   type: select
   proxies:
   - automatic
+  - "\U0001F1EE\U0001F1F1 IL 1 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 2 VMS"
+  - "\U0001F1EE\U0001F1F1 IL 3 TJN"
+  - "\U0001F1EE\U0001F1F1 IL 4 TJN"
+  - "\U0001F1EE\U0001F1F1 IL 5 TJN"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
