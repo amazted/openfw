@@ -1,13 +1,470 @@
-proxies: []
+proxies:
+- name: "\U0001F1E8\U0001F1F3 CN 1 SSS"
+  type: ss
+  server: sg01.relay-idc.top
+  port: 28357
+  password: 84e8916b-dcc0-4473-aa55-aba298a37dc1
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 2 SSS"
+  type: ss
+  server: gzdx.jcnlzq.top
+  port: 48401
+  password: 7412a808-b197-45ca-8471-40513d8c32cf
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 3 SSS"
+  type: ss
+  server: 223.113.136.103
+  port: 2001
+  password: df780a57-6bb1-4d28-9f1c-29d3fc09b0bb
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 4 SSS"
+  type: ss
+  server: gzdx.jcnlzq.top
+  port: 37087
+  password: c5225553-fd05-4b08-a3da-d55faea0128a
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 5 SSS"
+  type: ss
+  server: ctjp1.createmofa.xyz
+  port: 38999
+  password: 21ecfe68-2cf6-4ecd-983c-03691caac3e1
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 6 TJN"
+  type: trojan
+  server: cthk4.createmofa.xyz
+  port: 35996
+  udp: true
+  password: 21ecfe68-2cf6-4ecd-983c-03691caac3e1
+  sni: hk-4.ctjsq.xyz
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 7 SSS"
+  type: ss
+  server: ctin1.createmofa.xyz
+  port: 31999
+  password: 21ecfe68-2cf6-4ecd-983c-03691caac3e1
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 8 SSS"
+  type: ss
+  server: ctkr2.createmofa.xyz
+  port: 32998
+  password: 21ecfe68-2cf6-4ecd-983c-03691caac3e1
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 9 SSS"
+  type: ss
+  server: cthk2.createmofa.xyz
+  port: 35998
+  password: 21ecfe68-2cf6-4ecd-983c-03691caac3e1
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 10 SSS"
+  type: ss
+  server: ctsg1.createmofa.xyz
+  port: 37999
+  password: 21ecfe68-2cf6-4ecd-983c-03691caac3e1
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 11 SSS"
+  type: ss
+  server: cthk3.createmofa.xyz
+  port: 35997
+  password: 21ecfe68-2cf6-4ecd-983c-03691caac3e1
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 12 SSS"
+  type: ss
+  server: cthk5.createmofa.xyz
+  port: 35995
+  password: 21ecfe68-2cf6-4ecd-983c-03691caac3e1
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 13 SSS"
+  type: ss
+  server: cttw1.createmofa.xyz
+  port: 34999
+  password: 21ecfe68-2cf6-4ecd-983c-03691caac3e1
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 14 SSS"
+  type: ss
+  server: cthk1.createmofa.xyz
+  port: 35999
+  password: 21ecfe68-2cf6-4ecd-983c-03691caac3e1
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 15 SSR"
+  type: ssr
+  server: wz.safetelescope.cc
+  port: 46562
+  password: hGkQ6915tD
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  obfs-param: ajax.microsoft.com
+  protocol-param: 198964:5iYBLOPDvU
+- name: "\U0001F1E8\U0001F1F3 CN 16 SSR"
+  type: ssr
+  server: iepl-hn.cctelescope.xyz
+  port: 21637
+  password: hGkQ6915tD
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  obfs-param: ajax.microsoft.com
+  protocol-param: 198964:5iYBLOPDvU
+- name: "\U0001F1E8\U0001F1F3 CN 17 SSR"
+  type: ssr
+  server: iepl-hn.cctelescope.xyz
+  port: 21399
+  password: hGkQ6915tD
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  obfs-param: ajax.microsoft.com
+  protocol-param: 198964:5iYBLOPDvU
+- name: "\U0001F1E8\U0001F1F3 CN 18 SSR"
+  type: ssr
+  server: iepl-zh.safetelescope.cc
+  port: 11802
+  password: hGkQ6915tD
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  obfs-param: ajax.microsoft.com
+  protocol-param: 198964:5iYBLOPDvU
+- name: "\U0001F1E8\U0001F1F3 CN 19 SSR"
+  type: ssr
+  server: ieplszhk-sz.cctelescope.xyz
+  port: 50402
+  password: hGkQ6915tD
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  obfs-param: ajax.microsoft.com
+  protocol-param: 198964:5iYBLOPDvU
+- name: "\U0001F1E8\U0001F1F3 CN 20 SSR"
+  type: ssr
+  server: hn-01.cctelescope.xyz
+  port: 20002
+  password: hGkQ6915tD
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  obfs-param: ajax.microsoft.com
+  protocol-param: 198964:5iYBLOPDvU
+- name: "\U0001F1E8\U0001F1F3 CN 21 SSR"
+  type: ssr
+  server: iepl-hn.cctelescope.xyz
+  port: 21293
+  password: hGkQ6915tD
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  obfs-param: ajax.microsoft.com
+  protocol-param: 198964:5iYBLOPDvU
+- name: "\U0001F1E8\U0001F1F3 CN 22 SSR"
+  type: ssr
+  server: ieplszhk-sz.cctelescope.xyz
+  port: 50802
+  password: hGkQ6915tD
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  obfs-param: ajax.microsoft.com
+  protocol-param: 198964:5iYBLOPDvU
+- name: "\U0001F1E8\U0001F1F3 CN 23 SSR"
+  type: ssr
+  server: ieplszhk-sz.cctelescope.xyz
+  port: 50578
+  password: hGkQ6915tD
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  obfs-param: ajax.microsoft.com
+  protocol-param: 198964:5iYBLOPDvU
+- name: "\U0001F1E8\U0001F1F3 CN 24 SSR"
+  type: ssr
+  server: iepl-hn.cctelescope.xyz
+  port: 21078
+  password: hGkQ6915tD
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  obfs-param: ajax.microsoft.com
+  protocol-param: 198964:5iYBLOPDvU
+- name: "\U0001F1E8\U0001F1F3 CN 25 SSR"
+  type: ssr
+  server: ieplszhk-sz.cctelescope.xyz
+  port: 50312
+  password: hGkQ6915tD
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  obfs-param: ajax.microsoft.com
+  protocol-param: 198964:5iYBLOPDvU
+- name: "\U0001F1E8\U0001F1F3 CN 26 SSR"
+  type: ssr
+  server: iepl-zh.safetelescope.cc
+  port: 11600
+  password: hGkQ6915tD
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  obfs-param: ajax.microsoft.com
+  protocol-param: 198964:5iYBLOPDvU
+- name: "\U0001F1E8\U0001F1F3 CN 27 SSR"
+  type: ssr
+  server: ieplszhk-sz.cctelescope.xyz
+  port: 50306
+  password: hGkQ6915tD
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  obfs-param: ajax.microsoft.com
+  protocol-param: 198964:5iYBLOPDvU
+- name: "\U0001F1E8\U0001F1F3 CN 28 SSR"
+  type: ssr
+  server: iepl-zh.safetelescope.cc
+  port: 11804
+  password: hGkQ6915tD
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  obfs-param: ajax.microsoft.com
+  protocol-param: 198964:5iYBLOPDvU
+- name: "\U0001F1E8\U0001F1F3 CN 29 SSR"
+  type: ssr
+  server: ieplszhk-sz.cctelescope.xyz
+  port: 20001
+  password: hGkQ6915tD
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  obfs-param: ajax.microsoft.com
+  protocol-param: 198964:5iYBLOPDvU
+- name: "\U0001F1E8\U0001F1F3 CN 30 SSR"
+  type: ssr
+  server: ieplszhk-sz.cctelescope.xyz
+  port: 50804
+  password: hGkQ6915tD
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  obfs-param: ajax.microsoft.com
+  protocol-param: 198964:5iYBLOPDvU
+- name: "\U0001F1E8\U0001F1F3 CN 31 SSR"
+  type: ssr
+  server: iepl-hn.cctelescope.xyz
+  port: 20001
+  password: hGkQ6915tD
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  obfs-param: ajax.microsoft.com
+  protocol-param: 198964:5iYBLOPDvU
+- name: "\U0001F1E8\U0001F1F3 CN 32 SSR"
+  type: ssr
+  server: iepl-hn.cctelescope.xyz
+  port: 21702
+  password: hGkQ6915tD
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  obfs-param: ajax.microsoft.com
+  protocol-param: 198964:5iYBLOPDvU
+- name: "\U0001F1E8\U0001F1F3 CN 33 SSR"
+  type: ssr
+  server: iepl-zh.safetelescope.cc
+  port: 11899
+  password: hGkQ6915tD
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  obfs-param: ajax.microsoft.com
+  protocol-param: 198964:5iYBLOPDvU
+- name: "\U0001F1E8\U0001F1F3 CN 34 SSR"
+  type: ssr
+  server: ieplszhk-sz.cctelescope.xyz
+  port: 50899
+  password: hGkQ6915tD
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  obfs-param: ajax.microsoft.com
+  protocol-param: 198964:5iYBLOPDvU
+- name: "\U0001F1E8\U0001F1F3 CN 35 SSR"
+  type: ssr
+  server: iepl-hn.cctelescope.xyz
+  port: 21738
+  password: hGkQ6915tD
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  obfs-param: ajax.microsoft.com
+  protocol-param: 198964:5iYBLOPDvU
+- name: "\U0001F1ED\U0001F1F0 HK 36 HTT"
+  type: http
+  server: www.chrome-helper.cc
+  port: 21830
+- name: "\U0001F1E8\U0001F1F3 CN 37 VMS"
+  type: vmess
+  server: shck8bq.olb8qsg.top
+  port: 37295
+  cipher: auto
+  uuid: 3b6c429f-b004-409a-8fa5-2663d140e081
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: '{"Host":"gw.alicdn.com"}'
+- name: "\U0001F1E8\U0001F1F3 CN 38 VMS"
+  type: vmess
+  server: shck8bq.olb8qsg.top
+  port: 23246
+  cipher: auto
+  uuid: 3b6c429f-b004-409a-8fa5-2663d140e081
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: '{"Host":"gw.alicdn.com"}'
+- name: "\U0001F1E8\U0001F1F3 CN 39 VMS"
+  type: vmess
+  server: shck8bq.olb8qsg.top
+  port: 47104
+  cipher: auto
+  uuid: 3b6c429f-b004-409a-8fa5-2663d140e081
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: '{"Host":"gw.alicdn.com"}'
+- name: "\U0001F1FA\U0001F1F8 US 40 VMS"
+  type: vmess
+  server: 142.4.112.28
+  port: 51091
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 41 VMS"
+  type: vmess
+  server: 142.4.126.43
+  port: 44392
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 42 VMS"
+  type: vmess
+  server: 107.167.29.235
+  port: 46321
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
 proxy-groups:
 - name: automatic
   type: url-test
-  proxies: []
+  proxies:
+  - "\U0001F1E8\U0001F1F3 CN 1 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 2 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 3 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 4 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 5 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 6 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 7 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 8 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 9 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 10 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 11 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 12 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 13 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 14 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 15 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 16 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 17 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 18 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 19 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 20 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 21 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 22 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 23 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 24 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 25 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 26 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 27 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 28 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 29 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 30 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 31 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 32 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 33 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 34 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 35 SSR"
+  - "\U0001F1ED\U0001F1F0 HK 36 HTT"
+  - "\U0001F1E8\U0001F1F3 CN 37 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 38 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 39 VMS"
+  - "\U0001F1FA\U0001F1F8 US 40 VMS"
+  - "\U0001F1FA\U0001F1F8 US 41 VMS"
+  - "\U0001F1FA\U0001F1F8 US 42 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
   type: select
   proxies:
   - automatic
+  - "\U0001F1E8\U0001F1F3 CN 1 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 2 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 3 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 4 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 5 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 6 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 7 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 8 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 9 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 10 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 11 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 12 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 13 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 14 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 15 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 16 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 17 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 18 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 19 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 20 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 21 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 22 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 23 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 24 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 25 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 26 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 27 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 28 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 29 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 30 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 31 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 32 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 33 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 34 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 35 SSR"
+  - "\U0001F1ED\U0001F1F0 HK 36 HTT"
+  - "\U0001F1E8\U0001F1F3 CN 37 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 38 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 39 VMS"
+  - "\U0001F1FA\U0001F1F8 US 40 VMS"
+  - "\U0001F1FA\U0001F1F8 US 41 VMS"
+  - "\U0001F1FA\U0001F1F8 US 42 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
