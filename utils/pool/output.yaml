@@ -402,6 +402,80 @@ proxies:
   password: TJCfE7Mx2YcA8kX8zg
   skip-cert-verify: true
   network: tcp
+- name: "\U0001F1EE\U0001F1F1 IL 44 TJN"
+  type: trojan
+  server: 149.50.70.72
+  port: 4003
+  udp: true
+  password: TJCfE7Mx2YcA8kX8zg
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EE\U0001F1F1 IL 45 TJN"
+  type: trojan
+  server: 149.50.69.109
+  port: 4003
+  udp: true
+  password: TJCfE7Mx2YcA8kX8zg
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 46 VMS"
+  type: vmess
+  server: mtn.ircf.space
+  port: 443
+  cipher: auto
+  uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /S4PSg9xqUClN2kJ4SOPKqC6
+    headers:
+      host: wfi.sahnama.com
+- name: "\U0001F1EE\U0001F1F1 IL 47 TJN"
+  type: trojan
+  server: 149.50.75.81
+  port: 4003
+  udp: true
+  password: TJCfE7Mx2YcA8kX8zg
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EF\U0001F1F5 JP 48 TJN"
+  type: trojan
+  server: fsctw.fscloud123456789.com
+  port: 443
+  udp: true
+  password: 2de6f621-4397-4622-8dad-9df790a66bdb
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F3 UN 49 VMS"
+  type: vmess
+  server: 104.16.32.142
+  port: 443
+  cipher: auto
+  uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /P6kpn5UKG40MNLK2
+    headers:
+      host: QkGxa2MSvmu.janbaroon.com
+- name: "\U0001F1FA\U0001F1F8 US 50 VMS"
+  type: vmess
+  server: 104.31.16.28
+  port: 80
+  cipher: auto
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+    headers:
+      host: ca4.tehme2.fun
 proxy-groups:
 - name: automatic
   type: url-test
@@ -449,6 +523,13 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 41 TJN"
   - "\U0001F1F3\U0001F1F1 NL 42 VMS"
   - "\U0001F1EE\U0001F1F1 IL 43 TJN"
+  - "\U0001F1EE\U0001F1F1 IL 44 TJN"
+  - "\U0001F1EE\U0001F1F1 IL 45 TJN"
+  - "\U0001F1FA\U0001F1F8 US 46 VMS"
+  - "\U0001F1EE\U0001F1F1 IL 47 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 48 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 49 VMS"
+  - "\U0001F1FA\U0001F1F8 US 50 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -498,5 +579,12 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 41 TJN"
   - "\U0001F1F3\U0001F1F1 NL 42 VMS"
   - "\U0001F1EE\U0001F1F1 IL 43 TJN"
+  - "\U0001F1EE\U0001F1F1 IL 44 TJN"
+  - "\U0001F1EE\U0001F1F1 IL 45 TJN"
+  - "\U0001F1FA\U0001F1F8 US 46 VMS"
+  - "\U0001F1EE\U0001F1F1 IL 47 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 48 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 49 VMS"
+  - "\U0001F1FA\U0001F1F8 US 50 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
