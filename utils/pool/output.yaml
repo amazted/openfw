@@ -491,6 +491,20 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 48 VMS"
+  type: vmess
+  server: ns1.v2-vip.fun
+  port: 80
+  cipher: auto
+  uuid: 4f859149-2b2f-4b90-9a2c-8c0fe15c8c4c
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ozX9aUPiJVtoLavjTW
+    headers:
+      host: de14.irteh.fun
 proxy-groups:
 - name: automatic
   type: url-test
@@ -542,6 +556,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 45 VMS"
   - "\U0001F1FA\U0001F1F8 US 46 VMS"
   - "\U0001F1FA\U0001F1F8 US 47 VMS"
+  - "\U0001F1FA\U0001F1F8 US 48 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -595,5 +610,6 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 45 VMS"
   - "\U0001F1FA\U0001F1F8 US 46 VMS"
   - "\U0001F1FA\U0001F1F8 US 47 VMS"
+  - "\U0001F1FA\U0001F1F8 US 48 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
