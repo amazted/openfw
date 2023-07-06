@@ -1,13 +1,463 @@
-proxies: []
+proxies:
+- name: "\U0001F1E8\U0001F1F3 CN 1 SSS"
+  type: ss
+  server: 183.240.221.155
+  port: 5618
+  password: 3570f14f-e5be-40c5-ada0-21e6780e0294
+  cipher: aes-128-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 2 SSS"
+  type: ss
+  server: 183.240.221.149
+  port: 5608
+  password: 3570f14f-e5be-40c5-ada0-21e6780e0294
+  cipher: aes-128-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 3 SSS"
+  type: ss
+  server: video.tiktokuu.xyz
+  port: 732
+  password: BoomCloud2020
+  cipher: rc4-md5
+- name: "\U0001F1FA\U0001F1F8 US 4 VMS"
+  type: vmess
+  server: 192.74.234.80
+  port: 51302
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 5 SSS"
+  type: ss
+  server: 183.232.112.66
+  port: 5604
+  password: 3570f14f-e5be-40c5-ada0-21e6780e0294
+  cipher: aes-128-gcm
+- name: "\U0001F1FA\U0001F1F8 US 6 VMS"
+  type: vmess
+  server: 192.74.234.88
+  port: 51302
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 7 SSS"
+  type: ss
+  server: 183.240.221.151
+  port: 5626
+  password: 3570f14f-e5be-40c5-ada0-21e6780e0294
+  cipher: aes-128-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 8 SSS"
+  type: ss
+  server: 183.240.221.147
+  port: 5610
+  password: 3570f14f-e5be-40c5-ada0-21e6780e0294
+  cipher: aes-128-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 9 SSS"
+  type: ss
+  server: 183.240.221.151
+  port: 5608
+  password: 3570f14f-e5be-40c5-ada0-21e6780e0294
+  cipher: aes-128-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 10 SSS"
+  type: ss
+  server: 183.240.221.151
+  port: 5618
+  password: 3570f14f-e5be-40c5-ada0-21e6780e0294
+  cipher: aes-128-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 11 SSS"
+  type: ss
+  server: 183.240.221.157
+  port: 5619
+  password: 3570f14f-e5be-40c5-ada0-21e6780e0294
+  cipher: aes-128-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 12 SSS"
+  type: ss
+  server: video.tiktokuu.xyz
+  port: 735
+  password: BoomCloud2020
+  cipher: rc4-md5
+- name: "\U0001F1FA\U0001F1F8 US 13 VMS"
+  type: vmess
+  server: 142.4.126.69
+  port: 52212
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F8\U0001F1EC SG 14 VMS"
+  type: vmess
+  server: cdn.anycast.eu.org
+  port: 80
+  cipher: auto
+  uuid: 10ea07e1-417a-4bb2-88e2-72a8a0f9fcd6
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: 10ea07e1
+    headers:
+      host: dedi2.1808.cf
+- name: "\U0001F1E8\U0001F1F3 CN 15 SSS"
+  type: ss
+  server: 27.195.119.71
+  port: 5613
+  password: 3570f14f-e5be-40c5-ada0-21e6780e0294
+  cipher: aes-128-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 16 SSS"
+  type: ss
+  server: video.tiktokuu.xyz
+  port: 673
+  password: BoomCloud2020
+  cipher: rc4-md5
+- name: "\U0001F1E8\U0001F1F3 CN 17 SSS"
+  type: ss
+  server: video.tiktokuu.xyz
+  port: 654
+  password: BoomCloud2020
+  cipher: rc4-md5
+- name: "\U0001F1E8\U0001F1F3 CN 18 SSS"
+  type: ss
+  server: 183.240.221.149
+  port: 5624
+  password: 3570f14f-e5be-40c5-ada0-21e6780e0294
+  cipher: aes-128-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 19 SSS"
+  type: ss
+  server: 183.240.221.155
+  port: 5609
+  password: 3570f14f-e5be-40c5-ada0-21e6780e0294
+  cipher: aes-128-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 20 TJN"
+  type: trojan
+  server: us-08-cz2dg2.ferryhwp8ebm.com
+  port: 7308
+  udp: true
+  password: 97d557df-6f6a-5bad-9483-600aba02da3a
+  sni: us-08-650.duuk.info
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F3 UN 21 VMS"
+  type: vmess
+  server: 104.18.1.196
+  port: 80
+  cipher: auto
+  uuid: 0dfa89a7-fe08-454e-817b-374097be358f
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      host: sg2-mlb.securev2ray.com
+- name: "\U0001F1E8\U0001F1F3 CN 22 SSS"
+  type: ss
+  server: 183.232.112.101
+  port: 5604
+  password: 3570f14f-e5be-40c5-ada0-21e6780e0294
+  cipher: aes-128-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 23 SSS"
+  type: ss
+  server: 183.240.221.147
+  port: 5604
+  password: 3570f14f-e5be-40c5-ada0-21e6780e0294
+  cipher: aes-128-gcm
+- name: "\U0001F1FA\U0001F1F8 US 24 VMS"
+  type: vmess
+  server: 64.32.4.44
+  port: 43166
+  cipher: auto
+  uuid: 8653004f-de67-44c2-9cce-e0830933fb03
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 25 SSS"
+  type: ss
+  server: 183.240.221.147
+  port: 5616
+  password: 3570f14f-e5be-40c5-ada0-21e6780e0294
+  cipher: aes-128-gcm
+- name: "\U0001F1FA\U0001F1F8 US 26 VMS"
+  type: vmess
+  server: 38.26.135.8
+  port: 44942
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 27 VMS"
+  type: vmess
+  server: 120.233.43.29
+  port: 53173
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F3 UN 28 VMS"
+  type: vmess
+  server: 162.159.255.201
+  port: 8080
+  cipher: auto
+  uuid: 0a69988b-1c81-4c78-b6f2-5b291cb15493
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /qwer
+    headers:
+      host: bl.wang66.homes
+- name: "\U0001F1E8\U0001F1F3 CN 29 SSS"
+  type: ss
+  server: 183.240.221.155
+  port: 5610
+  password: 3570f14f-e5be-40c5-ada0-21e6780e0294
+  cipher: aes-128-gcm
+- name: "\U0001F1FA\U0001F1F8 US 30 VMS"
+  type: vmess
+  server: 108.162.193.134
+  port: 2052
+  cipher: auto
+  uuid: 87959d44-4377-4557-cf36-2f7db9d790f6
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /qwer
+    headers:
+      host: er.vtcss.top
+- name: "\U0001F1E8\U0001F1F3 CN 31 SSS"
+  type: ss
+  server: 183.240.221.155
+  port: 5623
+  password: 3570f14f-e5be-40c5-ada0-21e6780e0294
+  cipher: aes-128-gcm
+- name: "\U0001F1F3\U0001F1F1 NL 32 VMS"
+  type: vmess
+  server: 188.114.99.238
+  port: 8080
+  cipher: auto
+  uuid: 0a69988b-1c81-4c78-b6f2-5b291cb15493
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /qwer
+    headers:
+      host: bl.wang66.homes
+- name: "\U0001F1E8\U0001F1F3 CN 33 SSS"
+  type: ss
+  server: 183.240.221.149
+  port: 5618
+  password: 3570f14f-e5be-40c5-ada0-21e6780e0294
+  cipher: aes-128-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 34 SSS"
+  type: ss
+  server: video.tiktokuu.xyz
+  port: 657
+  password: BoomCloud2020
+  cipher: rc4-md5
+- name: "\U0001F1FA\U0001F1F8 US 35 VMS"
+  type: vmess
+  server: cloudflare.piaole.me
+  port: 443
+  cipher: auto
+  uuid: 4f7e51b4-d575-4e5d-917a-b4647b24dc02
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /huawei
+    headers:
+      host: cloudflare.piaole.me
+- name: "\U0001F1E8\U0001F1F3 CN 36 SSS"
+  type: ss
+  server: video.tiktokuu.xyz
+  port: 695
+  password: BoomCloud2020
+  cipher: rc4-md5
+- name: "\U0001F1FA\U0001F1F8 US 37 VMS"
+  type: vmess
+  server: 156.225.67.79
+  port: 40023
+  cipher: auto
+  uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 38 SSS"
+  type: ss
+  server: video.tiktokuu.xyz
+  port: 679
+  password: BoomCloud2020
+  cipher: rc4-md5
+- name: "\U0001F1E8\U0001F1F3 CN 39 SSS"
+  type: ss
+  server: 183.240.221.153
+  port: 5611
+  password: 3570f14f-e5be-40c5-ada0-21e6780e0294
+  cipher: aes-128-gcm
+- name: "\U0001F1FA\U0001F1F8 US 40 VMS"
+  type: vmess
+  server: 142.0.139.213
+  port: 51522
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 41 SSS"
+  type: ss
+  server: 183.240.221.149
+  port: 5612
+  password: 3570f14f-e5be-40c5-ada0-21e6780e0294
+  cipher: aes-128-gcm
+- name: "\U0001F1FA\U0001F1F8 US 42 VMS"
+  type: vmess
+  server: 23.224.11.150
+  port: 50002
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F3 UN 43 VMS"
+  type: vmess
+  server: 104.17.3.81
+  port: 443
+  cipher: auto
+  uuid: 132633a9-b53e-4352-82a6-93eae114482e
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /worryfree
+    headers:
+      host: dynamic-sg1b.obfs.xyz
+- name: "\U0001F1FA\U0001F1F8 US 44 TJN"
+  type: trojan
+  server: 163.123.192.57
+  port: 443
+  udp: true
+  password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca
+  sni: 18-140-66-207.nhost.00cdn.com
+  skip-cert-verify: true
+  network: tcp
 proxy-groups:
 - name: automatic
   type: url-test
-  proxies: []
+  proxies:
+  - "\U0001F1E8\U0001F1F3 CN 1 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 2 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 3 SSS"
+  - "\U0001F1FA\U0001F1F8 US 4 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 5 SSS"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 7 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 8 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 9 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 10 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 11 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 12 SSS"
+  - "\U0001F1FA\U0001F1F8 US 13 VMS"
+  - "\U0001F1F8\U0001F1EC SG 14 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 15 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 16 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 17 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 18 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 19 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 20 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 21 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 22 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 23 SSS"
+  - "\U0001F1FA\U0001F1F8 US 24 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 25 SSS"
+  - "\U0001F1FA\U0001F1F8 US 26 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 27 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 28 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 29 SSS"
+  - "\U0001F1FA\U0001F1F8 US 30 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 31 SSS"
+  - "\U0001F1F3\U0001F1F1 NL 32 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 33 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 34 SSS"
+  - "\U0001F1FA\U0001F1F8 US 35 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 36 SSS"
+  - "\U0001F1FA\U0001F1F8 US 37 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 38 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 39 SSS"
+  - "\U0001F1FA\U0001F1F8 US 40 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 41 SSS"
+  - "\U0001F1FA\U0001F1F8 US 42 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 43 VMS"
+  - "\U0001F1FA\U0001F1F8 US 44 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
   type: select
   proxies:
   - automatic
+  - "\U0001F1E8\U0001F1F3 CN 1 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 2 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 3 SSS"
+  - "\U0001F1FA\U0001F1F8 US 4 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 5 SSS"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 7 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 8 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 9 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 10 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 11 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 12 SSS"
+  - "\U0001F1FA\U0001F1F8 US 13 VMS"
+  - "\U0001F1F8\U0001F1EC SG 14 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 15 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 16 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 17 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 18 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 19 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 20 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 21 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 22 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 23 SSS"
+  - "\U0001F1FA\U0001F1F8 US 24 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 25 SSS"
+  - "\U0001F1FA\U0001F1F8 US 26 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 27 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 28 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 29 SSS"
+  - "\U0001F1FA\U0001F1F8 US 30 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 31 SSS"
+  - "\U0001F1F3\U0001F1F1 NL 32 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 33 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 34 SSS"
+  - "\U0001F1FA\U0001F1F8 US 35 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 36 SSS"
+  - "\U0001F1FA\U0001F1F8 US 37 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 38 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 39 SSS"
+  - "\U0001F1FA\U0001F1F8 US 40 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 41 SSS"
+  - "\U0001F1FA\U0001F1F8 US 42 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 43 VMS"
+  - "\U0001F1FA\U0001F1F8 US 44 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
